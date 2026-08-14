@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC Colorado Newsline (test fixture)</title>
+    <link>https://example-synthetic.test/co</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Colorado lawmakers advance clean energy bill in special session</title>
+      <link>https://example-synthetic.test/co/clean-energy-bill</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A renewable energy and emissions measure moved through committee during a special legislative session.]]></description>
+    </item>
+    <item>
+      <title>Front Range factory expansion adds manufacturing jobs</title>
+      <link>https://example-synthetic.test/co/factory-jobs</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[An investment brings hundreds of manufacturing jobs and workforce development to the region.]]></description>
+    </item>
+    <item>
+      <title>State water quality permit challenged over pollution limits</title>
+      <link>https://example-synthetic.test/co/water-permit</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[An environmental lawsuit contests a clean water permit and pollution standards set by regulators.]]></description>
+    </item>
+    <item>
+      <title>Governor weighs in on redistricting ahead of primary</title>
+      <link>https://example-synthetic.test/co/redistricting</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The governor and lawmakers debate redistricting and election administration before the primary.]]></description>
+    </item>
+  </channel>
+</rss>

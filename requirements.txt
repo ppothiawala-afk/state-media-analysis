@@ -1,0 +1,4 @@
+# state-media pipeline — dependency-light by design (matches the parent project).
+# stdlib does most of the work; only two third-party packages:
+feedparser>=6.0.0     # RSS/Atom parsing in fetch_feeds.py, discover_feeds.py
+anthropic>=0.40.0     # ONLY used by classify.py (API mode); --offline needs neither key nor this

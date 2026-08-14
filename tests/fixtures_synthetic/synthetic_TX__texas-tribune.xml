@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC Texas Tribune (test fixture)</title>
+    <link>https://example-synthetic.test/tx</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Texas grid strained by extreme heat wave</title>
+      <link>https://example-synthetic.test/tx/heat-grid</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A climate-driven heat wave and drought pushed the electric grid near capacity.]]></description>
+    </item>
+    <item>
+      <title>Data center investment brings jobs to Central Texas</title>
+      <link>https://example-synthetic.test/tx/data-center</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A large data center project with tax incentives is expected to add jobs and infrastructure spending.]]></description>
+    </item>
+    <item>
+      <title>Legislature debates voter registration and ballot rules</title>
+      <link>https://example-synthetic.test/tx/voting-bill</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Lawmakers and the governor clash over election administration, voting, and a ballot measure.]]></description>
+    </item>
+  </channel>
+</rss>

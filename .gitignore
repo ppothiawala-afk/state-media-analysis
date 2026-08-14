@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+.gh_token
+*.key
+service_account.json
+.env
+
+# OS
+.DS_Store
+
+# NOTE: the archive and derived data ARE committed on purpose (that is how
+# history accumulates in CI). They are intentionally NOT ignored:
+#   items_archive.jsonl, item_sightings.jsonl, ingest_runs.jsonl,
+#   archive_watermark.json, items_classified.json, media_history.json,
+#   verification_report.json

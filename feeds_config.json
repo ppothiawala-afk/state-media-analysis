@@ -1,0 +1,979 @@
+{
+  "_comment": "50-state media RSS feed registry. Primary source: States Newsroom nonprofit network (39 affiliates) + 11 partner nonprofits = all 50 states. All are WordPress sites using the standard /feed/ endpoint unless feed_url says otherwise. IMPORTANT PROVENANCE: every outlet name is a real States Newsroom affiliate/partner (roster: Wikipedia:States_Newsroom); NO feed_url was invented. But as of the 'generated' date NONE has been live-validated in this project \u2014 'validated' is false on every row. feed_url values are pattern-derived from the WordPress /feed/ convention and MUST be confirmed by discover_feeds.py --health-check before the data is trusted. Treat unvalidated feeds as candidates, not facts. This registry reflects ONE publisher network's footprint, not a state's whole media landscape (see README 'Limitations').",
+  "version": "2.0.0",
+  "generated": "2026-08-14",
+  "topics_config": "topics_config.json",
+  "feed_count": 51,
+  "states_covered": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+  ],
+  "feeds": [
+    {
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "site_url": "https://alabamareflector.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "site_url": "https://alaskabeacon.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "AZ",
+      "outlet": "Arizona Mirror",
+      "feed_url": "https://azmirror.com/feed/",
+      "site_url": "https://azmirror.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "site_url": "https://arkansasadvocate.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "CA",
+      "outlet": "CalMatters",
+      "feed_url": "https://calmatters.org/feed/",
+      "site_url": "https://calmatters.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "CO",
+      "outlet": "Colorado Newsline",
+      "feed_url": "https://coloradonewsline.com/feed/",
+      "site_url": "https://coloradonewsline.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "site_url": "https://ctmirror.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "DE",
+      "outlet": "Spotlight Delaware",
+      "feed_url": "https://spotlightdelaware.org/feed/",
+      "site_url": "https://spotlightdelaware.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "site_url": "https://floridaphoenix.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "GA",
+      "outlet": "Georgia Recorder",
+      "feed_url": "https://georgiarecorder.com/feed/",
+      "site_url": "https://georgiarecorder.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "site_url": "https://www.civilbeat.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "site_url": "https://idahocapitalsun.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "IL",
+      "outlet": "Capitol News Illinois",
+      "feed_url": "https://capitolnewsillinois.com/feed/",
+      "site_url": "https://capitolnewsillinois.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "IN",
+      "outlet": "Indiana Capital Chronicle",
+      "feed_url": "https://indianacapitalchronicle.com/feed/",
+      "site_url": "https://indianacapitalchronicle.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "site_url": "https://iowacapitaldispatch.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "site_url": "https://kansasreflector.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "site_url": "https://kentuckylantern.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "site_url": "https://lailluminator.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "ME",
+      "outlet": "Maine Morning Star",
+      "feed_url": "https://mainemorningstar.com/feed/",
+      "site_url": "https://mainemorningstar.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "site_url": "https://marylandmatters.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MA",
+      "outlet": "Commonwealth Beacon",
+      "feed_url": "https://commonwealthbeacon.org/feed/",
+      "site_url": "https://commonwealthbeacon.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "site_url": "https://michiganadvance.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MN",
+      "outlet": "Minnesota Reformer",
+      "feed_url": "https://minnesotareformer.com/feed/",
+      "site_url": "https://minnesotareformer.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "site_url": "https://mississippitoday.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MO",
+      "outlet": "Missouri Independent",
+      "feed_url": "https://missouriindependent.com/feed/",
+      "site_url": "https://missouriindependent.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "site_url": "https://dailymontanan.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "site_url": "https://nebraskaexaminer.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NV",
+      "outlet": "Nevada Current",
+      "feed_url": "https://nevadacurrent.com/feed/",
+      "site_url": "https://nevadacurrent.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NH",
+      "outlet": "New Hampshire Bulletin",
+      "feed_url": "https://newhampshirebulletin.com/feed/",
+      "site_url": "https://newhampshirebulletin.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NJ",
+      "outlet": "New Jersey Monitor",
+      "feed_url": "https://newjerseymonitor.com/feed/",
+      "site_url": "https://newjerseymonitor.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NM",
+      "outlet": "Source New Mexico",
+      "feed_url": "https://sourcenm.com/feed/",
+      "site_url": "https://sourcenm.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NY",
+      "outlet": "New York Focus",
+      "feed_url": "https://nysfocus.com/feed/",
+      "site_url": "https://nysfocus.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "NC",
+      "outlet": "NC Newsline",
+      "feed_url": "https://ncnewsline.com/feed/",
+      "site_url": "https://ncnewsline.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "site_url": "https://northdakotamonitor.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "site_url": "https://ohiocapitaljournal.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "OK",
+      "outlet": "Oklahoma Voice",
+      "feed_url": "https://oklahomavoice.com/feed/",
+      "site_url": "https://oklahomavoice.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "OR",
+      "outlet": "Oregon Capital Chronicle",
+      "feed_url": "https://oregoncapitalchronicle.com/feed/",
+      "site_url": "https://oregoncapitalchronicle.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "PA",
+      "outlet": "Pennsylvania Capital-Star",
+      "feed_url": "https://penncapital-star.com/feed/",
+      "site_url": "https://penncapital-star.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "RI",
+      "outlet": "Rhode Island Current",
+      "feed_url": "https://rhodeislandcurrent.com/feed/",
+      "site_url": "https://rhodeislandcurrent.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "SC",
+      "outlet": "South Carolina Daily Gazette",
+      "feed_url": "https://scdailygazette.com/feed/",
+      "site_url": "https://scdailygazette.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "SD",
+      "outlet": "South Dakota Searchlight",
+      "feed_url": "https://southdakotasearchlight.com/feed/",
+      "site_url": "https://southdakotasearchlight.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "TN",
+      "outlet": "Tennessee Lookout",
+      "feed_url": "https://tennesseelookout.com/feed/",
+      "site_url": "https://tennesseelookout.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "TX",
+      "outlet": "The Texas Tribune",
+      "feed_url": "https://www.texastribune.org/feeds/main/",
+      "site_url": "https://www.texastribune.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "UT",
+      "outlet": "Utah News Dispatch",
+      "feed_url": "https://utahnewsdispatch.com/feed/",
+      "site_url": "https://utahnewsdispatch.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "site_url": "https://vtdigger.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "VA",
+      "outlet": "Virginia Mercury",
+      "feed_url": "https://virginiamercury.com/feed/",
+      "site_url": "https://virginiamercury.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "WA",
+      "outlet": "Washington State Standard",
+      "feed_url": "https://washingtonstatestandard.com/feed/",
+      "site_url": "https://washingtonstatestandard.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "WV",
+      "outlet": "West Virginia Watch",
+      "feed_url": "https://westvirginiawatch.com/feed/",
+      "site_url": "https://westvirginiawatch.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "WI",
+      "outlet": "Wisconsin Examiner",
+      "feed_url": "https://wisconsinexaminer.com/feed/",
+      "site_url": "https://wisconsinexaminer.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "WY",
+      "outlet": "WyoFile",
+      "feed_url": "https://wyofile.com/feed/",
+      "site_url": "https://wyofile.com",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    },
+    {
+      "state": "US",
+      "outlet": "Stateline",
+      "feed_url": "https://stateline.org/feed/",
+      "site_url": "https://stateline.org",
+      "type": "nonprofit",
+      "status": "candidate",
+      "added": "2026-07-17",
+      "discovery_source": "States Newsroom / Stateline (plan doc anchor source)",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
+        "content_type": null,
+        "last_item_date": null,
+        "items_seen": null
+      }
+    }
+  ]
+}

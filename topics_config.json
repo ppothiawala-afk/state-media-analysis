@@ -1,0 +1,54 @@
+{
+  "_comment": "Locked topic definitions + keyword pre-filter lists for the state-media pipeline. NO SENTIMENT. Topics are the ONLY allowed tags; an item may carry multiple. classify.py uses keyword_prefilter to decide which items survive to (optional) API tagging, and --offline mode uses these keyword lists alone. Edit deliberately: changing definitions changes historical comparability.",
+  "version": "1.0.0",
+  "locked_on": "2026-07-17",
+  "allowed_topics": [
+    "climate",
+    "politics",
+    "economic_development",
+    "environmental_legislation"
+  ],
+  "topic_definitions": {
+    "climate": "Coverage of climate change, greenhouse-gas emissions, extreme weather attributed to climate, drought/wildfire/flood risk framed as climate, renewable vs. fossil energy transition, and climate science or adaptation. NOT routine weather forecasts.",
+    "politics": "Coverage of elections, campaigns, candidates, legislatures, governors, ballot measures, partisan conflict, redistricting, voting/election administration, and government appointments. General statehouse politics not tied to a specific bill's substance.",
+    "economic_development": "Coverage of jobs, business investment, plant openings/closings, incentives and tax credits for employers, infrastructure spending framed as growth, housing supply, workforce, and industry expansion. The MONEY-AND-JOBS lens.",
+    "environmental_legislation": "Coverage of specific bills, regulations, rules, permits, or legal actions concerning the environment: pollution limits, water quality, land use, conservation mandates, EPA/state-agency rulemaking, and environmental litigation. The distinction from 'climate' is that this tag requires a concrete legislative/regulatory/legal instrument."
+  },
+  "keyword_prefilter": {
+    "_comment": "Case-insensitive substring/word matching. An item passes the pre-filter (and is eligible for tagging) if it matches ANY keyword in ANY topic. In --offline mode, the topic(s) whose lists matched become the item's tags directly.",
+    "climate": [
+      "climate change", "climate", "global warming", "greenhouse gas", "emissions",
+      "carbon", "net zero", "decarboniz", "renewable energy", "solar", "wind power",
+      "fossil fuel", "coal plant", "clean energy", "energy transition", "wildfire",
+      "drought", "sea level", "extreme heat", "heat wave", "resilience", "adaptation"
+    ],
+    "politics": [
+      "election", "campaign", "candidate", "governor", "legislature", "legislative",
+      "lawmaker", "state house", "statehouse", "senate", "assembly", "ballot",
+      "primary", "voter", "voting", "redistricting", "gerrymander", "republican",
+      "democrat", "gop", "caucus", "appoint", "confirmation", "impeach", "veto",
+      "special session", "poll", "runoff"
+    ],
+    "economic_development": [
+      "jobs", "hiring", "layoff", "factory", "plant", "manufacturing", "investment",
+      "tax credit", "tax incentive", "incentive", "economic development", "business",
+      "employer", "workforce", "housing", "development", "infrastructure", "grant",
+      "expansion", "warehouse", "data center", "semiconductor", "wages", "unemployment"
+    ],
+    "environmental_legislation": [
+      "environmental bill", "clean water", "water quality", "pollution", "polluter",
+      "permit", "epa", "dep ", "regulation", "rulemaking", "conservation", "wetland",
+      "endangered species", "toxic", "pfas", "superfund", "land use", "zoning",
+      "environmental law", "lawsuit", "litigation", "mandate", "standards", "emissions rule"
+    ]
+  },
+  "entity_extraction": {
+    "_comment": "Entities are countable facts (who/what was mentioned), NOT judgments. Offline mode uses a lightweight regex + known-entity gazetteer; API mode asks Claude to list proper-noun entities. Types are hints only.",
+    "types": ["person", "organization", "agency", "company", "industry", "place"],
+    "gazetteer_hint": [
+      "EPA", "DNR", "DEQ", "PUC", "Legislature", "Senate", "House", "Governor",
+      "Department of Transportation", "Department of Health", "Chamber of Commerce",
+      "Sierra Club", "utility", "commission"
+    ]
+  }
+}

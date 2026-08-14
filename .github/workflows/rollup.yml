@@ -1,0 +1,35 @@
+# WEEKLY rollup — classify the archive, append a coverage snapshot, verify.
+# This is where the (optional) API cost lives. Reads the archive only; never
+# fetches. Also runs a feed health check that PROPOSES registry changes.
+name: rollup
+on:
+  schedule:
+    - cron: "40 11 * * 1"    # Mondays 11:40 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rollup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Classify -> snapshot -> verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ./run_rollup.sh
+      - name: Feed health check (proposals only, human-gated)
+        run: python3 discover_feeds.py --health-check || true
+      - name: Commit derived data + proposals
+        run: |
+          git config user.name "media-rollup-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add items_classified.json media_history.json verification_report.json feeds_patch.json || true
+          git commit -m "rollup $(date -u +%F)" || echo "nothing to commit"
+          git push || echo "push skipped"

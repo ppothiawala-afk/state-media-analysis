@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC Ohio Capital Journal (test fixture)</title>
+    <link>https://example-synthetic.test/oh</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Colorado lawmakers advance clean energy bill in special session</title>
+      <link>https://example-synthetic.test/oh/wire-clean-energy</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Wire reprint: a renewable energy and emissions measure moved through committee. Same story as CO, for dedup testing.]]></description>
+    </item>
+    <item>
+      <title>EPA finalizes power plant emissions rule affecting Ohio utilities</title>
+      <link>https://example-synthetic.test/oh/epa-rule</link>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The EPA finalized a carbon emissions regulation for coal and gas plants, drawing utility and legislative response.]]></description>
+    </item>
+    <item>
+      <title>Semiconductor plant hiring ramps up near Columbus</title>
+      <link>https://example-synthetic.test/oh/chip-jobs</link>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A factory expansion adds workforce and business investment to central Ohio.]]></description>
+    </item>
+    <item>
+      <title>Local library announces summer reading hours</title>
+      <link>https://example-synthetic.test/oh/library-hours</link>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The branch will extend weekend opening hours and add a childrens storytime; a routine procedural notice.]]></description>
+    </item>
+  </channel>
+</rss>

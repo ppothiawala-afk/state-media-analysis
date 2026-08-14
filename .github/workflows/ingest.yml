@@ -1,0 +1,33 @@
+# DAILY ingest — cheap, API-free. Fetches feeds and appends new items to the
+# append-only archive. Runs every day because RSS windows expire.
+#
+# Commits the archive back to the repo so history accumulates. Classification and
+# the dashboard snapshot are a SEPARATE weekly workflow (rollup.yml).
+name: ingest
+on:
+  schedule:
+    - cron: "20 10 * * *"    # daily 10:20 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Fetch feeds -> archive
+        run: python3 fetch_feeds.py
+      - name: Commit archive growth
+        run: |
+          git config user.name "media-ingest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add items_archive.jsonl item_sightings.jsonl ingest_runs.jsonl archive_watermark.json || true
+          git commit -m "ingest $(date -u +%F)" || echo "nothing new to commit"
+          git push || echo "push skipped"

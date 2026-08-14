@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>State Media Coverage Tracker</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --ink:#e7ebf0; --muted:#9aa4b2; --accent:#4f9cf9; --accent2:#39d0a3;
+    --warn:#f0b429; --bad:#ef5f6b;
+    --c-climate:#39d0a3; --c-politics:#4f9cf9; --c-econ:#f0b429; --c-envleg:#c98bff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent)}
+  header{padding:22px 26px 8px}
+  h1{margin:0 0 2px;font-size:22px}
+  h2{font-size:15px;margin:0 0 12px;color:var(--ink)}
+  .sub{color:var(--muted);font-size:13px}
+  .wrap{padding:0 26px 40px;max-width:1180px}
+  .grid{display:grid;gap:16px}
+  .cols-2{grid-template-columns:1.1fr .9fr}
+  .cols-3{grid-template-columns:repeat(3,1fr)}
+  @media(max-width:860px){.cols-2,.cols-3{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .panel.tight{padding:12px 14px}
+  .banner{background:linear-gradient(90deg,#1a2030,#171a21);border:1px solid var(--line);
+    border-left:3px solid var(--warn);border-radius:10px;padding:12px 14px;margin:12px 26px 4px;
+    color:var(--muted);font-size:12.5px}
+  .controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:16px 0}
+  label{color:var(--muted);font-size:12px;margin-right:6px}
+  select,button{background:var(--panel2);color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:7px 10px;font-size:13px}
+  button{cursor:pointer}
+  .toggle{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .toggle button{border:0;border-radius:0;padding:7px 12px;background:var(--panel2)}
+  .toggle button.on{background:var(--accent);color:#04101f;font-weight:600}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .kpi{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .kpi .n{font-size:22px;font-weight:700}
+  .kpi .l{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+  .heat{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+  .cell{aspect-ratio:1/.72;border-radius:6px;border:1px solid var(--line);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-size:11px;cursor:pointer;background:var(--panel2);position:relative}
+  .cell .st{font-weight:700}
+  .cell .v{font-size:10px;color:var(--muted)}
+  .cell.sel{outline:2px solid var(--accent)}
+  .cell.nofeed{opacity:.35}
+  .legend{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:11.5px;margin-top:8px}
+  .swatch{width:14px;height:10px;border-radius:2px;border:1px solid var(--line)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:500;font-size:11.5px;text-transform:uppercase;letter-spacing:.03em}
+  .pill{display:inline-block;padding:1px 7px;border-radius:20px;font-size:11px;border:1px solid var(--line)}
+  .pill.climate{color:var(--c-climate)} .pill.politics{color:var(--c-politics)}
+  .pill.economic_development{color:var(--c-econ)} .pill.environmental_legislation{color:var(--c-envleg)}
+  .muted{color:var(--muted)}
+  .empty{text-align:center;padding:56px 20px;color:var(--muted)}
+  .empty .big{font-size:18px;color:var(--ink);margin-bottom:8px}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;border:1px solid var(--line)}
+  .foot{color:var(--muted);font-size:12px;margin-top:22px;border-top:1px solid var(--line);padding-top:14px}
+  canvas{max-height:230px}
+</style>
+</head>
+<body>
+<header>
+  <h1>State Media Coverage Tracker</h1>
+  <div class="sub">Topic coverage across state-level news feeds — counts, not sentiment. <span id="asof"></span></div>
+</header>
+
+<div class="banner" id="methodology">
+  <strong>How to read this.</strong> The primary measure is <em>topic share</em> — the fraction of a
+  source's output about each topic — not raw article counts, so a prolific outlet doesn't masquerade as a
+  hot topic. Sources are a specific set of nonprofit state newsrooms (see “Source composition” below),
+  <em>not</em> a state's entire media landscape. No sentiment or tone is inferred anywhere.
+</div>
+
+<div class="wrap">
+  <div id="app"></div>
+</div>
+
+<script>
+const TOPICS=["climate","politics","economic_development","environmental_legislation"];
+const TLABEL={climate:"Climate",politics:"Politics",economic_development:"Econ development",environmental_legislation:"Env legislation"};
+const TCOLOR={climate:"#39d0a3",politics:"#4f9cf9",economic_development:"#f0b429",environmental_legislation:"#c98bff"};
+const STATES=["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"];
+
+let HISTORY={snapshots:[]}, CLASSIFIED={items:[]}, FEEDS={feeds:[]};
+let metric="share";           // "share" | "volume"
+let heatTopic="climate";
+let selState=null, weekIdx=0;
+let charts={};
+
+async function loadJSON(f){ try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;} }
+
+async function boot(){
+  HISTORY=await loadJSON("media_history.json")||{snapshots:[]};
+  CLASSIFIED=await loadJSON("items_classified.json")||{items:[]};
+  FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
+  weekIdx=Math.max(0,(HISTORY.snapshots||[]).length-1);
+  render();
+}
+
+function render(){
+  const app=document.getElementById("app");
+  const snaps=HISTORY.snapshots||[];
+  document.getElementById("asof").textContent = snaps.length
+    ? "· latest snapshot "+snaps[snaps.length-1].date+" · "+snaps.length+" week(s) of history"
+    : "· no data collected yet";
+
+  if(!snaps.length){ app.innerHTML=emptyState(); renderSourcePanel(); return; }
+
+  app.innerHTML = controls(snaps) + `
+    <div class="grid cols-2" style="margin-bottom:16px">
+      <div class="panel"><h2>National topic ${metric==='share'?'share':'volume'} — <span id="weekLabel"></span></h2>
+        <div class="kpis" id="kpis"></div>
+        <canvas id="mixChart" style="margin-top:14px"></canvas></div>
+      <div class="panel"><h2>National trend (all weeks)</h2>
+        <canvas id="trendChart"></canvas>
+        <div class="legend" id="trendLegend"></div></div>
+    </div>
+    <div class="panel" style="margin-bottom:16px">
+      <h2>Per-topic state map — ${TLABEL[heatTopic]} (${metric})</h2>
+      <div class="heat" id="heat"></div>
+      <div class="legend"><span>low</span>
+        <span class="swatch" style="background:${shade(0.0)}"></span>
+        <span class="swatch" style="background:${shade(0.5)}"></span>
+        <span class="swatch" style="background:${shade(1.0)}"></span>
+        <span>high</span><span style="margin-left:12px">·</span>
+        <span class="swatch nofeed" style="background:var(--panel2)"></span><span>no feed / no data</span></div>
+    </div>
+    <div class="panel" id="drill" style="margin-bottom:16px"></div>
+    <div class="panel" id="sourcePanel"></div>
+    <div class="foot" id="foot"></div>`;
+
+  wireControls(snaps);
+  renderWeek();
+  renderSourcePanel();
+  renderFoot();
+}
+
+function emptyState(){
+  const feeds=(FEEDS.feeds||[]).length;
+  return `<div class="panel"><div class="empty">
+    <div class="big">No coverage data collected yet.</div>
+    <div>The registry holds <strong>${feeds}</strong> candidate feeds across 50 states, but no ingest has run.</div>
+    <div style="margin-top:10px">Run <code>./run_ingest.sh</code> (daily) to fill the archive, then
+    <code>./run_rollup.sh</code> (weekly) to classify and snapshot. This page fills in automatically.</div>
+    <div style="margin-top:10px" class="muted">Showing the source registry below so you can see coverage
+    breadth before any data exists.</div>
+  </div></div><div class="panel" id="sourcePanel" style="margin-top:16px"></div>`;
+}
+
+function controls(snaps){
+  const opts=snaps.map((s,i)=>`<option value="${i}" ${i===weekIdx?'selected':''}>${s.date}</option>`).join("");
+  const topicOpts=TOPICS.map(t=>`<option value="${t}" ${t===heatTopic?'selected':''}>${TLABEL[t]}</option>`).join("");
+  return `<div class="controls">
+    <div><label>Week</label><select id="weekPick">${opts}</select></div>
+    <div><label>Metric</label><span class="toggle">
+      <button id="mShare" class="${metric==='share'?'on':''}">Share</button>
+      <button id="mVol" class="${metric==='volume'?'on':''}">Volume</button></span></div>
+    <div><label>Map topic</label><select id="topicPick">${topicOpts}</select></div>
+  </div>`;
+}
+function wireControls(snaps){
+  document.getElementById("weekPick").onchange=e=>{weekIdx=+e.target.value;renderWeek();};
+  document.getElementById("topicPick").onchange=e=>{heatTopic=e.target.value;render();};
+  document.getElementById("mShare").onclick=()=>{metric="share";render();};
+  document.getElementById("mVol").onclick=()=>{metric="volume";render();};
+}
+
+function curSnap(){ return HISTORY.snapshots[weekIdx]; }
+function val(block,topic){
+  if(!block) return 0;
+  return metric==="share" ? (block.topic_share?.[topic]||0) : (block.topic_volume?.[topic]||0);
+}
+
+function renderWeek(){
+  const s=curSnap(); if(!s) return;
+  const wl=document.getElementById("weekLabel"); if(wl) wl.textContent=s.window_start+" → "+s.window_end;
+
+  // KPIs
+  const m=s.meta||{};
+  document.getElementById("kpis").innerHTML=[
+    ["items this week", s.national.total_items],
+    ["states covered", m.states_covered??"—"],
+    ["low-volume", m.states_low_volume??"—"],
+    ["silent / no-feed", (m.states_silent||0)+(m.states_no_feed||0)]
+  ].map(k=>`<div class="kpi"><div class="n">${k[1]}</div><div class="l">${k[0]}</div></div>`).join("");
+
+  // national mix (doughnut)
+  drawDoughnut("mixChart", TOPICS.map(t=>val(s.national,t)));
+  // trend across weeks (national share/volume per topic)
+  drawTrend();
+  // heat map
+  drawHeat();
+  // drilldown
+  drawDrill(selState||topStateFor(heatTopic));
+}
+
+function topStateFor(topic){
+  const s=curSnap(); let best=null,bv=-1;
+  for(const st of STATES){const b=s.states[st]; const v=val(b,topic); if(b&&b.total>0&&v>bv){bv=v;best=st;}}
+  return best||"CA";
+}
+
+function drawDoughnut(id,data){
+  const ctx=document.getElementById(id); if(!ctx)return;
+  charts[id]&&charts[id].destroy();
+  charts[id]=new Chart(ctx,{type:"doughnut",
+    data:{labels:TOPICS.map(t=>TLABEL[t]),datasets:[{data:data,backgroundColor:TOPICS.map(t=>TCOLOR[t]),borderColor:"#171a21",borderWidth:2}]},
+    options:{plugins:{legend:{position:"right",labels:{color:"#9aa4b2",boxWidth:12,font:{size:11}}}},cutout:"58%"}});
+}
+
+function drawTrend(){
+  const ctx=document.getElementById("trendChart"); if(!ctx)return;
+  charts.trend&&charts.trend.destroy();
+  const snaps=HISTORY.snapshots;
+  const ds=TOPICS.map(t=>({label:TLABEL[t],borderColor:TCOLOR[t],backgroundColor:TCOLOR[t],
+    tension:.3,pointRadius:2,data:snaps.map(s=>val(s.national,t))}));
+  charts.trend=new Chart(ctx,{type:"line",
+    data:{labels:snaps.map(s=>s.date),datasets:ds},
+    options:{plugins:{legend:{display:false}},scales:{
+      x:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"}},
+      y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
+  document.getElementById("trendLegend").innerHTML=TOPICS.map(t=>
+    `<span class="swatch" style="background:${TCOLOR[t]}"></span><span style="margin-right:10px">${TLABEL[t]}</span>`).join("");
+}
+
+function shade(x){ // 0..1 -> accent ramp
+  const a=[30,45,60], b=[57,208,163]; // dark -> accent2
+  const c=a.map((v,i)=>Math.round(v+(b[i]-v)*Math.max(0,Math.min(1,x))));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+function drawHeat(){
+  const s=curSnap(); const host=document.getElementById("heat"); if(!host)return;
+  // scale: for share use 0..maxShare; for volume 0..maxVol
+  let mx=0; for(const st of STATES){mx=Math.max(mx,val(s.states[st],heatTopic));}
+  host.innerHTML=STATES.map(st=>{
+    const b=s.states[st]; const v=val(b,heatTopic);
+    const has=b&&b.total>0;
+    const bg= has? shade(mx? v/mx:0) : "var(--panel2)";
+    const disp = !has? "" : (metric==="share"? Math.round(v*100)+"%" : v);
+    return `<div class="cell ${has?'':'nofeed'} ${st===selState?'sel':''}" data-st="${st}" style="background:${bg}">
+      <div class="st">${st}</div><div class="v">${disp}</div></div>`;
+  }).join("");
+  host.querySelectorAll(".cell").forEach(c=>c.onclick=()=>{selState=c.dataset.st;drawHeat();drawDrill(selState);});
+}
+
+function drawDrill(st){
+  selState=st;
+  const s=curSnap(); const b=s.states[st]; const host=document.getElementById("drill"); if(!host)return;
+  if(!b||b.total===0){
+    host.innerHTML=`<h2>${st} — no coverage this week</h2>
+      <div class="muted">Presence: <strong>${b?b.presence:'no_feed'}</strong>.
+      ${b&&b.presence==='silent'?'A feed exists for this state but produced nothing in the window — check feed health.':''}
+      ${!b||b.presence==='no_feed'?'No feed registered for this state.':''}</div>`;
+    return;
+  }
+  const rows=TOPICS.map(t=>`<tr><td><span class="pill ${t}">${TLABEL[t]}</span></td>
+    <td>${Math.round((b.topic_share?.[t]||0)*100)}%</td><td>${b.topic_volume?.[t]||0}</td></tr>`).join("");
+  const ents=(b.top_entities||[]).map(e=>`${e[0]} <span class="muted">(${e[1]})</span>`).join(" · ")||"<span class=muted>none extracted</span>";
+  const outlets=Object.entries(b.per_outlet||{}).map(([o,n])=>`${o} <span class="muted">(${n})</span>`).join(" · ");
+  const recent=(CLASSIFIED.items||[]).filter(it=>it.state===st).slice(-6).reverse().map(it=>
+    `<tr><td>${it.published||""}</td><td><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>
+      <div class="muted" style="font-size:11px">${it.outlet||""} · ${(it.topics||[]).map(t=>TLABEL[t]).join(", ")||"untagged"}</div></td></tr>`).join("");
+  host.innerHTML=`<h2>${st} drilldown — ${b.total} items, ${b.outlet_count} outlet(s)</h2>
+    <div class="grid cols-2">
+      <div><table><tr><th>Topic</th><th>Share</th><th>Items</th></tr>${rows}</table>
+        <div style="margin-top:10px"><label>Outlets</label><div>${outlets}</div></div>
+        <div style="margin-top:10px"><label>Top entities</label><div>${ents}</div></div></div>
+      <div><label>Recent items</label>
+        <table>${recent||'<tr><td class=muted>No classified items cached for this state.</td></tr>'}</table></div>
+    </div>`;
+}
+
+function renderSourcePanel(){
+  const host=document.getElementById("sourcePanel"); if(!host)return;
+  const feeds=FEEDS.feeds||[];
+  const byState={}; feeds.forEach(f=>{(byState[f.state]=byState[f.state]||[]).push(f);});
+  const validated=feeds.filter(f=>f.validation&&f.validation.validated).length;
+  const nStates=Object.keys(byState).length;
+  const rows=STATES.map(st=>{
+    const fs=byState[st]||[];
+    const names=fs.map(f=>`${f.outlet} <span class="muted">${f.validation&&f.validation.validated?'✓':'·'}</span>`).join(", ")||"<span class=muted>— none —</span>";
+    return `<tr><td><strong>${st}</strong></td><td>${fs.length}</td><td>${names}</td></tr>`;
+  }).join("");
+  host.innerHTML=`<h2>Source composition — read this before trusting a number</h2>
+    <div class="muted" style="margin-bottom:10px">
+      ${feeds.length} feeds across ${nStates} states · <strong>${validated}</strong> live-validated,
+      <strong>${feeds.length-validated}</strong> still unvalidated candidates. Predominantly the
+      <strong>States Newsroom</strong> nonprofit network plus partner nonprofits — a single, ideologically
+      non-neutral publisher set. Coverage here reflects <em>their</em> editorial priorities, not the whole
+      of any state's press. Median feeds/state is low; grow it with <code>discover_feeds.py</code>.
+    </div>
+    <table><tr><th>State</th><th>Feeds</th><th>Outlets (✓ = validated)</th></tr>${rows}</table>`;
+}
+
+function renderFoot(){
+  const s=curSnap();
+  document.getElementById("foot").innerHTML=
+    `Data: <code>media_history.json</code> (weekly snapshots) + <code>items_classified.json</code> (current items)
+     + <code>feeds_config.json</code> (registry). Backend: ${(s.meta&&s.meta.backend)||"—"} ·
+     topics ${(s.meta&&s.meta.topics_version)||"—"}. No sentiment is computed anywhere in this pipeline.`;
+}
+
+function escapeHtml(x){return (x||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+
+boot();
+</script>
+</body>
+</html>

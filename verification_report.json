@@ -1,0 +1,64 @@
+{
+  "_comment": "STRUCTURAL checks hold regardless of data volume; DATA checks WARN until a real ingest has run. 'All PASS' with DATA WARNs means the code is sound but no real data exists yet.",
+  "generated": "2026-08-14T18:33:39+00:00",
+  "summary": {
+    "PASS": 4,
+    "WARN": 5
+  },
+  "checks": [
+    {
+      "id": "S1",
+      "kind": "STRUCTURAL",
+      "status": "PASS",
+      "msg": "no sentiment/judgment keys anywhere"
+    },
+    {
+      "id": "S2",
+      "kind": "STRUCTURAL",
+      "status": "PASS",
+      "msg": "no synthetic data in classified/history"
+    },
+    {
+      "id": "S3",
+      "kind": "STRUCTURAL",
+      "status": "PASS",
+      "msg": "all topic tags within locked set ['climate', 'economic_development', 'environmental_legislation', 'politics']"
+    },
+    {
+      "id": "S6",
+      "kind": "STRUCTURAL",
+      "status": "PASS",
+      "msg": "topic_share reproduces volume/total everywhere"
+    },
+    {
+      "id": "D1",
+      "kind": "DATA",
+      "status": "WARN",
+      "msg": "no archive yet \u2014 no real ingest has run"
+    },
+    {
+      "id": "D2",
+      "kind": "DATA",
+      "status": "WARN",
+      "msg": "no sightings yet"
+    },
+    {
+      "id": "D3",
+      "kind": "DATA",
+      "status": "WARN",
+      "msg": "no snapshots yet"
+    },
+    {
+      "id": "D4",
+      "kind": "DATA",
+      "status": "WARN",
+      "msg": "only 0 snapshot(s); need 3 to judge dead feeds"
+    },
+    {
+      "id": "D5",
+      "kind": "DATA",
+      "status": "WARN",
+      "msg": "13/51 registry feeds live-validated; 38 still candidate (run discover_feeds.py --health-check)"
+    }
+  ]
+}

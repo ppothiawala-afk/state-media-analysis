@@ -63,14 +63,14 @@
       "feed_url": "https://alabamareflector.com/feed/",
       "site_url": "https://alabamareflector.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -99,14 +99,14 @@
       "feed_url": "https://azmirror.com/feed/",
       "site_url": "https://azmirror.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -135,14 +135,14 @@
       "feed_url": "https://calmatters.org/feed/",
       "site_url": "https://calmatters.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -153,14 +153,14 @@
       "feed_url": "https://coloradonewsline.com/feed/",
       "site_url": "https://coloradonewsline.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -171,14 +171,14 @@
       "feed_url": "https://ctmirror.org/feed/",
       "site_url": "https://ctmirror.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -207,14 +207,14 @@
       "feed_url": "https://floridaphoenix.com/feed/",
       "site_url": "https://floridaphoenix.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -225,14 +225,14 @@
       "feed_url": "https://georgiarecorder.com/feed/",
       "site_url": "https://georgiarecorder.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -243,14 +243,14 @@
       "feed_url": "https://www.civilbeat.org/feed/",
       "site_url": "https://www.civilbeat.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -441,14 +441,14 @@
       "feed_url": "https://michiganadvance.com/feed/",
       "site_url": "https://michiganadvance.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -585,14 +585,14 @@
       "feed_url": "https://newjerseymonitor.com/feed/",
       "site_url": "https://newjerseymonitor.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -621,14 +621,14 @@
       "feed_url": "https://nysfocus.com/feed/",
       "site_url": "https://nysfocus.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -675,14 +675,14 @@
       "feed_url": "https://ohiocapitaljournal.com/feed/",
       "site_url": "https://ohiocapitaljournal.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }
@@ -855,14 +855,14 @@
       "feed_url": "https://vtdigger.org/feed/",
       "site_url": "https://vtdigger.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "live web_fetch returned Content-Type application/rss+xml (header confirmed; body not parsed here). Item-count/freshness confirmed on first CI ingest.",
+        "content_type": "application/rss+xml",
         "last_item_date": null,
         "items_seen": null
       }

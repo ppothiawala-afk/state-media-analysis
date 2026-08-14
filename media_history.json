@@ -1,0 +1,2741 @@
+{
+ "_comment": "Weekly coverage snapshots. PRIMARY metric is topic_share (topic_volume / state_total); absolute volume secondary. Counts only, no sentiment. History is the product.",
+ "metric": "topic_share_primary",
+ "snapshots": [
+  {
+   "date": "2026-08-14",
+   "window_start": "2026-08-08",
+   "window_end": "2026-08-14",
+   "window_days": 7,
+   "national": {
+    "topic_volume": {
+     "climate": 47,
+     "politics": 367,
+     "economic_development": 172,
+     "environmental_legislation": 193
+    },
+    "topic_share": {
+     "climate": 0.0503,
+     "politics": 0.3925,
+     "economic_development": 0.184,
+     "environmental_legislation": 0.2064
+    },
+    "total_items": 935
+   },
+   "states": {
+    "AL": {
+     "total": 37,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 17,
+      "economic_development": 7,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.027,
+      "politics": 0.4595,
+      "economic_development": 0.1892,
+      "environmental_legislation": 0.1351
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Alabama Reflector": 37
+     },
+     "top_entities": [
+      [
+       "Alabama",
+       10
+      ],
+      [
+       "President Donald Trump",
+       7
+      ],
+      [
+       "WASHINGTON",
+       6
+      ],
+      [
+       "Trump",
+       5
+      ],
+      [
+       "EPA",
+       5
+      ],
+      [
+       "Republican",
+       5
+      ],
+      [
+       "Senate",
+       4
+      ],
+      [
+       "Legislature",
+       4
+      ]
+     ],
+     "presence": "covered"
+    },
+    "AK": {
+     "total": 23,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 13,
+      "economic_development": 1,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.087,
+      "politics": 0.5652,
+      "economic_development": 0.0435,
+      "environmental_legislation": 0.3478
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Alaska Beacon": 23
+     },
+     "top_entities": [
+      [
+       "Alaska",
+       10
+      ],
+      [
+       "EPA",
+       5
+      ],
+      [
+       "Senate",
+       4
+      ],
+      [
+       "Gov. Mike Dunleavy",
+       3
+      ],
+      [
+       "Alaska Division",
+       2
+      ],
+      [
+       "Elections",
+       2
+      ],
+      [
+       "Blanche",
+       2
+      ],
+      [
+       "Alaskans",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "AZ": {
+     "total": 21,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 11,
+      "economic_development": 4,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.5238,
+      "economic_development": 0.1905,
+      "environmental_legislation": 0.2381
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Arizona Mirror": 21
+     },
+     "top_entities": [
+      [
+       "Arizona",
+       10
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Proposition",
+       3
+      ],
+      [
+       "GOP",
+       3
+      ],
+      [
+       "Arizona Supreme Court",
+       2
+      ],
+      [
+       "Republican",
+       2
+      ],
+      [
+       "Democratic",
+       2
+      ],
+      [
+       "Legislature",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "AR": {
+     "total": 28,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 9,
+      "economic_development": 8,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.3214,
+      "economic_development": 0.2857,
+      "environmental_legislation": 0.0714
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Arkansas Advocate": 28
+     },
+     "top_entities": [
+      [
+       "Arkansas",
+       8
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Medicaid",
+       2
+      ],
+      [
+       "Trump",
+       2
+      ],
+      [
+       "Governor",
+       2
+      ],
+      [
+       "President Donald Trump",
+       2
+      ],
+      [
+       "Democratic",
+       2
+      ],
+      [
+       "Adam Schiff",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "CA": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 2,
+      "economic_development": 0,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.2,
+      "economic_development": 0.0,
+      "environmental_legislation": 0.2
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "CalMatters": 10
+     },
+     "top_entities": [
+      [
+       "California",
+       3
+      ],
+      [
+       "Where",
+       2
+      ],
+      [
+       "Californians",
+       1
+      ],
+      [
+       "Proposition",
+       1
+      ],
+      [
+       "Why",
+       1
+      ],
+      [
+       "DOGE",
+       1
+      ],
+      [
+       "Once",
+       1
+      ],
+      [
+       "Trump",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "CO": {
+     "total": 19,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 5,
+      "economic_development": 3,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.1053,
+      "politics": 0.2632,
+      "economic_development": 0.1579,
+      "environmental_legislation": 0.2632
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Colorado Newsline": 19
+     },
+     "top_entities": [
+      [
+       "Colorado",
+       10
+      ],
+      [
+       "Coloradans",
+       2
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Amid",
+       1
+      ],
+      [
+       "Google",
+       1
+      ],
+      [
+       "Local",
+       1
+      ],
+      [
+       "Public",
+       1
+      ],
+      [
+       "Affordable",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "CT": {
+     "total": 39,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 17,
+      "economic_development": 5,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4359,
+      "economic_development": 0.1282,
+      "environmental_legislation": 0.0769
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Connecticut Mirror": 39
+     },
+     "top_entities": [
+      [
+       "Live",
+       6
+      ],
+      [
+       "Associated Press",
+       5
+      ],
+      [
+       "Democrats",
+       4
+      ],
+      [
+       "Democratic",
+       4
+      ],
+      [
+       "Congressional District",
+       4
+      ],
+      [
+       "Hartford",
+       3
+      ],
+      [
+       "Senate",
+       3
+      ],
+      [
+       "Luke Bronin",
+       3
+      ]
+     ],
+     "presence": "covered"
+    },
+    "DE": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 2,
+      "economic_development": 3,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.2,
+      "economic_development": 0.3,
+      "environmental_legislation": 0.2
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Spotlight Delaware": 10
+     },
+     "top_entities": [
+      [
+       "Spotlight Delaware",
+       5
+      ],
+      [
+       "Delaware",
+       2
+      ],
+      [
+       "Delaware State Police",
+       1
+      ],
+      [
+       "EPA",
+       1
+      ],
+      [
+       "Justice",
+       1
+      ],
+      [
+       "Rep. Josue Ortega",
+       1
+      ],
+      [
+       "Rep. Ortega",
+       1
+      ],
+      [
+       "The Delaware Department",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "FL": {
+     "total": 28,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 16,
+      "economic_development": 5,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.5714,
+      "economic_development": 0.1786,
+      "environmental_legislation": 0.1786
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Florida Phoenix": 28
+     },
+     "top_entities": [
+      [
+       "Florida",
+       7
+      ],
+      [
+       "EPA",
+       4
+      ],
+      [
+       "President Donald Trump",
+       4
+      ],
+      [
+       "Governor",
+       4
+      ],
+      [
+       "WASHINGTON",
+       3
+      ],
+      [
+       "Byron Donalds",
+       3
+      ],
+      [
+       "Department",
+       2
+      ],
+      [
+       "ICE",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "GA": {
+     "total": 12,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 7,
+      "economic_development": 0,
+      "environmental_legislation": 1
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.5833,
+      "economic_development": 0.0,
+      "environmental_legislation": 0.0833
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Georgia Recorder": 12
+     },
+     "top_entities": [
+      [
+       "Georgia",
+       5
+      ],
+      [
+       "Collins",
+       3
+      ],
+      [
+       "Senate",
+       2
+      ],
+      [
+       "U.S. Senate",
+       2
+      ],
+      [
+       "GOP",
+       2
+      ],
+      [
+       "After",
+       1
+      ],
+      [
+       "GOP Sen. Bill Cassidy",
+       1
+      ],
+      [
+       "Louisiana",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "HI": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 2,
+      "economic_development": 1,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.2,
+      "economic_development": 0.1,
+      "environmental_legislation": 0.2
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Honolulu Civil Beat": 10
+     },
+     "top_entities": [
+      [
+       "Department",
+       1
+      ],
+      [
+       "Department of Health",
+       1
+      ],
+      [
+       "EPA",
+       1
+      ],
+      [
+       "Gone Up In Smoke",
+       1
+      ],
+      [
+       "Health",
+       1
+      ],
+      [
+       "Intoxicating Hemp Market Has",
+       1
+      ],
+      [
+       "Creed",
+       1
+      ],
+      [
+       "Quotable",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "ID": {
+     "total": 24,
+     "topic_volume": {
+      "climate": 7,
+      "politics": 4,
+      "economic_development": 2,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.2917,
+      "politics": 0.1667,
+      "economic_development": 0.0833,
+      "environmental_legislation": 0.2083
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Idaho Capital Sun": 24
+     },
+     "top_entities": [
+      [
+       "Idaho",
+       6
+      ],
+      [
+       "EPA",
+       4
+      ],
+      [
+       "Washington",
+       3
+      ],
+      [
+       "Montana",
+       2
+      ],
+      [
+       "National Guard",
+       2
+      ],
+      [
+       "U.S. Department",
+       2
+      ],
+      [
+       "Utah",
+       2
+      ],
+      [
+       "Gov. Greg Gianforte",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "IL": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 4,
+      "economic_development": 1,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4,
+      "economic_development": 0.1,
+      "environmental_legislation": 0.2
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Capitol News Illinois": 10
+     },
+     "top_entities": [
+      [
+       "Governor",
+       2
+      ],
+      [
+       "Illinois",
+       2
+      ],
+      [
+       "Rideshare",
+       1
+      ],
+      [
+       "House",
+       1
+      ],
+      [
+       "House Democrat",
+       1
+      ],
+      [
+       "Second House Democrat",
+       1
+      ],
+      [
+       "Speaker Chris Welch",
+       1
+      ],
+      [
+       "Welch",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "IN": {
+     "total": 24,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 10,
+      "economic_development": 3,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4167,
+      "economic_development": 0.125,
+      "environmental_legislation": 0.3333
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Indiana Capital Chronicle": 24
+     },
+     "top_entities": [
+      [
+       "Indiana",
+       10
+      ],
+      [
+       "EPA",
+       5
+      ],
+      [
+       "commission",
+       4
+      ],
+      [
+       "Medicaid",
+       3
+      ],
+      [
+       "Social Services Administration",
+       3
+      ],
+      [
+       "Hoosier",
+       3
+      ],
+      [
+       "Indiana Family",
+       2
+      ],
+      [
+       "AES Indiana",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "IA": {
+     "total": 26,
+     "topic_volume": {
+      "climate": 3,
+      "politics": 10,
+      "economic_development": 7,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.1154,
+      "politics": 0.3846,
+      "economic_development": 0.2692,
+      "environmental_legislation": 0.3077
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Iowa Capital Dispatch": 26
+     },
+     "top_entities": [
+      [
+       "Iowa",
+       14
+      ],
+      [
+       "Governor",
+       3
+      ],
+      [
+       "Iowa Board",
+       3
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Medicaid",
+       2
+      ],
+      [
+       "Senate",
+       2
+      ],
+      [
+       "Congressional District",
+       2
+      ],
+      [
+       "Iowa Libertarians",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "KS": {
+     "total": 20,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 5,
+      "economic_development": 0,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.25,
+      "economic_development": 0.0,
+      "environmental_legislation": 0.25
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Kansas Reflector": 20
+     },
+     "top_entities": [
+      [
+       "Kansas",
+       6
+      ],
+      [
+       "TOPEKA",
+       3
+      ],
+      [
+       "Three",
+       3
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Hamilton",
+       2
+      ],
+      [
+       "Marshall",
+       2
+      ],
+      [
+       "Republican",
+       2
+      ],
+      [
+       "Sen. Ty Masterson",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "KY": {
+     "total": 15,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 6,
+      "economic_development": 6,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4,
+      "economic_development": 0.4,
+      "environmental_legislation": 0.3333
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Kentucky Lantern": 15
+     },
+     "top_entities": [
+      [
+       "Kentucky",
+       9
+      ],
+      [
+       "Legislature",
+       2
+      ],
+      [
+       "commission",
+       2
+      ],
+      [
+       "FRANKFORT",
+       2
+      ],
+      [
+       "University",
+       2
+      ],
+      [
+       "Attorney",
+       1
+      ],
+      [
+       "CEO",
+       1
+      ],
+      [
+       "CEOs",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "LA": {
+     "total": 27,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 6,
+      "economic_development": 6,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.2222,
+      "economic_development": 0.2222,
+      "environmental_legislation": 0.1481
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Louisiana Illuminator": 27
+     },
+     "top_entities": [
+      [
+       "Louisiana",
+       8
+      ],
+      [
+       "Meta",
+       3
+      ],
+      [
+       "commission",
+       3
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Commission",
+       2
+      ],
+      [
+       "The Louisiana Public Service",
+       2
+      ],
+      [
+       "utility",
+       2
+      ],
+      [
+       "There",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "ME": {
+     "total": 17,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 5,
+      "economic_development": 4,
+      "environmental_legislation": 5
+     },
+     "topic_share": {
+      "climate": 0.0588,
+      "politics": 0.2941,
+      "economic_development": 0.2353,
+      "environmental_legislation": 0.2941
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Maine Morning Star": 17
+     },
+     "top_entities": [
+      [
+       "EPA",
+       5
+      ],
+      [
+       "Maine",
+       5
+      ],
+      [
+       "President Donald Trump",
+       3
+      ],
+      [
+       "Democrat Matt Dunlap",
+       2
+      ],
+      [
+       "LePage",
+       2
+      ],
+      [
+       "Federal",
+       2
+      ],
+      [
+       "Trump",
+       2
+      ],
+      [
+       "U.S. Department",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MD": {
+     "total": 29,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 6,
+      "economic_development": 7,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.0345,
+      "politics": 0.2069,
+      "economic_development": 0.2414,
+      "environmental_legislation": 0.1034
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Maryland Matters": 29
+     },
+     "top_entities": [
+      [
+       "Maryland",
+       4
+      ],
+      [
+       "Trump",
+       3
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "House",
+       2
+      ],
+      [
+       "Poll",
+       2
+      ],
+      [
+       "Dozens",
+       2
+      ],
+      [
+       "Moore",
+       2
+      ],
+      [
+       "County",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MA": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 3,
+      "politics": 2,
+      "economic_development": 3,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.3,
+      "politics": 0.2,
+      "economic_development": 0.3,
+      "environmental_legislation": 0.2
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Commonwealth Beacon": 10
+     },
+     "top_entities": [
+      [
+       "Massachusetts",
+       3
+      ],
+      [
+       "Healey",
+       1
+      ],
+      [
+       "MassHealth",
+       1
+      ],
+      [
+       "Medicaid",
+       1
+      ],
+      [
+       "Pricey",
+       1
+      ],
+      [
+       "Starting",
+       1
+      ],
+      [
+       "Beacon Hill",
+       1
+      ],
+      [
+       "Boston",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MI": {
+     "total": 26,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 13,
+      "economic_development": 6,
+      "environmental_legislation": 6
+     },
+     "topic_share": {
+      "climate": 0.0385,
+      "politics": 0.5,
+      "economic_development": 0.2308,
+      "environmental_legislation": 0.2308
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Michigan Advance": 26
+     },
+     "top_entities": [
+      [
+       "Michigan",
+       9
+      ],
+      [
+       "Democratic",
+       5
+      ],
+      [
+       "Sayed",
+       5
+      ],
+      [
+       "Senate",
+       5
+      ],
+      [
+       "U.S. Senate",
+       4
+      ],
+      [
+       "Abdul El",
+       3
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "University",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MN": {
+     "total": 16,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 10,
+      "economic_development": 1,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.625,
+      "economic_development": 0.0625,
+      "environmental_legislation": 0.1875
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Minnesota Reformer": 16
+     },
+     "top_entities": [
+      [
+       "Minnesota",
+       7
+      ],
+      [
+       "Governor",
+       4
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Republican",
+       3
+      ],
+      [
+       "Congressional District",
+       2
+      ],
+      [
+       "Senate",
+       2
+      ],
+      [
+       "Justice",
+       2
+      ],
+      [
+       "DFL",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MS": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 0,
+      "economic_development": 1,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.0,
+      "economic_development": 0.1,
+      "environmental_legislation": 0.3
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Mississippi Today": 10
+     },
+     "top_entities": [
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Jackson",
+       2
+      ],
+      [
+       "Mississippi",
+       2
+      ],
+      [
+       "Miss",
+       2
+      ],
+      [
+       "Aug",
+       1
+      ],
+      [
+       "Department of Health",
+       1
+      ],
+      [
+       "Health",
+       1
+      ],
+      [
+       "Mississippi State Department",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MO": {
+     "total": 18,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 8,
+      "economic_development": 3,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4444,
+      "economic_development": 0.1667,
+      "environmental_legislation": 0.1667
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Missouri Independent": 18
+     },
+     "top_entities": [
+      [
+       "Missouri",
+       8
+      ],
+      [
+       "Amendment",
+       2
+      ],
+      [
+       "Gov. Mike Kehoe",
+       2
+      ],
+      [
+       "Nov",
+       2
+      ],
+      [
+       "Manufactured",
+       1
+      ],
+      [
+       "When",
+       1
+      ],
+      [
+       "Jefferson City",
+       1
+      ],
+      [
+       "Maybe Missourians",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "MT": {
+     "total": 23,
+     "topic_volume": {
+      "climate": 5,
+      "politics": 6,
+      "economic_development": 2,
+      "environmental_legislation": 7
+     },
+     "topic_share": {
+      "climate": 0.2174,
+      "politics": 0.2609,
+      "economic_development": 0.087,
+      "environmental_legislation": 0.3043
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Daily Montanan": 23
+     },
+     "top_entities": [
+      [
+       "House",
+       4
+      ],
+      [
+       "EPA",
+       4
+      ],
+      [
+       "Montana",
+       3
+      ],
+      [
+       "Alani Bankhead",
+       2
+      ],
+      [
+       "Bankhead",
+       2
+      ],
+      [
+       "Democratic",
+       2
+      ],
+      [
+       "Legislature",
+       2
+      ],
+      [
+       "Senate",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NE": {
+     "total": 22,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 14,
+      "economic_development": 4,
+      "environmental_legislation": 6
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.6364,
+      "economic_development": 0.1818,
+      "environmental_legislation": 0.2727
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Nebraska Examiner": 22
+     },
+     "top_entities": [
+      [
+       "Nebraska",
+       10
+      ],
+      [
+       "LINCOLN",
+       5
+      ],
+      [
+       "America First Party",
+       2
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Nebraska Department",
+       2
+      ],
+      [
+       "Office",
+       2
+      ],
+      [
+       "State",
+       2
+      ],
+      [
+       "Lincoln",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NV": {
+     "total": 14,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 5,
+      "economic_development": 3,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.1429,
+      "politics": 0.3571,
+      "economic_development": 0.2143,
+      "environmental_legislation": 0.1429
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Nevada Current": 14
+     },
+     "top_entities": [
+      [
+       "Nevada",
+       6
+      ],
+      [
+       "utility",
+       2
+      ],
+      [
+       "Republican",
+       2
+      ],
+      [
+       "commission",
+       2
+      ],
+      [
+       "Clark County",
+       1
+      ],
+      [
+       "Legislative Council Bureau",
+       1
+      ],
+      [
+       "Legislature",
+       1
+      ],
+      [
+       "Local",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NH": {
+     "total": 12,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 4,
+      "economic_development": 3,
+      "environmental_legislation": 0
+     },
+     "topic_share": {
+      "climate": 0.0833,
+      "politics": 0.3333,
+      "economic_development": 0.25,
+      "environmental_legislation": 0.0
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "New Hampshire Bulletin": 12
+     },
+     "top_entities": [
+      [
+       "New Hampshire",
+       5
+      ],
+      [
+       "Councilors",
+       1
+      ],
+      [
+       "Joe Kenney",
+       1
+      ],
+      [
+       "John Stephen",
+       1
+      ],
+      [
+       "Last",
+       1
+      ],
+      [
+       "NH Journal",
+       1
+      ],
+      [
+       "New Hampshire Executive Councilors",
+       1
+      ],
+      [
+       "Since",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NJ": {
+     "total": 13,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 2,
+      "economic_development": 3,
+      "environmental_legislation": 1
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.1538,
+      "economic_development": 0.2308,
+      "environmental_legislation": 0.0769
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "New Jersey Monitor": 13
+     },
+     "top_entities": [
+      [
+       "July U.S",
+       1
+      ],
+      [
+       "Gov. Mikie Sherrill",
+       1
+      ],
+      [
+       "Governor",
+       1
+      ],
+      [
+       "Delaney Hall Three House",
+       1
+      ],
+      [
+       "Democrats",
+       1
+      ],
+      [
+       "House",
+       1
+      ],
+      [
+       "Morristown Tuesday",
+       1
+      ],
+      [
+       "New Jersey",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NM": {
+     "total": 19,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 8,
+      "economic_development": 3,
+      "environmental_legislation": 7
+     },
+     "topic_share": {
+      "climate": 0.1053,
+      "politics": 0.4211,
+      "economic_development": 0.1579,
+      "environmental_legislation": 0.3684
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Source New Mexico": 19
+     },
+     "top_entities": [
+      [
+       "New Mexico",
+       9
+      ],
+      [
+       "EPA",
+       5
+      ],
+      [
+       "Department",
+       2
+      ],
+      [
+       "Frijoles Fire",
+       1
+      ],
+      [
+       "Former WNMU",
+       1
+      ],
+      [
+       "President Joseph Shepard",
+       1
+      ],
+      [
+       "Western New Mexico University",
+       1
+      ],
+      [
+       "Much",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NY": {
+     "total": 3,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 1,
+      "economic_development": 1,
+      "environmental_legislation": 0
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.3333,
+      "economic_development": 0.3333,
+      "environmental_legislation": 0.0
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "New York Focus": 3
+     },
+     "top_entities": [
+      [
+       "Bronx Democratic Party",
+       1
+      ],
+      [
+       "Bronx Democrats Filed Reports",
+       1
+      ],
+      [
+       "Don",
+       1
+      ],
+      [
+       "Face Fines Enforcement Counsel",
+       1
+      ],
+      [
+       "Michael L. Johnson",
+       1
+      ],
+      [
+       "Years Late",
+       1
+      ],
+      [
+       "New York",
+       1
+      ],
+      [
+       "New York Loses Millions",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "NC": {
+     "total": 17,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 9,
+      "economic_development": 3,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0588,
+      "politics": 0.5294,
+      "economic_development": 0.1765,
+      "environmental_legislation": 0.2353
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "NC Newsline": 17
+     },
+     "top_entities": [
+      [
+       "North Carolina",
+       7
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Elections",
+       2
+      ],
+      [
+       "July. Job",
+       1
+      ],
+      [
+       "North Carolina. And",
+       1
+      ],
+      [
+       "U.S",
+       1
+      ],
+      [
+       "Balkcom",
+       1
+      ],
+      [
+       "Edwards",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "ND": {
+     "total": 13,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 7,
+      "economic_development": 5,
+      "environmental_legislation": 3
+     },
+     "topic_share": {
+      "climate": 0.1538,
+      "politics": 0.5385,
+      "economic_development": 0.3846,
+      "environmental_legislation": 0.2308
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "North Dakota Monitor": 13
+     },
+     "top_entities": [
+      [
+       "North Dakota",
+       8
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Governor",
+       3
+      ],
+      [
+       "Fargo",
+       2
+      ],
+      [
+       "Legislature",
+       2
+      ],
+      [
+       "Armstrong",
+       2
+      ],
+      [
+       "Energy",
+       1
+      ],
+      [
+       "Fertilizer",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "OH": {
+     "total": 42,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 16,
+      "economic_development": 12,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.0238,
+      "politics": 0.381,
+      "economic_development": 0.2857,
+      "environmental_legislation": 0.1905
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Ohio Capital Journal": 42
+     },
+     "top_entities": [
+      [
+       "Ohio",
+       14
+      ],
+      [
+       "EPA",
+       6
+      ],
+      [
+       "Trump",
+       4
+      ],
+      [
+       "Governor",
+       3
+      ],
+      [
+       "President Donald Trump",
+       2
+      ],
+      [
+       "Senate",
+       2
+      ],
+      [
+       "WASHINGTON",
+       2
+      ],
+      [
+       "Republican",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "OK": {
+     "total": 16,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 8,
+      "economic_development": 1,
+      "environmental_legislation": 6
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.5,
+      "economic_development": 0.0625,
+      "environmental_legislation": 0.375
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Oklahoma Voice": 16
+     },
+     "top_entities": [
+      [
+       "OKLAHOMA CITY",
+       8
+      ],
+      [
+       "Oklahoma",
+       7
+      ],
+      [
+       "EPA",
+       5
+      ],
+      [
+       "Senate",
+       2
+      ],
+      [
+       "U.S. Senate",
+       2
+      ],
+      [
+       "commission",
+       2
+      ],
+      [
+       "Oklahoma Department",
+       2
+      ],
+      [
+       "COLUMBIA",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "OR": {
+     "total": 12,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 6,
+      "economic_development": 3,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0833,
+      "politics": 0.5,
+      "economic_development": 0.25,
+      "environmental_legislation": 0.3333
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Oregon Capital Chronicle": 12
+     },
+     "top_entities": [
+      [
+       "Oregon",
+       8
+      ],
+      [
+       "Oregonians",
+       2
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "Federal",
+       1
+      ],
+      [
+       "Congress",
+       1
+      ],
+      [
+       "House",
+       1
+      ],
+      [
+       "Sen. Wyden",
+       1
+      ],
+      [
+       "Ted Cruz",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "PA": {
+     "total": 19,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 2,
+      "economic_development": 4,
+      "environmental_legislation": 1
+     },
+     "topic_share": {
+      "climate": 0.0526,
+      "politics": 0.1053,
+      "economic_development": 0.2105,
+      "environmental_legislation": 0.0526
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Pennsylvania Capital-Star": 19
+     },
+     "top_entities": [
+      [
+       "Amid",
+       1
+      ],
+      [
+       "ICE",
+       1
+      ],
+      [
+       "Pittsburgh",
+       1
+      ],
+      [
+       "Pittsburgh. Federal",
+       1
+      ],
+      [
+       "Data",
+       1
+      ],
+      [
+       "Each",
+       1
+      ],
+      [
+       "House",
+       1
+      ],
+      [
+       "Hyperscale",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "RI": {
+     "total": 16,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 9,
+      "economic_development": 3,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.5625,
+      "economic_development": 0.1875,
+      "environmental_legislation": 0.25
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Rhode Island Current": 16
+     },
+     "top_entities": [
+      [
+       "Rhode Island",
+       5
+      ],
+      [
+       "Democratic",
+       4
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Trump",
+       3
+      ],
+      [
+       "Sept",
+       3
+      ],
+      [
+       "Republican",
+       2
+      ],
+      [
+       "Rhode Island. The",
+       2
+      ],
+      [
+       "Democrats",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "SC": {
+     "total": 11,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 4,
+      "economic_development": 1,
+      "environmental_legislation": 2
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.3636,
+      "economic_development": 0.0909,
+      "environmental_legislation": 0.1818
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "South Carolina Daily Gazette": 11
+     },
+     "top_entities": [
+      [
+       "Senate",
+       3
+      ],
+      [
+       "COLUMBIA",
+       3
+      ],
+      [
+       "GOP",
+       2
+      ],
+      [
+       "Lindsey Graham",
+       2
+      ],
+      [
+       "U.S. Senate",
+       2
+      ],
+      [
+       "South Carolina",
+       2
+      ],
+      [
+       "Republican",
+       1
+      ],
+      [
+       "Ten",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "SD": {
+     "total": 15,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 6,
+      "economic_development": 4,
+      "environmental_legislation": 6
+     },
+     "topic_share": {
+      "climate": 0.1333,
+      "politics": 0.4,
+      "economic_development": 0.2667,
+      "environmental_legislation": 0.4
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "South Dakota Searchlight": 15
+     },
+     "top_entities": [
+      [
+       "South Dakota",
+       6
+      ],
+      [
+       "EPA",
+       6
+      ],
+      [
+       "Department",
+       3
+      ],
+      [
+       "Governor",
+       3
+      ],
+      [
+       "Republicans",
+       2
+      ],
+      [
+       "State",
+       2
+      ],
+      [
+       "House",
+       2
+      ],
+      [
+       "Democrats",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "TN": {
+     "total": 14,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 4,
+      "economic_development": 5,
+      "environmental_legislation": 1
+     },
+     "topic_share": {
+      "climate": 0.0714,
+      "politics": 0.2857,
+      "economic_development": 0.3571,
+      "environmental_legislation": 0.0714
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Tennessee Lookout": 14
+     },
+     "top_entities": [
+      [
+       "Tennessee",
+       4
+      ],
+      [
+       "Bureau",
+       1
+      ],
+      [
+       "July U.S",
+       1
+      ],
+      [
+       "Labor Statistics",
+       1
+      ],
+      [
+       "Mark Zandi",
+       1
+      ],
+      [
+       "There",
+       1
+      ],
+      [
+       "Democratic",
+       1
+      ],
+      [
+       "East Tennessee",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "TX": {
+     "total": 18,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 6,
+      "economic_development": 3,
+      "environmental_legislation": 1
+     },
+     "topic_share": {
+      "climate": 0.0556,
+      "politics": 0.3333,
+      "economic_development": 0.1667,
+      "environmental_legislation": 0.0556
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "The Texas Tribune": 18
+     },
+     "top_entities": [
+      [
+       "Big Bend",
+       2
+      ],
+      [
+       "Paxton",
+       2
+      ],
+      [
+       "Texas",
+       2
+      ],
+      [
+       "As Big Bend",
+       1
+      ],
+      [
+       "Activists",
+       1
+      ],
+      [
+       "Corpus Christi",
+       1
+      ],
+      [
+       "Legal",
+       1
+      ],
+      [
+       "Campaigning",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "UT": {
+     "total": 9,
+     "topic_volume": {
+      "climate": 2,
+      "politics": 3,
+      "economic_development": 3,
+      "environmental_legislation": 0
+     },
+     "topic_share": {
+      "climate": 0.2222,
+      "politics": 0.3333,
+      "economic_development": 0.3333,
+      "environmental_legislation": 0.0
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Utah News Dispatch": 9
+     },
+     "top_entities": [
+      [
+       "Utah",
+       4
+      ],
+      [
+       "Democratic United States",
+       1
+      ],
+      [
+       "Heinrich",
+       1
+      ],
+      [
+       "Ill",
+       1
+      ],
+      [
+       "NM US Sens",
+       1
+      ],
+      [
+       "New Mexico",
+       1
+      ],
+      [
+       "President Donald Trump",
+       1
+      ],
+      [
+       "Senate",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "VT": {
+     "total": 30,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 8,
+      "economic_development": 6,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0333,
+      "politics": 0.2667,
+      "economic_development": 0.2,
+      "environmental_legislation": 0.1333
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "VTDigger": 30
+     },
+     "top_entities": [
+      [
+       "VTDigger",
+       18
+      ],
+      [
+       "Read",
+       17
+      ],
+      [
+       "Vermont",
+       12
+      ],
+      [
+       "Governor",
+       6
+      ],
+      [
+       "Democratic",
+       5
+      ],
+      [
+       "Vermonters",
+       3
+      ],
+      [
+       "EPA",
+       2
+      ],
+      [
+       "The Department",
+       2
+      ]
+     ],
+     "presence": "covered"
+    },
+    "VA": {
+     "total": 22,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 7,
+      "economic_development": 5,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.0455,
+      "politics": 0.3182,
+      "economic_development": 0.2273,
+      "environmental_legislation": 0.3636
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Virginia Mercury": 22
+     },
+     "top_entities": [
+      [
+       "Virginia",
+       11
+      ],
+      [
+       "EPA",
+       7
+      ],
+      [
+       "Virginia Department",
+       4
+      ],
+      [
+       "Aug",
+       2
+      ],
+      [
+       "Department",
+       2
+      ],
+      [
+       "Hampton Roads",
+       2
+      ],
+      [
+       "Hemp",
+       1
+      ],
+      [
+       "Seven Virginia",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "WA": {
+     "total": 11,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 8,
+      "economic_development": 3,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0909,
+      "politics": 0.7273,
+      "economic_development": 0.2727,
+      "environmental_legislation": 0.3636
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Washington State Standard": 11
+     },
+     "top_entities": [
+      [
+       "Washington",
+       5
+      ],
+      [
+       "House",
+       4
+      ],
+      [
+       "EPA",
+       3
+      ],
+      [
+       "Legislature",
+       2
+      ],
+      [
+       "Department",
+       2
+      ],
+      [
+       "Today",
+       1
+      ],
+      [
+       "Constitution",
+       1
+      ],
+      [
+       "Constitution Party",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "WV": {
+     "total": 20,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 8,
+      "economic_development": 4,
+      "environmental_legislation": 8
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.4,
+      "economic_development": 0.2,
+      "environmental_legislation": 0.4
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "West Virginia Watch": 20
+     },
+     "top_entities": [
+      [
+       "EPA",
+       7
+      ],
+      [
+       "West Virginia",
+       6
+      ],
+      [
+       "Human Services",
+       3
+      ],
+      [
+       "Trump",
+       2
+      ],
+      [
+       "Morrisey",
+       2
+      ],
+      [
+       "Department",
+       2
+      ],
+      [
+       "Kanawha County",
+       2
+      ],
+      [
+       "President Donald Trump",
+       1
+      ]
+     ],
+     "presence": "covered"
+    },
+    "WI": {
+     "total": 24,
+     "topic_volume": {
+      "climate": 0,
+      "politics": 19,
+      "economic_development": 1,
+      "environmental_legislation": 4
+     },
+     "topic_share": {
+      "climate": 0.0,
+      "politics": 0.7917,
+      "economic_development": 0.0417,
+      "environmental_legislation": 0.1667
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "Wisconsin Examiner": 24
+     },
+     "top_entities": [
+      [
+       "Democratic",
+       12
+      ],
+      [
+       "Wisconsin",
+       10
+      ],
+      [
+       "Congressional District",
+       4
+      ],
+      [
+       "Democrats",
+       4
+      ],
+      [
+       "Republican",
+       4
+      ],
+      [
+       "EPA",
+       4
+      ],
+      [
+       "Governor",
+       4
+      ],
+      [
+       "Wisconsin Department",
+       3
+      ]
+     ],
+     "presence": "covered"
+    },
+    "WY": {
+     "total": 10,
+     "topic_volume": {
+      "climate": 1,
+      "politics": 7,
+      "economic_development": 0,
+      "environmental_legislation": 0
+     },
+     "topic_share": {
+      "climate": 0.1,
+      "politics": 0.7,
+      "economic_development": 0.0,
+      "environmental_legislation": 0.0
+     },
+     "outlet_count": 1,
+     "per_outlet": {
+      "WyoFile": 10
+     },
+     "top_entities": [
+      [
+       "WyoFile",
+       8
+      ],
+      [
+       "Wyoming",
+       4
+      ],
+      [
+       "Freedom Caucus",
+       1
+      ],
+      [
+       "GOP",
+       1
+      ],
+      [
+       "Gift",
+       1
+      ],
+      [
+       "House",
+       1
+      ],
+      [
+       "US House",
+       1
+      ],
+      [
+       "Notable Wyoming Republican",
+       1
+      ]
+     ],
+     "presence": "covered"
+    }
+   },
+   "meta": {
+    "presence_breakdown": {
+     "covered": 50
+    },
+    "states_covered": 50,
+    "states_low_volume": 0,
+    "states_silent": 0,
+    "states_no_feed": 0,
+    "backend": "offline_keyword",
+    "topics_version": "1.0.0",
+    "contains_synthetic": false
+   }
+  }
+ ]
+}

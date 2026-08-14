@@ -63,7 +63,7 @@
       "feed_url": "https://alabamareflector.com/feed/",
       "site_url": "https://alabamareflector.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -81,7 +81,7 @@
       "feed_url": "https://alaskabeacon.com/feed/",
       "site_url": "https://alaskabeacon.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -99,7 +99,7 @@
       "feed_url": "https://azmirror.com/feed/",
       "site_url": "https://azmirror.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -117,7 +117,7 @@
       "feed_url": "https://arkansasadvocate.com/feed/",
       "site_url": "https://arkansasadvocate.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -135,7 +135,7 @@
       "feed_url": "https://calmatters.org/feed/",
       "site_url": "https://calmatters.org",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -153,7 +153,7 @@
       "feed_url": "https://coloradonewsline.com/feed/",
       "site_url": "https://coloradonewsline.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -171,7 +171,7 @@
       "feed_url": "https://ctmirror.org/feed/",
       "site_url": "https://ctmirror.org",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -189,7 +189,7 @@
       "feed_url": "https://spotlightdelaware.org/feed/",
       "site_url": "https://spotlightdelaware.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -207,7 +207,7 @@
       "feed_url": "https://floridaphoenix.com/feed/",
       "site_url": "https://floridaphoenix.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -225,7 +225,7 @@
       "feed_url": "https://georgiarecorder.com/feed/",
       "site_url": "https://georgiarecorder.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -243,7 +243,7 @@
       "feed_url": "https://www.civilbeat.org/feed/",
       "site_url": "https://www.civilbeat.org",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -261,7 +261,7 @@
       "feed_url": "https://idahocapitalsun.com/feed/",
       "site_url": "https://idahocapitalsun.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -279,7 +279,7 @@
       "feed_url": "https://capitolnewsillinois.com/feed/",
       "site_url": "https://capitolnewsillinois.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -297,7 +297,7 @@
       "feed_url": "https://indianacapitalchronicle.com/feed/",
       "site_url": "https://indianacapitalchronicle.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -315,7 +315,7 @@
       "feed_url": "https://iowacapitaldispatch.com/feed/",
       "site_url": "https://iowacapitaldispatch.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -333,7 +333,7 @@
       "feed_url": "https://kansasreflector.com/feed/",
       "site_url": "https://kansasreflector.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -351,7 +351,7 @@
       "feed_url": "https://kentuckylantern.com/feed/",
       "site_url": "https://kentuckylantern.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -369,7 +369,7 @@
       "feed_url": "https://lailluminator.com/feed/",
       "site_url": "https://lailluminator.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -387,7 +387,7 @@
       "feed_url": "https://mainemorningstar.com/feed/",
       "site_url": "https://mainemorningstar.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -405,7 +405,7 @@
       "feed_url": "https://marylandmatters.org/feed/",
       "site_url": "https://marylandmatters.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -423,7 +423,7 @@
       "feed_url": "https://commonwealthbeacon.org/feed/",
       "site_url": "https://commonwealthbeacon.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -441,7 +441,7 @@
       "feed_url": "https://michiganadvance.com/feed/",
       "site_url": "https://michiganadvance.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -459,7 +459,7 @@
       "feed_url": "https://minnesotareformer.com/feed/",
       "site_url": "https://minnesotareformer.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -477,7 +477,7 @@
       "feed_url": "https://mississippitoday.org/feed/",
       "site_url": "https://mississippitoday.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -495,7 +495,7 @@
       "feed_url": "https://missouriindependent.com/feed/",
       "site_url": "https://missouriindependent.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -513,7 +513,7 @@
       "feed_url": "https://dailymontanan.com/feed/",
       "site_url": "https://dailymontanan.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -531,7 +531,7 @@
       "feed_url": "https://nebraskaexaminer.com/feed/",
       "site_url": "https://nebraskaexaminer.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -549,7 +549,7 @@
       "feed_url": "https://nevadacurrent.com/feed/",
       "site_url": "https://nevadacurrent.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -567,7 +567,7 @@
       "feed_url": "https://newhampshirebulletin.com/feed/",
       "site_url": "https://newhampshirebulletin.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -585,7 +585,7 @@
       "feed_url": "https://newjerseymonitor.com/feed/",
       "site_url": "https://newjerseymonitor.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -603,7 +603,7 @@
       "feed_url": "https://sourcenm.com/feed/",
       "site_url": "https://sourcenm.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -621,7 +621,7 @@
       "feed_url": "https://nysfocus.com/feed/",
       "site_url": "https://nysfocus.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -639,7 +639,7 @@
       "feed_url": "https://ncnewsline.com/feed/",
       "site_url": "https://ncnewsline.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -657,7 +657,7 @@
       "feed_url": "https://northdakotamonitor.com/feed/",
       "site_url": "https://northdakotamonitor.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -675,7 +675,7 @@
       "feed_url": "https://ohiocapitaljournal.com/feed/",
       "site_url": "https://ohiocapitaljournal.com",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -693,7 +693,7 @@
       "feed_url": "https://oklahomavoice.com/feed/",
       "site_url": "https://oklahomavoice.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -711,7 +711,7 @@
       "feed_url": "https://oregoncapitalchronicle.com/feed/",
       "site_url": "https://oregoncapitalchronicle.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -729,7 +729,7 @@
       "feed_url": "https://penncapital-star.com/feed/",
       "site_url": "https://penncapital-star.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -747,7 +747,7 @@
       "feed_url": "https://rhodeislandcurrent.com/feed/",
       "site_url": "https://rhodeislandcurrent.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -765,7 +765,7 @@
       "feed_url": "https://scdailygazette.com/feed/",
       "site_url": "https://scdailygazette.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -783,7 +783,7 @@
       "feed_url": "https://southdakotasearchlight.com/feed/",
       "site_url": "https://southdakotasearchlight.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -801,7 +801,7 @@
       "feed_url": "https://tennesseelookout.com/feed/",
       "site_url": "https://tennesseelookout.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -819,7 +819,7 @@
       "feed_url": "https://www.texastribune.org/feeds/main/",
       "site_url": "https://www.texastribune.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -837,7 +837,7 @@
       "feed_url": "https://utahnewsdispatch.com/feed/",
       "site_url": "https://utahnewsdispatch.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -855,7 +855,7 @@
       "feed_url": "https://vtdigger.org/feed/",
       "site_url": "https://vtdigger.org",
       "type": "nonprofit",
-      "status": "active",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -873,7 +873,7 @@
       "feed_url": "https://virginiamercury.com/feed/",
       "site_url": "https://virginiamercury.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -891,7 +891,7 @@
       "feed_url": "https://washingtonstatestandard.com/feed/",
       "site_url": "https://washingtonstatestandard.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -909,7 +909,7 @@
       "feed_url": "https://westvirginiawatch.com/feed/",
       "site_url": "https://westvirginiawatch.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -927,7 +927,7 @@
       "feed_url": "https://wisconsinexaminer.com/feed/",
       "site_url": "https://wisconsinexaminer.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -945,7 +945,7 @@
       "feed_url": "https://wyofile.com/feed/",
       "site_url": "https://wyofile.com",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
@@ -963,7 +963,7 @@
       "feed_url": "https://stateline.org/feed/",
       "site_url": "https://stateline.org",
       "type": "nonprofit",
-      "status": "candidate",
+      "status": "dead",
       "added": "2026-07-17",
       "discovery_source": "States Newsroom / Stateline (plan doc anchor source)",
       "validation": {

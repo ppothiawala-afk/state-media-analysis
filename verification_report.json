@@ -1,9 +1,9 @@
 {
   "_comment": "STRUCTURAL checks hold regardless of data volume; DATA checks WARN until a real ingest has run. 'All PASS' with DATA WARNs means the code is sound but no real data exists yet.",
-  "generated": "2026-08-14T18:33:39+00:00",
+  "generated": "2026-08-14T18:52:41+00:00",
   "summary": {
-    "PASS": 4,
-    "WARN": 5
+    "PASS": 7,
+    "WARN": 2
   },
   "checks": [
     {
@@ -33,26 +33,26 @@
     {
       "id": "D1",
       "kind": "DATA",
-      "status": "WARN",
-      "msg": "no archive yet \u2014 no real ingest has run"
+      "status": "PASS",
+      "msg": "1742 lines, no dupes, watermark 1742 intact"
     },
     {
       "id": "D2",
       "kind": "DATA",
-      "status": "WARN",
-      "msg": "no sightings yet"
+      "status": "PASS",
+      "msg": "1742 sighting ids all resolve to archive items"
     },
     {
       "id": "D3",
       "kind": "DATA",
-      "status": "WARN",
-      "msg": "no snapshots yet"
+      "status": "PASS",
+      "msg": "snapshot totals reproduce from archive window [2026-08-08..2026-08-14] (935 items, independent recompute)"
     },
     {
       "id": "D4",
       "kind": "DATA",
       "status": "WARN",
-      "msg": "only 0 snapshot(s); need 3 to judge dead feeds"
+      "msg": "only 1 snapshot(s); need 3 to judge dead feeds"
     },
     {
       "id": "D5",

@@ -81,16 +81,15 @@
       "feed_url": "https://alaskabeacon.com/feed/",
       "site_url": "https://alaskabeacon.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -117,16 +116,15 @@
       "feed_url": "https://arkansasadvocate.com/feed/",
       "site_url": "https://arkansasadvocate.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -189,16 +187,15 @@
       "feed_url": "https://spotlightdelaware.org/feed/",
       "site_url": "https://spotlightdelaware.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
       }
     },
     {
@@ -261,16 +258,15 @@
       "feed_url": "https://idahocapitalsun.com/feed/",
       "site_url": "https://idahocapitalsun.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -279,16 +275,15 @@
       "feed_url": "https://capitolnewsillinois.com/feed/",
       "site_url": "https://capitolnewsillinois.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
       }
     },
     {
@@ -297,16 +292,15 @@
       "feed_url": "https://indianacapitalchronicle.com/feed/",
       "site_url": "https://indianacapitalchronicle.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -315,16 +309,15 @@
       "feed_url": "https://iowacapitaldispatch.com/feed/",
       "site_url": "https://iowacapitaldispatch.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -333,16 +326,15 @@
       "feed_url": "https://kansasreflector.com/feed/",
       "site_url": "https://kansasreflector.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -351,16 +343,15 @@
       "feed_url": "https://kentuckylantern.com/feed/",
       "site_url": "https://kentuckylantern.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -369,16 +360,15 @@
       "feed_url": "https://lailluminator.com/feed/",
       "site_url": "https://lailluminator.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -387,16 +377,15 @@
       "feed_url": "https://mainemorningstar.com/feed/",
       "site_url": "https://mainemorningstar.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -405,16 +394,15 @@
       "feed_url": "https://marylandmatters.org/feed/",
       "site_url": "https://marylandmatters.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -423,16 +411,15 @@
       "feed_url": "https://commonwealthbeacon.org/feed/",
       "site_url": "https://commonwealthbeacon.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
       }
     },
     {
@@ -459,16 +446,15 @@
       "feed_url": "https://minnesotareformer.com/feed/",
       "site_url": "https://minnesotareformer.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -477,16 +463,15 @@
       "feed_url": "https://mississippitoday.org/feed/",
       "site_url": "https://mississippitoday.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
       }
     },
     {
@@ -495,16 +480,15 @@
       "feed_url": "https://missouriindependent.com/feed/",
       "site_url": "https://missouriindependent.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -513,16 +497,15 @@
       "feed_url": "https://dailymontanan.com/feed/",
       "site_url": "https://dailymontanan.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -531,16 +514,15 @@
       "feed_url": "https://nebraskaexaminer.com/feed/",
       "site_url": "https://nebraskaexaminer.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -549,16 +531,15 @@
       "feed_url": "https://nevadacurrent.com/feed/",
       "site_url": "https://nevadacurrent.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 95
       }
     },
     {
@@ -567,16 +548,15 @@
       "feed_url": "https://newhampshirebulletin.com/feed/",
       "site_url": "https://newhampshirebulletin.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -603,16 +583,15 @@
       "feed_url": "https://sourcenm.com/feed/",
       "site_url": "https://sourcenm.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -639,16 +618,15 @@
       "feed_url": "https://ncnewsline.com/feed/",
       "site_url": "https://ncnewsline.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -657,16 +635,15 @@
       "feed_url": "https://northdakotamonitor.com/feed/",
       "site_url": "https://northdakotamonitor.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -693,16 +670,15 @@
       "feed_url": "https://oklahomavoice.com/feed/",
       "site_url": "https://oklahomavoice.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -711,16 +687,15 @@
       "feed_url": "https://oregoncapitalchronicle.com/feed/",
       "site_url": "https://oregoncapitalchronicle.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -729,16 +704,15 @@
       "feed_url": "https://penncapital-star.com/feed/",
       "site_url": "https://penncapital-star.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -747,16 +721,15 @@
       "feed_url": "https://rhodeislandcurrent.com/feed/",
       "site_url": "https://rhodeislandcurrent.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -765,16 +738,15 @@
       "feed_url": "https://scdailygazette.com/feed/",
       "site_url": "https://scdailygazette.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 70
       }
     },
     {
@@ -783,16 +755,15 @@
       "feed_url": "https://southdakotasearchlight.com/feed/",
       "site_url": "https://southdakotasearchlight.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -801,16 +772,15 @@
       "feed_url": "https://tennesseelookout.com/feed/",
       "site_url": "https://tennesseelookout.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -819,16 +789,15 @@
       "feed_url": "https://www.texastribune.org/feeds/main/",
       "site_url": "https://www.texastribune.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 20,
+        "recent_items": 20
       }
     },
     {
@@ -837,16 +806,15 @@
       "feed_url": "https://utahnewsdispatch.com/feed/",
       "site_url": "https://utahnewsdispatch.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -873,16 +841,15 @@
       "feed_url": "https://virginiamercury.com/feed/",
       "site_url": "https://virginiamercury.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -891,16 +858,15 @@
       "feed_url": "https://washingtonstatestandard.com/feed/",
       "site_url": "https://washingtonstatestandard.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -909,16 +875,15 @@
       "feed_url": "https://westvirginiawatch.com/feed/",
       "site_url": "https://westvirginiawatch.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -927,16 +892,15 @@
       "feed_url": "https://wisconsinexaminer.com/feed/",
       "site_url": "https://wisconsinexaminer.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_affiliate_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
       }
     },
     {
@@ -945,16 +909,15 @@
       "feed_url": "https://wyofile.com/feed/",
       "site_url": "https://wyofile.com",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "states_newsroom_partner_roster (Wikipedia:States_Newsroom, 2026-07-17)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
       }
     },
     {
@@ -963,16 +926,15 @@
       "feed_url": "https://stateline.org/feed/",
       "site_url": "https://stateline.org",
       "type": "nonprofit",
-      "status": "dead",
+      "status": "active",
       "added": "2026-07-17",
       "discovery_source": "States Newsroom / Stateline (plan doc anchor source)",
       "validation": {
-        "validated": false,
-        "validated_on": null,
-        "method": "pattern-derived from WordPress /feed/ convention + States Newsroom roster; NOT yet live-checked in this project",
-        "content_type": null,
-        "last_item_date": null,
-        "items_seen": null
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 79
       }
     }
   ]

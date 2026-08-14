@@ -1,418 +1,580 @@
 {
   "_comment": "PROPOSALS ONLY \u2014 human review required. Merge approved entries with apply_feeds_patch.py. Discovery/health-check never edits feeds_config.json directly.",
-  "generated": "2026-08-14T19:00:57.568463+00:00",
+  "generated": "2026-08-14T19:04:24.789888+00:00",
   "mode": "+health-check",
   "adds": [],
-  "flags": [
+  "flags": [],
+  "validates": [
     {
-      "action": "flag",
-      "feed_url": "https://alabamareflector.com/feed/",
-      "outlet": "Alabama Reflector",
-      "state": "AL",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://alaskabeacon.com/feed/",
       "outlet": "Alaska Beacon",
       "state": "AK",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://azmirror.com/feed/",
-      "outlet": "Arizona Mirror",
-      "state": "AZ",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://arkansasadvocate.com/feed/",
       "outlet": "Arkansas Advocate",
       "state": "AR",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://calmatters.org/feed/",
-      "outlet": "CalMatters",
-      "state": "CA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
-      "feed_url": "https://coloradonewsline.com/feed/",
-      "outlet": "Colorado Newsline",
-      "state": "CO",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
-      "feed_url": "https://ctmirror.org/feed/",
-      "outlet": "Connecticut Mirror",
-      "state": "CT",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://spotlightdelaware.org/feed/",
       "outlet": "Spotlight Delaware",
       "state": "DE",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://floridaphoenix.com/feed/",
-      "outlet": "Florida Phoenix",
-      "state": "FL",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
-      "feed_url": "https://georgiarecorder.com/feed/",
-      "outlet": "Georgia Recorder",
-      "state": "GA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
-      "feed_url": "https://www.civilbeat.org/feed/",
-      "outlet": "Honolulu Civil Beat",
-      "state": "HI",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://idahocapitalsun.com/feed/",
       "outlet": "Idaho Capital Sun",
       "state": "ID",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://capitolnewsillinois.com/feed/",
       "outlet": "Capitol News Illinois",
       "state": "IL",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://indianacapitalchronicle.com/feed/",
       "outlet": "Indiana Capital Chronicle",
       "state": "IN",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://iowacapitaldispatch.com/feed/",
       "outlet": "Iowa Capital Dispatch",
       "state": "IA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://kansasreflector.com/feed/",
       "outlet": "Kansas Reflector",
       "state": "KS",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://kentuckylantern.com/feed/",
       "outlet": "Kentucky Lantern",
       "state": "KY",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://lailluminator.com/feed/",
       "outlet": "Louisiana Illuminator",
       "state": "LA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://mainemorningstar.com/feed/",
       "outlet": "Maine Morning Star",
       "state": "ME",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://marylandmatters.org/feed/",
       "outlet": "Maryland Matters",
       "state": "MD",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://commonwealthbeacon.org/feed/",
       "outlet": "Commonwealth Beacon",
       "state": "MA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://michiganadvance.com/feed/",
-      "outlet": "Michigan Advance",
-      "state": "MI",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://minnesotareformer.com/feed/",
       "outlet": "Minnesota Reformer",
       "state": "MN",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://mississippitoday.org/feed/",
       "outlet": "Mississippi Today",
       "state": "MS",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://missouriindependent.com/feed/",
       "outlet": "Missouri Independent",
       "state": "MO",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://dailymontanan.com/feed/",
       "outlet": "Daily Montanan",
       "state": "MT",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://nebraskaexaminer.com/feed/",
       "outlet": "Nebraska Examiner",
       "state": "NE",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://nevadacurrent.com/feed/",
       "outlet": "Nevada Current",
       "state": "NV",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 95
+      },
+      "reason": "healthy: 100 items, 95 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://newhampshirebulletin.com/feed/",
       "outlet": "New Hampshire Bulletin",
       "state": "NH",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://newjerseymonitor.com/feed/",
-      "outlet": "New Jersey Monitor",
-      "state": "NJ",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://sourcenm.com/feed/",
       "outlet": "Source New Mexico",
       "state": "NM",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://nysfocus.com/feed/",
-      "outlet": "New York Focus",
-      "state": "NY",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://ncnewsline.com/feed/",
       "outlet": "NC Newsline",
       "state": "NC",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://northdakotamonitor.com/feed/",
       "outlet": "North Dakota Monitor",
       "state": "ND",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://ohiocapitaljournal.com/feed/",
-      "outlet": "Ohio Capital Journal",
-      "state": "OH",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://oklahomavoice.com/feed/",
       "outlet": "Oklahoma Voice",
       "state": "OK",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://oregoncapitalchronicle.com/feed/",
       "outlet": "Oregon Capital Chronicle",
       "state": "OR",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://penncapital-star.com/feed/",
       "outlet": "Pennsylvania Capital-Star",
       "state": "PA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://rhodeislandcurrent.com/feed/",
       "outlet": "Rhode Island Current",
       "state": "RI",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://scdailygazette.com/feed/",
       "outlet": "South Carolina Daily Gazette",
       "state": "SC",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 70
+      },
+      "reason": "healthy: 100 items, 70 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://southdakotasearchlight.com/feed/",
       "outlet": "South Dakota Searchlight",
       "state": "SD",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://tennesseelookout.com/feed/",
       "outlet": "Tennessee Lookout",
       "state": "TN",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://www.texastribune.org/feeds/main/",
       "outlet": "The Texas Tribune",
       "state": "TX",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 20,
+        "recent_items": 20
+      },
+      "reason": "healthy: 20 items, 20 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://utahnewsdispatch.com/feed/",
       "outlet": "Utah News Dispatch",
       "state": "UT",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
-      "feed_url": "https://vtdigger.org/feed/",
-      "outlet": "VTDigger",
-      "state": "VT",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
-    },
-    {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://virginiamercury.com/feed/",
       "outlet": "Virginia Mercury",
       "state": "VA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://washingtonstatestandard.com/feed/",
       "outlet": "Washington State Standard",
       "state": "WA",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://westvirginiawatch.com/feed/",
       "outlet": "West Virginia Watch",
       "state": "WV",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://wisconsinexaminer.com/feed/",
       "outlet": "Wisconsin Examiner",
       "state": "WI",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://wyofile.com/feed/",
       "outlet": "WyoFile",
       "state": "WY",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent_items": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
     },
     {
-      "action": "flag",
+      "action": "validate",
       "feed_url": "https://stateline.org/feed/",
       "outlet": "Stateline",
       "state": "US",
-      "status_proposed": "dead",
-      "reason": "feedparser not installed"
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-08-14",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent_items": 79
+      },
+      "reason": "healthy: 100 items, 79 recent"
     }
   ],
-  "validates": [],
   "rejects": []
 }

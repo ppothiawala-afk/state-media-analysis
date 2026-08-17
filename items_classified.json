@@ -1,6 +1,6 @@
 {
   "_comment": "Derived from items_archive.jsonl. Counts, not judgments: no sentiment anywhere; topics from the locked allowed set only. Rebuildable via classify.py --rebuild.",
-  "generated": "2026-08-14",
+  "generated": "2026-08-17",
   "backend": "offline_keyword",
   "topics_version": "1.0.0",
   "allowed_topics": [
@@ -10,12 +10,12 @@
     "environmental_legislation"
   ],
   "stats": {
-    "archive_items": 1742,
-    "reused_cached": 0,
-    "newly_prefiltered_out": 553,
+    "archive_items": 1966,
+    "reused_cached": 1742,
+    "newly_prefiltered_out": 73,
     "api_calls": 0,
     "api_items": 0,
-    "classified": 1742,
+    "classified": 1966,
     "synthetic_items": 0
   },
   "items": [
@@ -28917,6 +28917,17 @@
       "entities": []
     },
     {
+      "id": "02df81eca1482e19",
+      "title": "Hurricane Lala Updates: Hawai\u02bbi Weather, Shelters, Map + More",
+      "link": "https://www.civilbeat.org/2026/08/hawaii-storm-update-forecast-schools-closures-2/",
+      "published": "2026-08-14",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "045fbfeba688f091",
       "title": "Congressional approval not needed for White House ballroom, Trump tells high court",
       "link": "https://alabamareflector.com/2026/08/14/repub/congressional-approval-not-needed-for-white-house-ballroom-trump-tells-high-court/",
@@ -28939,6 +28950,37 @@
       ]
     },
     {
+      "id": "07531d51ae55e28c",
+      "title": "Lawsuit alleges Newaygo County Jail, prison health providers failed to treat inmate\u2019s MS",
+      "link": "https://michiganadvance.com/2026/08/14/lawsuit-alleges-newaygo-county-jail-prison-health-providers-failed-to-treat-inmates-ms/",
+      "published": "2026-08-14",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Eastern District",
+        "Lawsuit",
+        "MS When Shane Veltkamp",
+        "Michigan",
+        "Newaygo County Jail",
+        "U.S. District Court"
+      ]
+    },
+    {
+      "id": "0854704d66c5207b",
+      "title": "Mississippi faith leaders denounce Ag Commissioner Andy Gipson\u2019s comments about Muslims and Sharia law",
+      "link": "https://mississippitoday.org/2026/08/14/andy-gipson-muslim-sharia-assma-ali/?utm_medium=rss",
+      "published": "2026-08-14",
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "0944bf9a68b6e66d",
       "title": "Most of this Utah county\u2019s license plate camera data is searched by out-of-state law enforcement",
       "link": "https://utahnewsdispatch.com/2026/08/14/weber-county-license-plate-camera-data-searched-by-out-of-state-law-enforcement/",
@@ -28948,6 +28990,29 @@
       "feed_url": "https://utahnewsdispatch.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "0ce25b86459769a6",
+      "title": "Josh Turek urges US Senate Democrats to help advance farm bill",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/josh-turek-urges-us-senate-democrats-to-help-advance-farm-bill/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democratic U.S. Senate",
+        "Earlier",
+        "Iowa State Fair",
+        "Josh Turek",
+        "Republicans",
+        "Senate",
+        "Senate Democrats",
+        "U.S. Senate Democrats",
+        "US Senate Democrats"
+      ]
     },
     {
       "id": "108b6533a7aa6337",
@@ -28974,6 +29039,29 @@
       "entities": [
         "Louisiana",
         "Motorola"
+      ]
+    },
+    {
+      "id": "11edeccd68566352",
+      "title": "Health records in GOP race for Oklahoma governor could help sway voters, experts say",
+      "link": "https://oklahomavoice.com/2026/08/14/health-records-in-gop-race-for-oklahoma-governor-could-help-sway-voters-experts-say/",
+      "published": "2026-08-14",
+      "state": "OK",
+      "outlet": "Oklahoma Voice",
+      "feed_url": "https://oklahomavoice.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Drummond",
+        "Following",
+        "GOP",
+        "Gentner Drummond",
+        "Governor",
+        "Health",
+        "OKLAHOMA CITY",
+        "Oklahoma",
+        "Republican"
       ]
     },
     {
@@ -29020,6 +29108,24 @@
       ]
     },
     {
+      "id": "1506a10047996dbc",
+      "title": "U.S. Rep. Russell Fry endorses Sen. Darline Graham in GOP runoff",
+      "link": "https://scdailygazette.com/2026/08/14/u-s-rep-russell-fry-endorses-sen-darline-graham-in-gop-runoff/",
+      "published": "2026-08-14",
+      "state": "SC",
+      "outlet": "South Carolina Daily Gazette",
+      "feed_url": "https://scdailygazette.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "GOP",
+        "Sen. Darline Graham",
+        "Senate",
+        "U.S. Rep. Russell Fry"
+      ]
+    },
+    {
       "id": "16ae8aaf93fdd718",
       "title": "New Mexico Department of Health announces 18th measles case for 2026",
       "link": "https://sourcenm.com/2026/08/14/new-mexico-department-of-health-announces-18th-measles-case-for-2026/",
@@ -29060,6 +29166,17 @@
       ]
     },
     {
+      "id": "18e238b3a2e9e596",
+      "title": "Proceeds from Idaho Women Veterans Medallion to benefit Boise, Blackfoot state veterans cemeteries",
+      "link": "https://idahocapitalsun.com/briefs/proceeds-from-idaho-women-veterans-medallion-to-benefit-boise-blackfoot-state-veterans-cemeteries/",
+      "published": "2026-08-14",
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "19d4e4be9e9654f1",
       "title": "Lawsuit seeks to stop Big Bend border wall construction",
       "link": "https://feeds.texastribune.org/link/16799/17418172/texas-big-bend-border-wall-lawsuit-lipan-apache",
@@ -29076,6 +29193,49 @@
       ]
     },
     {
+      "id": "1ae5469ee9d977b4",
+      "title": "Digital ad sales tax struck down by court",
+      "link": "https://marylandmatters.org/2026/08/14/digital-ad-sales-tax-struck-down/",
+      "published": "2026-08-14",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "1dba758a7cca3240",
+      "title": "Nebraska\u2019s July tax receipts come close to economic forecasts as impact of tax refunds wanes",
+      "link": "https://nebraskaexaminer.com/briefs/nebraskas-july-tax-receipts-come-close-to-economic-forecasts-as-impact-of-tax-refunds-wanes/",
+      "published": "2026-08-14",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Department",
+        "EPA",
+        "Economic Forecasting Advisory Board",
+        "LINCOLN",
+        "Nebraska",
+        "Revenue",
+        "The Department"
+      ]
+    },
+    {
+      "id": "1e0b8e1b9a0ad299",
+      "title": "Tropical Storm Lala Updates: Hawai\u02bbi Weather, Shelters, Map + More",
+      "link": "https://www.civilbeat.org/2026/08/hawaii-storm-update-forecast-schools-closures-2/",
+      "published": "2026-08-14",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "1e595f91880b0e3f",
       "title": "Missouri\u2019s first ketamine therapy practice bets on what comes next",
       "link": "https://missouriindependent.com/2026/08/14/missouris-first-ketamine-therapy-practice-bets-on-what-comes-next/",
@@ -29085,6 +29245,27 @@
       "feed_url": "https://missouriindependent.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "1fc56f5c091a3694",
+      "title": "After nearly seven months in detention, Maine man granted permanent residency",
+      "link": "https://mainemorningstar.com/2026/08/14/after-nearly-seven-months-in-detention-maine-man-granted-permanent-residency/",
+      "published": "2026-08-14",
+      "state": "ME",
+      "outlet": "Maine Morning Star",
+      "feed_url": "https://mainemorningstar.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "After",
+        "Alessia Gaspar",
+        "Arizona. His",
+        "Bridgton",
+        "Da Silva",
+        "Maine",
+        "Marcos Gaspar"
+      ]
     },
     {
       "id": "20b027e9a0134cc4",
@@ -29104,6 +29285,35 @@
         "WyoFile",
         "Wyoming",
         "Wyoming Freedom Caucus"
+      ]
+    },
+    {
+      "id": "20b9c814e3f0042a",
+      "title": "New study: Treating opioid misuse with mindfulness therapy could yield savings",
+      "link": "https://washingtonstatestandard.com/2026/08/14/treating-opioid-misuse-with-mindfulness-therapy-could-save-thousands-of-dollars-new-study-says/",
+      "published": "2026-08-14",
+      "state": "WA",
+      "outlet": "Washington State Standard",
+      "feed_url": "https://washingtonstatestandard.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "20fc2860ad5f0f02",
+      "title": "As summer heat waves intensify, North Carolina advocates push for farmworker protection",
+      "link": "https://ncnewsline.com/2026/08/14/as-summer-heat-waves-intensify-north-carolina-advocates-push-for-farmworker-protection/",
+      "published": "2026-08-14",
+      "state": "NC",
+      "outlet": "NC Newsline",
+      "feed_url": "https://ncnewsline.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Meteorologists",
+        "National Weather Service",
+        "North Carolina",
+        "When"
       ]
     },
     {
@@ -29253,6 +29463,17 @@
       ]
     },
     {
+      "id": "30df908d397d0774",
+      "title": "Ella se declar\u00f3 culpable de un cargo de tr\u00e1fico de drogas. Luego visit\u00f3 M\u00e9xico sin saber que no podr\u00eda regresar.",
+      "link": "https://calmatters.org/calmatters-en-espanol/2026/08/acuerdo-de-culpabilidad-riesgos-migratorios/",
+      "published": "2026-08-14",
+      "state": "CA",
+      "outlet": "CalMatters",
+      "feed_url": "https://calmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "34b56c09a0b913d7",
       "title": "PUCN denies public session on NV Energy\u2019s data center-driven resource plan, advocates call foul",
       "link": "https://nevadacurrent.com/2026/08/14/pucn-denies-public-session-on-nv-energys-data-center-driven-resource-plan-advocates-call-foul/",
@@ -29285,6 +29506,25 @@
       "feed_url": "https://virginiamercury.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "39ff0b6b3751395a",
+      "title": "Nearly 1.5 million Floridians have voted in advance of Tuesday\u2019s primary elections",
+      "link": "https://floridaphoenix.com/briefs/nearly-1-5-million-floridians-have-voted-in-advance-of-tuesdays-primary-elections/",
+      "published": "2026-08-14",
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Floridians",
+        "More",
+        "Nearly",
+        "Republican",
+        "Thursday. Of"
+      ]
     },
     {
       "id": "3b730cd4bdcc3dc5",
@@ -29452,6 +29692,39 @@
       "entities": []
     },
     {
+      "id": "48bac639c6d3ba13",
+      "title": "Five judges so far file to run for SC Supreme Court seat",
+      "link": "https://scdailygazette.com/2026/08/14/five-judges-so-far-file-to-run-for-sc-supreme-court-seat/",
+      "published": "2026-08-14",
+      "state": "SC",
+      "outlet": "South Carolina Daily Gazette",
+      "feed_url": "https://scdailygazette.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "4bb51cc1b456a9db",
+      "title": "Iowa nursing home chain faces second lawsuit alleging unpaid bills",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/iowa-nursing-home-chain-faces-second-lawsuit-alleging-unpaid-bills/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Accura",
+        "Accura Healthcare",
+        "Gibbins Advisors",
+        "Iowa",
+        "Oklahoma",
+        "One",
+        "Polk County District Court",
+        "Tennessee"
+      ]
+    },
+    {
       "id": "5005b697b8860c09",
       "title": "Stockard on the Stump: Special session talk on tax appraisals rears its head",
       "link": "https://tennesseelookout.com/2026/08/14/stockard-on-the-stump-special-session-talk-on-tax-appraisals-rears-its-head/",
@@ -29531,6 +29804,17 @@
       ]
     },
     {
+      "id": "5aa6a20421f576ba",
+      "title": "Post office photography exhibit removed for \u2018political content\u2019",
+      "link": "https://vtdigger.org/2026/08/14/post-office-photography-exhibit-removed-for-political-content/",
+      "published": "2026-08-14",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "5b9220aa7d472021",
       "title": "\u2018Does He Ever Sleep?\u2019: New Honolulu Police Chief Hits The Ground Running",
       "link": "https://www.civilbeat.org/2026/08/does-he-ever-sleep-new-honolulu-police-chief-hits-the-ground-running/",
@@ -29549,6 +29833,17 @@
       "state": "MN",
       "outlet": "Minnesota Reformer",
       "feed_url": "https://minnesotareformer.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "5c95393f9269bfa0",
+      "title": "As the only Texas district to trigger potential state takeover, Austin ISD\u2019s future now in TEA\u2019s hands",
+      "link": "https://feeds.texastribune.org/link/16799/17418472/austin-isd-ratings-texas-school-takeover-trigger",
+      "published": "2026-08-14",
+      "state": "TX",
+      "outlet": "The Texas Tribune",
+      "feed_url": "https://www.texastribune.org/feeds/main/",
       "topics": [],
       "entities": []
     },
@@ -29618,6 +29913,17 @@
       "entities": []
     },
     {
+      "id": "5fd996fc19d5dd52",
+      "title": "Braun seeks federal emergency declaration after storms batter Indiana",
+      "link": "https://indianacapitalchronicle.com/2026/08/14/braun-seeks-federal-emergency-declaration-after-storms-batter-indiana/",
+      "published": "2026-08-14",
+      "state": "IN",
+      "outlet": "Indiana Capital Chronicle",
+      "feed_url": "https://indianacapitalchronicle.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "60765951d4771aa6",
       "title": "Where\u2019d the birds go? Federal staffing cuts hit CA refuge",
       "link": "https://calmatters.org/newsletter/wildlife-refuge-staffing-cuts/",
@@ -29651,6 +29957,17 @@
       "entities": []
     },
     {
+      "id": "64104e2b16cea2fa",
+      "title": "ICE recently arrested at least 9 people in Vermont as the agency appears to ramp up immigration enforcement across the state",
+      "link": "https://vtdigger.org/2026/08/14/ice-recently-arrested-at-least-9-people-in-vermont-as-the-agency-appears-to-ramp-up-immigration-enforcement-across-the-state/",
+      "published": "2026-08-14",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "64cb975f0ebf405f",
       "title": "Advocates: Public defenders in Hinds County give everything. It\u2019s time to return the favor",
       "link": "https://mississippitoday.org/2026/08/14/public-defenders-hinds-county/?utm_medium=rss",
@@ -29658,6 +29975,94 @@
       "state": "MS",
       "outlet": "Mississippi Today",
       "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "67c62020efbce116",
+      "title": "U.S. House candidate Bohannan commits to spend more on cancer research",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/u-s-house-candidate-bohannan-commits-to-spend-more-on-cancer-research/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Bohannan",
+        "Books",
+        "House",
+        "IOWA CITY",
+        "Kendra",
+        "Morgan Newman",
+        "Newman",
+        "Norwalk",
+        "Sidekick Coffee",
+        "U.S. House"
+      ]
+    },
+    {
+      "id": "6862b921a2324c13",
+      "title": "Tasia Fortune\u2019s troubled life leaves her family grieving, and waiting, as police investigate her death",
+      "link": "https://mississippitoday.org/2026/08/14/tasia-fortune-death-grieving-family/?utm_medium=rss",
+      "published": "2026-08-14",
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "688737e6be26754e",
+      "title": "Southeast Tech and Thune honor late US senator with $18 million manufacturing building",
+      "link": "https://southdakotasearchlight.com/2026/08/14/southeast-tech-and-thune-honor-late-us-senator-with-18-million-manufacturing-building/",
+      "published": "2026-08-14",
+      "state": "SD",
+      "outlet": "South Dakota Searchlight",
+      "feed_url": "https://southdakotasearchlight.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Advanced Manufacturing",
+        "James Abdnor Center",
+        "Local",
+        "SIOUX FALLS",
+        "Sioux Falls",
+        "South Dakota",
+        "Southeast Tech",
+        "Southeast Technical College",
+        "Thune"
+      ]
+    },
+    {
+      "id": "68ee0d9b0e1f341c",
+      "title": "Preliminary 2027 forecast for Alaska\u2019s Bristol Bay fishery predicts more, smaller sockeye",
+      "link": "https://alaskabeacon.com/2026/08/14/preliminary-2027-forecast-for-alaskas-bristol-bay-fishery-predicts-more-smaller-sockeye/",
+      "published": "2026-08-14",
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Alaska",
+        "Bristol Bay",
+        "Preliminary",
+        "Their",
+        "With"
+      ]
+    },
+    {
+      "id": "69b163bd9c9b7533",
+      "title": "Abuse victims ask Arizona high court to reconsider its clergy-shield ruling",
+      "link": "https://azmirror.com/2026/08/14/abuse-victims-ask-arizona-high-court-to-reconsider-its-clergy-shield-ruling/",
+      "published": "2026-08-14",
+      "state": "AZ",
+      "outlet": "Arizona Mirror",
+      "feed_url": "https://azmirror.com/feed/",
       "topics": [],
       "entities": []
     },
@@ -29772,6 +30177,29 @@
       ]
     },
     {
+      "id": "735d564d0b24912d",
+      "title": "State Sen. Mike Bousselot ends 2026 campaign",
+      "link": "https://iowacapitaldispatch.com/briefs/state-sen-mike-bousselot-ends-2026-campaign/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Ankeny Republican",
+        "Aug",
+        "Democratic",
+        "Elkhart",
+        "Senate",
+        "Senate District",
+        "State Sen. Mike Bousselot",
+        "The Republican Party",
+        "Tony Thompson"
+      ]
+    },
+    {
       "id": "736b1a3533cacbd0",
       "title": "DOJ Targets 3 More States In Effort To Axe In-State Tuition For Immigrants",
       "link": "https://www.civilbeat.org/2026/08/doj-targets-3-more-states-in-effort-to-axe-in-state-tuition-for-immigrants/",
@@ -29864,6 +30292,28 @@
       ]
     },
     {
+      "id": "8305fd125a2c302e",
+      "title": "Most rejected Lindstrom signatures came in Lancaster County, where only 25% were approved",
+      "link": "https://nebraskaexaminer.com/briefs/most-rejected-lindstrom-signatures-came-in-lancaster-county-where-only-25-were-approved/",
+      "published": "2026-08-14",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Governor",
+        "LINCOLN",
+        "Lancaster County",
+        "Lancaster County. Just",
+        "Lindstrom",
+        "Most",
+        "Nebraska",
+        "Sen. Brett Lindstrom"
+      ]
+    },
+    {
       "id": "831eb023f569e8a4",
       "title": "Political Notebook: Layoffs the latest sign of trouble for clean energy",
       "link": "https://commonwealthbeacon.org/politics/political-notebook-layoffs-the-latest-sign-of-trouble-for-clean-energy/",
@@ -29910,6 +30360,25 @@
       "entities": []
     },
     {
+      "id": "849e977bad8d1d18",
+      "title": "Georgia officials say new federal Medicaid rules threaten state\u2019s partial expansion program",
+      "link": "https://georgiarecorder.com/2026/08/14/georgia-officials-say-new-federal-medicaid-rules-threaten-states-partial-expansion-program/",
+      "published": "2026-08-14",
+      "state": "GA",
+      "outlet": "Georgia Recorder",
+      "feed_url": "https://georgiarecorder.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Community Health",
+        "Georgia",
+        "Medicaid",
+        "The Board",
+        "Trump"
+      ]
+    },
+    {
       "id": "86623dfcaeee5d3d",
       "title": "More GOP party platforms include anti-IVF language. Is surrogacy next?",
       "link": "https://arkansasadvocate.com/2026/08/14/repub/more-gop-party-platforms-include-anti-ivf-language-is-surrogacy-next/",
@@ -29928,6 +30397,27 @@
         "IVF",
         "Idaho",
         "More GOP"
+      ]
+    },
+    {
+      "id": "8708f21475940153",
+      "title": "WA state House candidate accused of refusing breathalyzer, charged with DUI",
+      "link": "https://washingtonstatestandard.com/2026/08/14/wa-state-house-candidate-accused-of-refusing-breathalyzer-charged-with-dui/",
+      "published": "2026-08-14",
+      "state": "WA",
+      "outlet": "Washington State Standard",
+      "feed_url": "https://washingtonstatestandard.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "DUI Authorities",
+        "House",
+        "Krista Perez",
+        "South",
+        "Street",
+        "Tacoma",
+        "Washington"
       ]
     },
     {
@@ -30020,6 +30510,25 @@
       "entities": []
     },
     {
+      "id": "8f2f9e7c719e9847",
+      "title": "Line of credit, more oversight proposed for stalled North Dakota Military Gallery project",
+      "link": "https://northdakotamonitor.com/2026/08/14/line-of-credit-more-oversight-proposed-for-stalled-north-dakota-military-gallery-project/",
+      "published": "2026-08-14",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Line",
+        "Military Gallery",
+        "North Dakota Military Gallery",
+        "Their",
+        "Top North Dakota Republican"
+      ]
+    },
+    {
       "id": "8fb70953fae7bd07",
       "title": "NC\u2019s State Board of Elections must stand up for student voters",
       "link": "https://ncnewsline.com/2026/08/14/ncs-state-board-of-elections-must-stand-up-for-student-voters/",
@@ -30104,6 +30613,52 @@
       "entities": []
     },
     {
+      "id": "972dc4701243d292",
+      "title": "Vermont Supreme Court shuts door on appeal to use police misconduct findings in murder defense",
+      "link": "https://vtdigger.org/2026/08/14/vermont-supreme-court-shuts-door-on-appeal-to-use-police-misconduct-findings-in-murder-defense/",
+      "published": "2026-08-14",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "97d5b32e20457cbc",
+      "title": "Data centers, vapes, childcare aid emerge for North Dakota special session consideration",
+      "link": "https://northdakotamonitor.com/2026/08/14/data-centers-vapes-childcare-aid-emerge-for-north-dakota-special-session-consideration/",
+      "published": "2026-08-14",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Data",
+        "North Dakota",
+        "Sept"
+      ]
+    },
+    {
+      "id": "9985f67c3c340670",
+      "title": "Texas will audit up to 300 projects, mostly data centers, after Gov. Greg Abbott\u2019s order",
+      "link": "https://feeds.texastribune.org/link/16799/17418589/texas-data-center-approval-pause-ercot-power-grid",
+      "published": "2026-08-14",
+      "state": "TX",
+      "outlet": "The Texas Tribune",
+      "feed_url": "https://www.texastribune.org/feeds/main/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Abbott",
+        "Gov. Greg Abbott",
+        "Texas"
+      ]
+    },
+    {
       "id": "9a1ccde271c652bc",
       "title": "Data center audit lacks specifics even as Gov. Abbott, industry leaders tout it",
       "link": "https://feeds.texastribune.org/link/16799/17417992/data-center-texas-audit-moratorium",
@@ -30130,6 +30685,86 @@
       "feed_url": "https://www.texastribune.org/feeds/main/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "9caa18e6f8710228",
+      "title": "Supreme Court orders GOP to rewrite \u2018argumentative\u2019 voucher measure summary",
+      "link": "https://azmirror.com/2026/08/14/supreme-court-orders-gop-to-rewrite-argumentative-voucher-measure-summary/",
+      "published": "2026-08-14",
+      "state": "AZ",
+      "outlet": "Arizona Mirror",
+      "feed_url": "https://azmirror.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "GOP",
+        "Proposition",
+        "Protect Education Act",
+        "Republican",
+        "Supreme Court",
+        "The Arizona Supreme Court",
+        "The Protect Education Act"
+      ]
+    },
+    {
+      "id": "9e4a948f3efba535",
+      "title": "Arkansas judge grants AG\u2019s motion to dismiss his open-records suit against prison board",
+      "link": "https://arkansasadvocate.com/2026/08/14/arkansas-judge-grants-ags-motion-to-dismiss-his-open-records-suit-against-prison-board/",
+      "published": "2026-08-14",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "An Arkansas",
+        "Arkansas",
+        "Attorney General Tim Griffin",
+        "Board",
+        "Corrections",
+        "Pulaski County Circuit Judge",
+        "Supreme Court",
+        "Tim Fox"
+      ]
+    },
+    {
+      "id": "9fc90286888ec236",
+      "title": "Colorado Rep. Mandy Lindsay defends caucus payments during ethics hearing",
+      "link": "https://coloradonewsline.com/briefs/colorado-rep-mandy-lindsay-defends-caucus-payments-during-ethics-hearing/",
+      "published": "2026-08-14",
+      "state": "CO",
+      "outlet": "Colorado Newsline",
+      "feed_url": "https://coloradonewsline.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Colorado Rep. Mandy Lindsay",
+        "House",
+        "House Democratic Caucus"
+      ]
+    },
+    {
+      "id": "a250c4f596376217",
+      "title": "New Mexico officials say they\u2019re still at an \u2018impasse\u2019 with feds over spreading chromium plume",
+      "link": "https://sourcenm.com/2026/08/14/new-mexico-officials-say-theyre-still-at-an-impasse-with-feds-over-spreading-chromium-plume/",
+      "published": "2026-08-14",
+      "state": "NM",
+      "outlet": "Source New Mexico",
+      "feed_url": "https://sourcenm.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "EPA",
+        "Los Alamos National Laboratory",
+        "New Mexico",
+        "New Mexico Environment Department",
+        "Pueblo"
+      ]
     },
     {
       "id": "a2550a0f34be8a8c",
@@ -30197,6 +30832,39 @@
       ]
     },
     {
+      "id": "a59a693bcc7084e3",
+      "title": "New Mexico behavioral health committee approves $40M in funding for rural behavioral health plans",
+      "link": "https://sourcenm.com/2026/08/14/new-mexico-behavioral-health-committee-approves-40m-in-funding-for-rural-behavioral-health-plans/",
+      "published": "2026-08-14",
+      "state": "NM",
+      "outlet": "Source New Mexico",
+      "feed_url": "https://sourcenm.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "New Mexico"
+      ]
+    },
+    {
+      "id": "a727e63f6b9849b5",
+      "title": "Justice family to share ownership of The Greenbrier",
+      "link": "https://westvirginiawatch.com/2026/08/14/justice-family-to-share-ownership-of-the-greenbrier/",
+      "published": "2026-08-14",
+      "state": "WV",
+      "outlet": "West Virginia Watch",
+      "feed_url": "https://westvirginiawatch.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Justice",
+        "New York",
+        "The Greenbrier",
+        "West Virginia"
+      ]
+    },
+    {
       "id": "a92284b4a4a5ca28",
       "title": "Lincoln police staffing initiative will not be on November ballot",
       "link": "https://nebraskaexaminer.com/2026/08/14/lincoln-police-staffing-initiative-will-not-be-on-november-ballot/",
@@ -30260,6 +30928,47 @@
       ]
     },
     {
+      "id": "aa426ddc24bcfdf1",
+      "title": "Oklahoma rehabilitation agency names new director",
+      "link": "https://oklahomavoice.com/2026/08/14/oklahoma-rehabilitation-agency-names-new-chief/",
+      "published": "2026-08-14",
+      "state": "OK",
+      "outlet": "Oklahoma Voice",
+      "feed_url": "https://oklahomavoice.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "EPA",
+        "Melinda Fruendt. He",
+        "OKLAHOMA CITY",
+        "Oklahoma",
+        "Oklahoma Department",
+        "Rehabilitation Services",
+        "Sterling Zearley"
+      ]
+    },
+    {
+      "id": "abc4d7b4c2c1597b",
+      "title": "Kansas firefighters union advocating for staffing increase alleges government violated free speech",
+      "link": "https://kansasreflector.com/2026/08/14/kansas-firefighters-union-advocating-for-staffing-increase-alleges-government-violated-free-speech/",
+      "published": "2026-08-14",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Kansas",
+        "Kansas Professional Firefighters Association",
+        "TOPEKA",
+        "The Kansas City",
+        "Unified Government",
+        "Wyandotte County"
+      ]
+    },
+    {
       "id": "ae57ea074037a312",
       "title": "Haitians in Springfield are required to report to Ohio\u2019s ICE offices and wear ankle monitors",
       "link": "https://ohiocapitaljournal.com/2026/08/14/haitians-in-springfield-are-required-to-report-to-ohios-ice-offices-and-wear-ankle-monitors/",
@@ -30278,6 +30987,17 @@
       "state": "WV",
       "outlet": "West Virginia Watch",
       "feed_url": "https://westvirginiawatch.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "b35f87031dee5cf2",
+      "title": "Settlement Led to Major Improvements at Troubled Nursing Home Chain, Report Finds",
+      "link": "https://nysfocus.com/2026/08/14/new-york-nursing-home-settlement-improvements",
+      "published": "2026-08-14",
+      "state": "NY",
+      "outlet": "New York Focus",
+      "feed_url": "https://nysfocus.com/feed/",
       "topics": [],
       "entities": []
     },
@@ -30318,6 +31038,17 @@
       ]
     },
     {
+      "id": "b8c347f9d155a4d7",
+      "title": "New rule allows dogs on Alaska\u2019s Pribilof Islands for anti-rat duties",
+      "link": "https://alaskabeacon.com/2026/08/14/new-rule-allows-dogs-on-alaskas-pribilof-islands-for-anti-rat-duties/",
+      "published": "2026-08-14",
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "b989999979f340a7",
       "title": "Schools spend billions on AI, but struggle to figure out what\u2019s worth buying",
       "link": "https://dailymontanan.com/2026/08/14/repub/schools-spend-billions-on-ai-but-struggle-to-figure-out-whats-worth-buying/",
@@ -30329,6 +31060,43 @@
       "entities": []
     },
     {
+      "id": "b9f3e8ef3e285d72",
+      "title": "Flock Safety tightens safeguards as states, cities question surveillance network",
+      "link": "https://alabamareflector.com/2026/08/14/repub/flock-safety-tightens-safeguards-as-states-cities-question-surveillance-network/",
+      "published": "2026-08-14",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Flock Safety"
+      ]
+    },
+    {
+      "id": "ba9d0c25d2e1b17f",
+      "title": "Higher education commissioner stepping down in September",
+      "link": "https://commonwealthbeacon.org/education/higher-education-commissioner-stepping-down-in-september/",
+      "published": "2026-08-14",
+      "state": "MA",
+      "outlet": "Commonwealth Beacon",
+      "feed_url": "https://commonwealthbeacon.org/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Department",
+        "EPA",
+        "Education Secretary Patrick Tutwiler",
+        "Elementary",
+        "Higher",
+        "Secondary Education",
+        "September Ortega",
+        "commission"
+      ]
+    },
+    {
       "id": "bb40c61acd3aa14b",
       "title": "Congress\u2019 approval not needed for White House ballroom, Trump tells high court",
       "link": "https://lailluminator.com/2026/08/14/repub/white-house-ballroom-2/",
@@ -30338,6 +31106,28 @@
       "feed_url": "https://lailluminator.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "bc323feb2c6f38c3",
+      "title": "Arkansas panel revises proposal restricting access to \u2018sexually explicit\u2019 library materials",
+      "link": "https://arkansasadvocate.com/2026/08/14/arkansas-panel-revises-proposal-restricting-access-to-sexually-explicit-library-materials/",
+      "published": "2026-08-14",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Arkansans",
+        "Arkansas",
+        "Board",
+        "Department",
+        "EPA",
+        "Education",
+        "Sept",
+        "The Arkansas State Library"
+      ]
     },
     {
       "id": "bc601fcf509f91a0",
@@ -30376,6 +31166,41 @@
       ]
     },
     {
+      "id": "bf6218e4e3346d91",
+      "title": "Q&A: Thune says Republicans can hold their majority \u2014 if they stop fighting each other",
+      "link": "https://nebraskaexaminer.com/2026/08/14/repub/qa-thune-says-republicans-can-hold-their-majority-if-they-stop-fighting-each-other/",
+      "published": "2026-08-14",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Iran. But Thune",
+        "John Thune",
+        "Republican Party",
+        "Republicans",
+        "SIOUX FALLS",
+        "Senate",
+        "South Dakota",
+        "South Dakota Searchlight",
+        "Thune",
+        "U.S. Senate Majority Leader"
+      ]
+    },
+    {
+      "id": "c003dac240c36d72",
+      "title": "Gender-affirming care, Russia sanctions and Kalshi: CT politics news",
+      "link": "https://ctmirror.org/2026/08/14/ct-politics-news-august-14/",
+      "published": "2026-08-14",
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "c1cf5fe3b5a0f81f",
       "title": "UMWA calls for \u2018immediate\u2019 enforcement of silica rule as black lung hits new high in Appalachia",
       "link": "https://kentuckylantern.com/2026/08/14/repub/umwa-calls-for-immediate-enforcement-of-silica-rule-as-black-lung-hits-new-high-in-appalachia/",
@@ -30385,6 +31210,30 @@
       "feed_url": "https://kentuckylantern.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "c2d7c9fbd1e3385a",
+      "title": "Lindstrom fails to qualify nonpartisan bid for Nebraska governor; many signatures flagged for fraud",
+      "link": "https://nebraskaexaminer.com/2026/08/14/lindstrom-fails-to-qualify-nonpartisan-bid-for-nebraska-governor-many-signatures-flagged-for-fraud/",
+      "published": "2026-08-14",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Former",
+        "Governor",
+        "LINCOLN",
+        "Lindstrom",
+        "Nebraska",
+        "Office",
+        "Omaha",
+        "Sen. Brett Lindstrom",
+        "State",
+        "The Nebraska Secretary"
+      ]
     },
     {
       "id": "c49b4d7554a66547",
@@ -30407,6 +31256,27 @@
       "feed_url": "https://virginiamercury.com/feed/",
       "topics": [],
       "entities": []
+    },
+    {
+      "id": "c6053c13f44170cd",
+      "title": "Montana Gov. Greg Gianforte joins Ex-Guard for Kalispell ribbon-cutting",
+      "link": "https://dailymontanan.com/2026/08/14/montana-gov-greg-gianforte-joins-ex-guard-for-kalispell-ribbon-cutting/",
+      "published": "2026-08-14",
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Gov. Greg Gianforte",
+        "Guard",
+        "Iowa",
+        "Kalispell",
+        "Montana Gov. Greg Gianforte",
+        "Montana. On Thursday",
+        "Montanans"
+      ]
     },
     {
       "id": "c60a0fadfe06730d",
@@ -30516,6 +31386,24 @@
       ]
     },
     {
+      "id": "cab92805f6fafaa7",
+      "title": "Pritzker tours storm damage, signs flood relief bill expanding local Chicago programs",
+      "link": "https://capitolnewsillinois.com/news/pritzker-tours-storm-damage-signs-flood-relief-bill-expanding-local-chicago-programs/",
+      "published": "2026-08-14",
+      "state": "IL",
+      "outlet": "Capitol News Illinois",
+      "feed_url": "https://capitolnewsillinois.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Chicago",
+        "Governor",
+        "Lansing",
+        "Pritzker"
+      ]
+    },
+    {
       "id": "cb3f8404c06316af",
       "title": "Kansas State Board of Education starts work on technology use policies for public schools",
       "link": "https://kansasreflector.com/2026/08/14/kansas-state-board-of-education-starts-work-on-technology-use-policies-for-public-schools/",
@@ -30539,6 +31427,28 @@
       ],
       "entities": [
         "New Mexico"
+      ]
+    },
+    {
+      "id": "cd8827a4463b610c",
+      "title": "Klobuchar proposes Minnesota tax credit to assist with rising healthcare premiums",
+      "link": "https://minnesotareformer.com/briefs/klobuchar-proposes-minnesota-tax-credit-to-assist-with-rising-healthcare-premiums/",
+      "published": "2026-08-14",
+      "state": "MN",
+      "outlet": "Minnesota Reformer",
+      "feed_url": "https://minnesotareformer.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Affordable Care Act",
+        "Democratic",
+        "Governor",
+        "Klobuchar",
+        "Minnesota",
+        "Most Republican U.S",
+        "Sen. Amy Klobuchar"
       ]
     },
     {
@@ -30739,6 +31649,38 @@
       ]
     },
     {
+      "id": "dd030cc2974ee757",
+      "title": "Iowa cancer researchers focus on white blood cell maturation, resiliency",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/iowa-cancer-researchers-focus-on-white-blood-cell-maturation-resiliency/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "de8e1f1e54d87438",
+      "title": "Michigan Bureau of Elections waives fees, admits error led to Doug Lloyd\u2019s late AG campaign filing",
+      "link": "https://michiganadvance.com/2026/08/14/michigan-bureau-of-elections-waives-fees-admits-error-led-to-doug-lloyds-late-ag-campaign-filing/",
+      "published": "2026-08-14",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Because",
+        "Doug Lloyd",
+        "Elections",
+        "Michigan",
+        "Michigan Bureau",
+        "Michigan Republican Party",
+        "The Michigan Bureau"
+      ]
+    },
+    {
       "id": "e0989c0ae084c333",
       "title": "In Iowa, Mark Kelly rallies Democrats to fight Trump\u2019s \u2018corruption\u2019 and stokes 2028 speculation",
       "link": "https://azmirror.com/2026/08/14/repub/in-iowa-mark-kelly-rallies-democrats-to-fight-trumps-corruption-and-stokes-2028-speculation/",
@@ -30762,6 +31704,28 @@
         "President Donald Trump",
         "Sen. Mark Kelly",
         "Senate"
+      ]
+    },
+    {
+      "id": "e20c280803a06f06",
+      "title": "Republican Joe Mitchell supports constitutional fix for campaign cash",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/republican-joe-mitchell-supports-constitutional-fix-for-campaign-cash/",
+      "published": "2026-08-14",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Congress",
+        "Congressional District",
+        "Des",
+        "GOP",
+        "Iowa",
+        "Mitchell",
+        "Republican",
+        "Republican Joe Mitchell"
       ]
     },
     {
@@ -30826,6 +31790,29 @@
       ]
     },
     {
+      "id": "e7241a651e5d335d",
+      "title": "OPINION: Debate questions no one asked for",
+      "link": "https://nebraskaexaminer.com/2026/08/14/opinion-debate-questions-no-one-asked-for/",
+      "published": "2026-08-14",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "America",
+        "Debate",
+        "Family",
+        "First",
+        "For Nebraskans",
+        "Lancaster District Court",
+        "OPINION",
+        "People",
+        "Working"
+      ]
+    },
+    {
       "id": "ea66e4ee3813d878",
       "title": "Meyer joins national immigration task force, yet Delaware bills remain unsigned",
       "link": "https://spotlightdelaware.org/2026/08/14/meyer-joins-national-immigration-task-force-yet-de-immigration-bills-remain-unsigned/",
@@ -30845,6 +31832,25 @@
         "Meyer",
         "Spotlight Delaware",
         "U.S"
+      ]
+    },
+    {
+      "id": "ecb8f764034cf26e",
+      "title": "Oregon ethics commission fines Rep. Greg Smith $12K for using office for pay raise, excess vacation",
+      "link": "https://oregoncapitalchronicle.com/2026/08/14/oregon-ethics-commission-fines-rep-greg-smith-12k-for-using-office-for-pay-raise-excess-vacation/",
+      "published": "2026-08-14",
+      "state": "OR",
+      "outlet": "Oregon Capital Chronicle",
+      "feed_url": "https://oregoncapitalchronicle.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Commission",
+        "Oregon",
+        "Rep. Greg Smith",
+        "The Oregon Government Ethics",
+        "commission"
       ]
     },
     {
@@ -30893,6 +31899,23 @@
       "entities": []
     },
     {
+      "id": "f05e0443b3e68217",
+      "title": "Juez federal se dispone a restringir las t\u00e1cticas de detenci\u00f3n de inmigrantes en las redadas de Los \u00c1ngeles",
+      "link": "https://calmatters.org/calmatters-en-espanol/2026/08/juez-federal-tacticas-de-detencion-de-inmigrantes/",
+      "published": "2026-08-14",
+      "state": "CA",
+      "outlet": "CalMatters",
+      "feed_url": "https://calmatters.org/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Juez",
+        "Las",
+        "Los"
+      ]
+    },
+    {
       "id": "f0ad8146d5097425",
       "title": "Health of Colorado priest in ICE custody deteriorating after almost a year in detention",
       "link": "https://coloradonewsline.com/2026/08/14/colorado-priest-ice-custody-deteriorating/",
@@ -30922,6 +31945,30 @@
         "Sen. Cheryl Kagan",
         "Tablada",
         "The Green Party"
+      ]
+    },
+    {
+      "id": "f2a4fc6b0555875f",
+      "title": "In Arizona\u2019s most competitive district, Trump\u2019s policies collide with Ciscomani\u2019s reelection bid",
+      "link": "https://azmirror.com/2026/08/14/in-arizonas-most-competitive-district-trumps-policies-collide-with-ciscomanis-reelection-bid/",
+      "published": "2026-08-14",
+      "state": "AZ",
+      "outlet": "Arizona Mirror",
+      "feed_url": "https://azmirror.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Arizona",
+        "Ciscomani",
+        "Congressional District",
+        "Democrats",
+        "Democrats. But",
+        "In Arizona",
+        "President Donald Trump",
+        "Republicans",
+        "Since",
+        "Trump"
       ]
     },
     {
@@ -31015,6 +32062,17 @@
       ]
     },
     {
+      "id": "f8fda61e9cbf6afc",
+      "title": "Think your dog makes you safer in bear country? The data say otherwise.",
+      "link": "https://alaskabeacon.com/2026/08/14/think-your-dog-makes-you-safer-in-bear-country-the-data-say-otherwise/",
+      "published": "2026-08-14",
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "f93020cb9200033c",
       "title": "Interested in how California pays for state government? Here\u2019s where to find the data",
       "link": "https://calmatters.org/commentary/2026/08/how-california-funds-state-government/",
@@ -31068,6 +32126,17 @@
       ]
     },
     {
+      "id": "fb486b2b996f3976",
+      "title": "Flock is just the latest example of using surveillance to stalk women",
+      "link": "https://ncnewsline.com/2026/08/14/flock-is-just-the-latest-example-of-using-surveillance-to-stalk-women/",
+      "published": "2026-08-14",
+      "state": "NC",
+      "outlet": "NC Newsline",
+      "feed_url": "https://ncnewsline.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
       "id": "fbc2cc34a5994ef6",
       "title": "Mississippi opioid settlement grantees can seek monthly reimbursement",
       "link": "https://mississippitoday.org/2026/08/14/mississippi-opioid-settlement-2/?utm_medium=rss",
@@ -31084,6 +32153,17 @@
         "Mississippi",
         "Mississippi Opioid Settlement Fund"
       ]
+    },
+    {
+      "id": "fd51fcb8d2df6020",
+      "title": "In Idaho, public health officials are trying to curb the rat infestation \u2014 with a $250K fund",
+      "link": "https://idahocapitalsun.com/briefs/in-idaho-health-officials-are-trying-to-curb-the-rat-infestation-with-a-250k-fund/",
+      "published": "2026-08-14",
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "topics": [],
+      "entities": []
     },
     {
       "id": "fdbcefd6ec87a6ff",
@@ -31111,6 +32191,2872 @@
         "Over",
         "Support",
         "West Virginia"
+      ]
+    },
+    {
+      "id": "04d9a9fc430cb9ca",
+      "title": "Western wildfire could be latest climate disaster to unsettle property insurance market",
+      "link": "https://oklahomavoice.com/2026/08/15/western-wildfire-could-be-latest-climate-disaster-to-unsettle-property-insurance-market/",
+      "published": "2026-08-15",
+      "state": "OK",
+      "outlet": "Oklahoma Voice",
+      "feed_url": "https://oklahomavoice.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Across",
+        "As Washington",
+        "Spokane",
+        "Western"
+      ]
+    },
+    {
+      "id": "050b22ef55701461",
+      "title": "\u2018Even the nuns are mad\u2019: Catholic sisters are standing for Haitians outside ICE offices",
+      "link": "https://michiganadvance.com/2026/08/15/even-the-nuns-are-mad-catholic-sisters-are-standing-for-haitians-outside-ice-offices/",
+      "published": "2026-08-15",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Amanda Becker",
+        "BLUE ASH",
+        "Catholic",
+        "Customs Enforcement",
+        "Even",
+        "Haitian",
+        "Haitians",
+        "ICE",
+        "Immigration",
+        "Meet Amanda",
+        "OHIO",
+        "Sunday. From"
+      ]
+    },
+    {
+      "id": "07bc521ec43ff883",
+      "title": "Van Hollen reports the \u2018good news\u2019, but mostly \u2018bad news\u2019 coming out of Washington",
+      "link": "https://marylandmatters.org/2026/08/14/van-hollen-reports-the-good-news-but-mostly-bad-news-coming-out-of-washington/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "0eeae7c48aefd14e",
+      "title": "How Is Climate Change Shaping Hurricane Lala?",
+      "link": "https://www.civilbeat.org/2026/08/how-is-climate-change-shaping-tropical-storm-lala/",
+      "published": "2026-08-15",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "How Is Climate Change",
+        "Shaping Hurricane Lala",
+        "Warmer"
+      ]
+    },
+    {
+      "id": "14f2d2ac11d742e6",
+      "title": "How American society shields perpetrators of child sexual abuse",
+      "link": "https://kansasreflector.com/2026/08/15/how-american-society-shields-perpetrators-of-child-sexual-abuse/",
+      "published": "2026-08-15",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "After",
+        "EPA",
+        "Epstein",
+        "How American",
+        "Jeffrey Epstein",
+        "U.S. Justice Department",
+        "Why",
+        "Widespread"
+      ]
+    },
+    {
+      "id": "1ff959e1ba69faee",
+      "title": "When data centers come knocking, counties should have a \u2018wish list,\u2019 officials say",
+      "link": "https://marylandmatters.org/2026/08/15/data-centers-county-moratoriums-wish-lists/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Counties",
+        "Maryland Association",
+        "When"
+      ]
+    },
+    {
+      "id": "20598cd7c35b4d6f",
+      "title": "When data centers come knocking, Maryland counties should have a \u2018wish list,\u2019 officials say",
+      "link": "https://marylandmatters.org/2026/08/15/data-centers-county-moratoriums-wish-lists/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Counties",
+        "Maryland",
+        "Maryland Association",
+        "When"
+      ]
+    },
+    {
+      "id": "2315e0ff5a251bdf",
+      "title": "NorthWestern merger shouldn\u2019t be decided without Brad Molnar, new lawsuit argues",
+      "link": "https://dailymontanan.com/2026/08/15/northwestern-merger-shouldnt-be-decided-without-brad-molnar-new-lawsuit-argues/",
+      "published": "2026-08-15",
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Brad Molnar",
+        "Commissioner Brad Molnar",
+        "Dale Schowengerdt",
+        "Gov. Greg Gianforte",
+        "Governor",
+        "HELENA",
+        "NorthWestern",
+        "Public Service Commission",
+        "commission"
+      ]
+    },
+    {
+      "id": "2a4bed7c1c37c3e3",
+      "title": "How Is Climate Change Shaping Tropical Storm Lala?",
+      "link": "https://www.civilbeat.org/2026/08/how-is-climate-change-shaping-tropical-storm-lala/",
+      "published": "2026-08-15",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Big Island",
+        "How Is Climate Change",
+        "Shaping Tropical Storm Lala"
+      ]
+    },
+    {
+      "id": "2c47a755dfe7b8d8",
+      "title": "Lawyer who filed records lawsuit against Laramie County sheriff financially backs opponent\u2019s campaign",
+      "link": "https://wyofile.com/lawyer-who-filed-records-lawsuit-against-laramie-county-sheriff-financially-backs-opponents-campaign/",
+      "published": "2026-08-15",
+      "state": "WY",
+      "outlet": "WyoFile",
+      "feed_url": "https://wyofile.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Cheyenne Police Sgt. Eric",
+        "Drake Hill",
+        "Former Wyoming GOP Chairman",
+        "Kozak",
+        "Laramie County",
+        "Lawyer",
+        "Norris",
+        "Sheriff Brian Kozak",
+        "WyoFile"
+      ]
+    },
+    {
+      "id": "2ef216a2136945a6",
+      "title": "Can a chatbot be a responsible therapist? Dartmouth professor aims to find out",
+      "link": "https://vtdigger.org/2026/08/15/can-a-chatbot-be-a-responsible-therapist-dartmouth-professor-aims-to-find-out/",
+      "published": "2026-08-15",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "33ab5c196199cf7a",
+      "title": "Controlling wild pigs can work if it\u2019s a group\u00a0effort",
+      "link": "https://arkansasadvocate.com/2026/08/15/controlling-wild-pigs-can-work-if-its-a-group-effort/",
+      "published": "2026-08-15",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "35285cfe82577e6b",
+      "title": "Lahn criticizes \u2018personal attacks\u2019 on residency, family in Iowa governor race",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/lahn-criticizes-personal-attacks-on-residency-family-in-iowa-governor-race/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Des Moines Register Political",
+        "GOP",
+        "Governor",
+        "Iowa",
+        "Iowa Auditor Rob Sand",
+        "Iowa State",
+        "Lahn",
+        "Soapbox. He",
+        "Zach Lahn"
+      ]
+    },
+    {
+      "id": "3dbadd917d2e29c4",
+      "title": "DNC approves 2028 presidential nominating cycle, leaving Iowa out",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/repub/dnc-approves-2028-presidential-nominating-cycle-leaving-iowa-out/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "DNC",
+        "Iowa",
+        "Martin",
+        "Nevada. DNC Chair Ken",
+        "Our",
+        "South Carolina",
+        "The Democratic National Committee"
+      ]
+    },
+    {
+      "id": "40a5648abf6da66f",
+      "title": "Moore and Cox differ on data centers at Maryland conference",
+      "link": "https://marylandmatters.org/2026/08/15/moore-cox-data-centers/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Cox",
+        "Dan Cox",
+        "GOP",
+        "Maryland",
+        "Moore",
+        "Wes Moore"
+      ]
+    },
+    {
+      "id": "433ba0e0292c431c",
+      "title": "After refinery explosions, California lawmakers move to preserve safety rules",
+      "link": "https://calmatters.org/digital-democracy/2026/08/refinery-safety-california-gas/",
+      "published": "2026-08-15",
+      "state": "CA",
+      "outlet": "CalMatters",
+      "feed_url": "https://calmatters.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "After",
+        "California",
+        "Senate",
+        "Senate Bill"
+      ]
+    },
+    {
+      "id": "4454c5f6101df749",
+      "title": "Voting rights anniversary spotlights America\u2019s enduring anti-Black contempt",
+      "link": "https://floridaphoenix.com/2026/08/15/repub/voting-rights-anniversary-spotlights-americas-enduring-anti-black-contempt/",
+      "published": "2026-08-15",
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Activists",
+        "African Americans",
+        "America",
+        "Black",
+        "Civil",
+        "South",
+        "Voting",
+        "Voting Rights Act"
+      ]
+    },
+    {
+      "id": "4bdf3578cba8fa05",
+      "title": "Hurricane Lala Passes Big Island: Hawai\u02bbi Spared From Direct Hit",
+      "link": "https://www.civilbeat.org/2026/08/hurricane-lala-brings-rain-and-strong-winds-thousands-on-hawaii-island-lose-power/",
+      "published": "2026-08-15",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "4c1a65324d2aff69",
+      "title": "Democrat Rob Sand calls for civility in contentious Iowa governor race",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/democrat-rob-sand-calls-for-civility-in-contentious-iowa-governor-race/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democrat Rob Sand",
+        "Democratic",
+        "Governor",
+        "Iowa",
+        "Iowa Auditor Rob Sand",
+        "Turning Point USA. Speaking",
+        "When Sand"
+      ]
+    },
+    {
+      "id": "5147d508207580dd",
+      "title": "Democrats put South Carolina 1st, New Mexico 4th in 2028 presidential nominating cycle",
+      "link": "https://sourcenm.com/2026/08/15/repub/democrats-put-south-carolina-1st-new-mexico-4th-in-2028-presidential-nominating-cycle/",
+      "published": "2026-08-15",
+      "state": "NM",
+      "outlet": "Source New Mexico",
+      "feed_url": "https://sourcenm.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democrats",
+        "Martin",
+        "Nevada. DNC Chair Ken",
+        "New Mexico",
+        "Our",
+        "South Carolina",
+        "The Democratic National Committee"
+      ]
+    },
+    {
+      "id": "51d202320c55491a",
+      "title": "Greg Abbott threatens Dallas, Houston airports\u2019 grant funds over Islamic washing facilities",
+      "link": "https://feeds.texastribune.org/link/16799/17418678/texas-greg-abbott-dfw-iah-airport-islam-ablution-facility-grant",
+      "published": "2026-08-15",
+      "state": "TX",
+      "outlet": "The Texas Tribune",
+      "feed_url": "https://www.texastribune.org/feeds/main/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "DFW",
+        "Dallas",
+        "Greg Abbott",
+        "Houston",
+        "Islamic"
+      ]
+    },
+    {
+      "id": "56115449a7df5ef8",
+      "title": "Alaska Republican candidate for governor appears to massively violate a donation limit",
+      "link": "https://alaskabeacon.com/briefs/alaska-republican-candidate-for-governor-appears-to-massively-violate-a-donation-limit/",
+      "published": "2026-08-15",
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Alaska Republican",
+        "Candice English",
+        "Former Alaska Attorney General",
+        "Governor",
+        "Republican",
+        "Those",
+        "Treg Taylor",
+        "Under"
+      ]
+    },
+    {
+      "id": "5d6ecf0e08fe75f1",
+      "title": "10-year-old girl attacked by beaver at Montgomery County park, leading to closure of park",
+      "link": "https://marylandmatters.org/2026/08/15/10-year-old-girl-attacked-by-beaver-at-montgomery-county-park-leading-to-closure-of-park/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "5da81bab47bcac5e",
+      "title": "Sarah Trone Garriott says 3rd District opponent not truly \u2018tough on China\u2019",
+      "link": "https://iowacapitaldispatch.com/2026/08/14/sarah-trone-garriott-says-3rd-district-opponent-not-truly-tough-on-china/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "China",
+        "Democratic",
+        "Des Moines Register Political",
+        "District",
+        "Iowa State Fair Friday",
+        "Sarah Trone Garriott",
+        "Soapbox",
+        "Trone Garriott",
+        "U.S. Rep. Zach Nunn"
+      ]
+    },
+    {
+      "id": "5daf758845cc73ab",
+      "title": "Trump\u2019s offshore wind crackdown reaches the Gulf of Mexico",
+      "link": "https://lailluminator.com/2026/08/15/louisiana-offshore-wind/",
+      "published": "2026-08-15",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "7330a13fa5e31119",
+      "title": "Landry says he won\u2019t talk to New Orleans mayor until after Murrill indictment investigation",
+      "link": "https://lailluminator.com/2026/08/14/jeff-landry-helena-moreno/",
+      "published": "2026-08-15",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "777b77c08d94ac2d",
+      "title": "How many bears are in Connecticut? To find out, Mississippi researchers lend a hand",
+      "link": "https://mississippitoday.org/2026/08/15/mississippi-researchers-count-bears-connecticut/?utm_medium=rss",
+      "published": "2026-08-15",
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "7e494036dd5200cd",
+      "title": "No more \u2018hypothetical situations\u2019: States move to fortify elections against Trump",
+      "link": "https://coloradonewsline.com/2026/08/15/repub/states-fortify-elections-against-trump/",
+      "published": "2026-08-15",
+      "state": "CO",
+      "outlet": "Colorado Newsline",
+      "feed_url": "https://coloradonewsline.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "EPA",
+        "Nick Brown",
+        "President Donald Trump",
+        "States",
+        "Trump State Democratic",
+        "Washington"
+      ]
+    },
+    {
+      "id": "8a2a038262adbd7a",
+      "title": "Democratic state treasurer candidate proposes IPERS changes",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/democratic-state-treasurer-candidate-proposes-ipers-changes/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Democrat",
+        "Democratic",
+        "Des Moines Register Political",
+        "IPERS",
+        "Iowa",
+        "Iowa State Fair",
+        "John Norwood",
+        "Norwood",
+        "Soapbox. Norwood"
+      ]
+    },
+    {
+      "id": "90569776de0fff5e",
+      "title": "Missouri needs more teachers. Its licensing process gets in the way",
+      "link": "https://missouriindependent.com/2026/08/15/missouri-needs-more-teachers-its-licensing-process-gets-in-the-way/",
+      "published": "2026-08-15",
+      "state": "MO",
+      "outlet": "Missouri Independent",
+      "feed_url": "https://missouriindependent.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "905c7c1953cb5053",
+      "title": "Most people get by on less than a 10.4% return on their investments, BGE can do it, too",
+      "link": "https://marylandmatters.org/2026/08/15/bge-psc-pinsky/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "BGE",
+        "Baltimore Gas",
+        "Electric",
+        "Most",
+        "PSC",
+        "Paul Pinsky"
+      ]
+    },
+    {
+      "id": "9816aa1b302acce6",
+      "title": "US DOJ finds \u2018unbroken pattern\u2019 of sexual abuse by California prison staff",
+      "link": "https://calmatters.org/justice/2026/08/prisons-sexual-abuse/",
+      "published": "2026-08-15",
+      "state": "CA",
+      "outlet": "CalMatters",
+      "feed_url": "https://calmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "9d3cb873a63f45c6",
+      "title": "Photo essay: Horses and their humans compete in the Ultimate Bayou Gold Barrel Race",
+      "link": "https://mississippitoday.org/2026/08/15/photo-essay-ultimate-bayou-gold-barrel-race/?utm_medium=rss",
+      "published": "2026-08-15",
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "a60feaf7697f1fdd",
+      "title": "Trump visa policy leads to fewer international students at US colleges, report concludes",
+      "link": "https://arkansasadvocate.com/2026/08/15/repub/trump-visa-policy-leads-to-fewer-international-students-at-us-colleges-report-concludes/",
+      "published": "2026-08-15",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "a7123c93476e41c3",
+      "title": "Dave Bushaw calls for building political independent \u2018movement\u2019 in Iowa",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/dave-bushaw-calls-for-building-political-independent-movement-in-iowa/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Bushaw",
+        "Congressional District",
+        "Dave Bushaw",
+        "Democratic",
+        "Iowa",
+        "Iowa Independent",
+        "Iowa State Fair",
+        "Iowans"
+      ]
+    },
+    {
+      "id": "a8059b6e7b95b547",
+      "title": "After Alaska\u2019s \u2018final four\u2019 primary, a silent primary may decide who\u2019s on the ballot in November",
+      "link": "https://alaskabeacon.com/2026/08/14/after-alaskas-final-four-primary-a-silent-primary-may-decide-whos-on-the-ballot-in-november/",
+      "published": "2026-08-15",
+      "state": "AK",
+      "outlet": "Alaska Beacon",
+      "feed_url": "https://alaskabeacon.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "After Alaska",
+        "Democratic",
+        "Governor",
+        "Jonathan Kreiss",
+        "November Alaska",
+        "Tom Begich",
+        "Tomkins"
+      ]
+    },
+    {
+      "id": "aa6b672767ee0c4b",
+      "title": "Yellowstone County data center ballot initiative stopped by courts",
+      "link": "https://dailymontanan.com/2026/08/15/yellowstone-county-data-center-ballot-initiative-stopped-by-courts/",
+      "published": "2026-08-15",
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "On Tuesday",
+        "With",
+        "Yellowstone County",
+        "Yellowstone County District Court"
+      ]
+    },
+    {
+      "id": "adfd53d6e159346b",
+      "title": "Democrats push nearly 250 state bills opposing federal immigration efforts",
+      "link": "https://kansasreflector.com/2026/08/15/repub/democrats-push-nearly-250-state-bills-opposing-federal-immigration-efforts/",
+      "published": "2026-08-15",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "Democrats",
+        "State Futures"
+      ]
+    },
+    {
+      "id": "b1b5b775c7ad94c6",
+      "title": "Michael Bridgford: Independents in Congress would help get things done",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/michael-bridgford-independents-in-congress-would-help-get-things-done/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Bridgford",
+        "Congress",
+        "Congressional District",
+        "Des Moines Register Political",
+        "House",
+        "Independents",
+        "Iowa",
+        "Michael Bridgford",
+        "Republican",
+        "Soapbox",
+        "U.S. House"
+      ]
+    },
+    {
+      "id": "b51af8770f227b63",
+      "title": "Democrats approves \u201928 presidential nominating cycle, starting in S. Carolina, Nevada",
+      "link": "https://lailluminator.com/2026/08/15/repub/democrats-28-nominat/",
+      "published": "2026-08-15",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democrats",
+        "Nevada Throughout",
+        "S. Carolina"
+      ]
+    },
+    {
+      "id": "b9731ff1969d2b90",
+      "title": "Financing, permit challenges stand in the way of building new housing, officials say",
+      "link": "https://marylandmatters.org/2026/08/15/financing-permit-challenges-stand-in-the-way-of-building-new-housing-officials-say/",
+      "published": "2026-08-15",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Financing",
+        "Maryland",
+        "State"
+      ]
+    },
+    {
+      "id": "bd3436d9bd209375",
+      "title": "Libertarian Thomas Laehn says end federal tax credits for pipelines",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/libertarian-thomas-laehn-says-end-federal-tax-credits-for-pipelines/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "climate",
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Carbon",
+        "Iowa",
+        "Iowa State Fair",
+        "Libertarian",
+        "Libertarian Thomas Laehn",
+        "Senate",
+        "Thomas Laehn",
+        "U.S. Senate"
+      ]
+    },
+    {
+      "id": "c6f9242b411a0e7d",
+      "title": "Washington state lawmaker hit with $15K fine in ethics case",
+      "link": "https://washingtonstatestandard.com/2026/08/14/washington-state-lawmaker-hit-with-15k-fine-in-ethics-case/",
+      "published": "2026-08-15",
+      "state": "WA",
+      "outlet": "Washington State Standard",
+      "feed_url": "https://washingtonstatestandard.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Bremerton Democrat",
+        "Legislative Ethics Board",
+        "Rep. Tarra Simmons",
+        "Washington"
+      ]
+    },
+    {
+      "id": "cc1e283bf9102653",
+      "title": "One TV weather team \u2013 two devastating diagnoses",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/one-tv-weather-team-two-devastating-diagnoses/",
+      "published": "2026-08-15",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "cea6f606c51df769",
+      "title": "Lawmakers sue AG, SOS over term limit decision",
+      "link": "https://dailymontanan.com/2026/08/15/lawmakers-sue-ag-sos-over-term-limit-decision/",
+      "published": "2026-08-15",
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Attorney General Austin Knudsen",
+        "EPA",
+        "Lawmakers",
+        "Montana",
+        "November. The",
+        "Republican Party",
+        "SOS",
+        "Two Republican"
+      ]
+    },
+    {
+      "id": "d0f827933da2282e",
+      "title": "Q&A: Thune says Republicans can hold their majority \u2014 if they stop fighting each other",
+      "link": "https://arkansasadvocate.com/2026/08/15/repub/qa-thune-says-republicans-can-hold-their-majority-if-they-stop-fighting-each-other/",
+      "published": "2026-08-15",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Iran. But Thune",
+        "John Thune",
+        "Republican Party",
+        "Republicans",
+        "SIOUX FALLS",
+        "Senate",
+        "South Dakota",
+        "South Dakota Searchlight",
+        "Thune",
+        "U.S. Senate Majority Leader"
+      ]
+    },
+    {
+      "id": "d1a779096bca6a37",
+      "title": "In Idaho, public health officials are trying to curb the rat infestation \u2014 with a $250K fund",
+      "link": "https://washingtonstatestandard.com/2026/08/14/repub/in-idaho-public-health-officials-are-trying-to-curb-the-rat-infestation-with-a-250k-fund/",
+      "published": "2026-08-15",
+      "state": "WA",
+      "outlet": "Washington State Standard",
+      "feed_url": "https://washingtonstatestandard.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "d76e114a2f0c308f",
+      "title": "Fifth Circuit reaffirms death row inmate Brittany Holberg\u2019s conviction",
+      "link": "https://feeds.texastribune.org/link/16799/17418677/texas-death-row-brittany-holberg-appeal-denied-fifth-circuit",
+      "published": "2026-08-15",
+      "state": "TX",
+      "outlet": "The Texas Tribune",
+      "feed_url": "https://www.texastribune.org/feeds/main/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "dd25441f121cc709",
+      "title": "The data center industry\u2019s PR blitz is backfiring",
+      "link": "https://alabamareflector.com/2026/08/15/the-data-center-industrys-pr-blitz-is-backfiring/",
+      "published": "2026-08-15",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "climate",
+        "economic_development"
+      ],
+      "entities": [
+        "Bobbie",
+        "HENDERSON",
+        "Inside Climate News",
+        "Kathie Hamm",
+        "Mitzi Parrott",
+        "N.C",
+        "Sign",
+        "Vance County"
+      ]
+    },
+    {
+      "id": "e2837c67f70192a5",
+      "title": "Governor candidate learned the hard way that South Dakotans like courtesy and specifics",
+      "link": "https://southdakotasearchlight.com/2026/08/15/governor-candidate-learned-the-hard-way-that-south-dakotans-like-courtesy-and-specifics/",
+      "published": "2026-08-15",
+      "state": "SD",
+      "outlet": "South Dakota Searchlight",
+      "feed_url": "https://southdakotasearchlight.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Aberdeen",
+        "Gov. Larry Rhoden",
+        "Governor",
+        "Looking",
+        "Republican",
+        "South Dakota",
+        "South Dakotans",
+        "Toby Doeden"
+      ]
+    },
+    {
+      "id": "e426bb4fd3b0fe55",
+      "title": "Flock Safety tightens safeguards as states, cities question surveillance network",
+      "link": "https://lailluminator.com/2026/08/15/repub/flock-camera/",
+      "published": "2026-08-15",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "ebb950b7c9d47830",
+      "title": "DNC approves 2028 presidential nominating cycle starting in South Carolina, Nevada",
+      "link": "https://alabamareflector.com/2026/08/15/repub/dnc-approves-2028-presidential-nominating-cycle-starting-in-south-carolina-nevada/",
+      "published": "2026-08-15",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Committee",
+        "DNC",
+        "Martin",
+        "Nevada The Democratic National",
+        "Nevada. DNC Chair Ken",
+        "Our",
+        "South Carolina"
+      ]
+    },
+    {
+      "id": "004580db6cffacd5",
+      "title": "A storm punctuates a summer of epic anxiety \u2014 and pelts hapless mortals with ancient truth",
+      "link": "https://kansasreflector.com/2026/08/16/a-storm-punctuates-a-summer-of-epic-anxiety-and-pelts-hapless-mortals-with-ancient-truth/",
+      "published": "2026-08-16",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "0bef72e487d75dd3",
+      "title": "How American society shields perpetrators of child sexual abuse",
+      "link": "https://floridaphoenix.com/2026/08/16/repub/how-american-society-shields-perpetrators-of-child-sexual-abuse/",
+      "published": "2026-08-16",
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "After",
+        "EPA",
+        "Epstein",
+        "How American",
+        "Jeffrey Epstein",
+        "U.S. Justice Department",
+        "Why",
+        "Widespread"
+      ]
+    },
+    {
+      "id": "12309face68e9e8b",
+      "title": "Majority of Nevadans support tobacco tax hike, survey says",
+      "link": "https://idahocapitalsun.com/2026/08/16/repub/majority-of-nevadans-support-tobacco-tax-hike-survey-says/",
+      "published": "2026-08-16",
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "ACS CAN",
+        "Action Network. The",
+        "American Cancer Society Cancer",
+        "Lake Research Partners",
+        "Majority",
+        "Nearly",
+        "Nevada",
+        "Nevadans",
+        "The Tarrance Group",
+        "commission"
+      ]
+    },
+    {
+      "id": "1d5359dced558fed",
+      "title": "Hurricane Lala: Maui, Honolulu And Kaua\u02bbi Counties Face Storm Impacts",
+      "link": "https://www.civilbeat.org/2026/08/hurricane-lala-maui-honolulu-and-kauai-counties-face-storm-impacts/",
+      "published": "2026-08-16",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "316e26afaf9830ca",
+      "title": "Scott Colom seeks to do the near impossible \u2013 defeat an incumbent Mississippi senator",
+      "link": "https://mississippitoday.org/2026/08/16/scott-colom-senate-election-mississippi/?utm_medium=rss",
+      "published": "2026-08-16",
+      "state": "MS",
+      "outlet": "Mississippi Today",
+      "feed_url": "https://mississippitoday.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "Mississippi",
+        "Neshoba County Fair",
+        "Philadelphia",
+        "Scott Colom",
+        "Senate",
+        "U.S. Senate"
+      ]
+    },
+    {
+      "id": "35ae10668210b586",
+      "title": "Tropical Storm Lala: Maui, Honolulu And Kaua\u02bbi Counties Face Storm Impacts",
+      "link": "https://www.civilbeat.org/2026/08/hurricane-lala-maui-honolulu-and-kauai-counties-face-storm-impacts/",
+      "published": "2026-08-16",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "38609177f3d1cbac",
+      "title": "More GOP party platforms include anti-IVF language. Is surrogacy next?",
+      "link": "https://kansasreflector.com/2026/08/16/repub/more-gop-party-platforms-include-anti-ivf-language-is-surrogacy-next/",
+      "published": "2026-08-16",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Brooke Green",
+        "Democratic",
+        "Green",
+        "IVF",
+        "Idaho",
+        "More GOP"
+      ]
+    },
+    {
+      "id": "3a1e6a9061d6f51f",
+      "title": "How state constitutions became a left and right battleground for American rights and liberties",
+      "link": "https://michiganadvance.com/2026/08/16/how-state-constitutions-became-a-left-and-right-battleground-for-american-rights-and-liberties/",
+      "published": "2026-08-16",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "American",
+        "Congress",
+        "Governor",
+        "How",
+        "Michigan State University Beyond",
+        "Quinn Yeargain",
+        "Though",
+        "U.S. Constitution"
+      ]
+    },
+    {
+      "id": "3ceb419a69ac07ce",
+      "title": "Federal change to Endangered Species Act could affect Vermont\u2019s vulnerable wildlife",
+      "link": "https://vtdigger.org/2026/08/16/federal-change-to-endangered-species-act-could-affect-vermonts-vulnerable-wildlife/",
+      "published": "2026-08-16",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Endangered Species Act",
+        "Federal",
+        "Trump",
+        "VTDigger",
+        "Vermont",
+        "Vermont. Read"
+      ]
+    },
+    {
+      "id": "3e0373a528d7644a",
+      "title": "North Dakota families, childcare providers frustrated by growing waitlist for assistance",
+      "link": "https://northdakotamonitor.com/2026/08/16/north-dakota-families-childcare-providers-frustrated-by-growing-waitlist-for-assistance/",
+      "published": "2026-08-16",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Nearly",
+        "North Dakota"
+      ]
+    },
+    {
+      "id": "40f2d38b58deff43",
+      "title": "Flock Safety tightens safeguards as states, cities question surveillance network",
+      "link": "https://nevadacurrent.com/2026/08/16/repub/flock-safety-tightens-safeguards-as-states-cities-question-surveillance-network/",
+      "published": "2026-08-16",
+      "state": "NV",
+      "outlet": "Nevada Current",
+      "feed_url": "https://nevadacurrent.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Flock Safety"
+      ]
+    },
+    {
+      "id": "435ab75a44c4ac12",
+      "title": "Congressional approval not needed for White House ballroom, Trump tells high court",
+      "link": "https://dailymontanan.com/2026/08/16/repub/congressional-approval-not-needed-for-white-house-ballroom-trump-tells-high-court/",
+      "published": "2026-08-16",
+      "state": "MT",
+      "outlet": "Daily Montanan",
+      "feed_url": "https://dailymontanan.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Congress. The",
+        "Congressional",
+        "House",
+        "President Donald Trump",
+        "Trump",
+        "U.S. Supreme Court Thursday",
+        "WASHINGTON",
+        "White House"
+      ]
+    },
+    {
+      "id": "447e248a52f3b0e9",
+      "title": "DNC approves 2028 presidential nominating cycle starting in South Carolina, Nevada",
+      "link": "https://northdakotamonitor.com/2026/08/15/repub/dnc-approves-2028-presidential-nominating-cycle-starting-in-south-carolina-nevada/",
+      "published": "2026-08-16",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Committee",
+        "DNC",
+        "Martin",
+        "Nevada The Democratic National",
+        "Nevada. DNC Chair Ken",
+        "Our",
+        "South Carolina"
+      ]
+    },
+    {
+      "id": "562e350a75cabe88",
+      "title": "Schools spend billions on AI, but struggle to figure out what\u2019s worth buying",
+      "link": "https://lailluminator.com/2026/08/16/repub/schools-ai/",
+      "published": "2026-08-16",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "57cd0a458400d639",
+      "title": "Thune says year-round higher ethanol blend will require compromising with small oil refiners",
+      "link": "https://southdakotasearchlight.com/2026/08/16/thune-says-year-round-higher-ethanol-blend-will-require-compromising-with-small-oil-refiners/",
+      "published": "2026-08-16",
+      "state": "SD",
+      "outlet": "South Dakota Searchlight",
+      "feed_url": "https://southdakotasearchlight.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Majority Leader John Thune",
+        "SIOUX FALLS",
+        "Senate",
+        "South Dakota. Ethanol",
+        "Thune",
+        "U.S. Senate"
+      ]
+    },
+    {
+      "id": "5da8096b7801f3e1",
+      "title": "Trump Team\u2019s Use of Arcane Budget Rule Threatens Medicaid Coverage",
+      "link": "https://arkansasadvocate.com/2026/08/16/trump-teams-use-of-arcane-budget-rule-threatens-medicaid-coverage/",
+      "published": "2026-08-16",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Arcane Budget Rule Threatens",
+        "Arkansans",
+        "GOP",
+        "Medicaid",
+        "Medicaid Coverage About",
+        "President Donald Trump",
+        "Trump",
+        "Trump Team",
+        "Use"
+      ]
+    },
+    {
+      "id": "64de2058c8294165",
+      "title": "Nonprofits are more than charities in the Northeast Kingdom",
+      "link": "https://vtdigger.org/2026/08/16/opinion-nonprofits-are-more-than-charities-in-the-northeast-kingdom/",
+      "published": "2026-08-16",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "6c77c49668ea5155",
+      "title": "Kentucky Democrats look to midterm elections, governor\u2019s race during annual statewide dinner",
+      "link": "https://kentuckylantern.com/2026/08/16/kentucky-democrats-look-to-midterm-elections-governors-race-during-annual-statewide-dinner/",
+      "published": "2026-08-16",
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Awkward",
+        "Democratic",
+        "Gov. Andy Beshear",
+        "Governor",
+        "Kentucky Democrats",
+        "LEXINGTON",
+        "Lt. Gov. Jacqueline Coleman",
+        "McGarvey",
+        "Rocky Adkins",
+        "There",
+        "U.S. Rep. Morgan McGarvey"
+      ]
+    },
+    {
+      "id": "746f05e35ef03ecf",
+      "title": "Secretary of state candidate Ryan Peterman calls for election changes",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/secretary-of-state-candidate-ryan-peterman-calls-for-election-changes/",
+      "published": "2026-08-16",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "Iowa",
+        "Peterman",
+        "Republican Secretary",
+        "Ryan Peterman",
+        "Secretary",
+        "State Paul Pate"
+      ]
+    },
+    {
+      "id": "8742d97ef64ae39c",
+      "title": "Vermont proposes changes to primitive camping in the state for the first time in 33 years",
+      "link": "https://vtdigger.org/2026/08/16/vermont-proposes-changes-to-primitive-camping-in-the-state-for-the-first-time-in-33-years/",
+      "published": "2026-08-16",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "9d04906dacf5e22d",
+      "title": "Lala\u2019s Wrath: Homes Swept Away, Some Power Outages May Last Months",
+      "link": "https://www.civilbeat.org/2026/08/lalas-wrath-homes-swept-away-some-power-outages-may-last-months/",
+      "published": "2026-08-16",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "a2264b694686a9e7",
+      "title": "No more \u2018hypothetical situations\u2019: States move to fortify elections against Trump",
+      "link": "https://alabamareflector.com/2026/08/16/repub/no-more-hypothetical-situations-states-move-to-fortify-elections-against-trump/",
+      "published": "2026-08-16",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "EPA",
+        "Nick Brown",
+        "President Donald Trump",
+        "States",
+        "Trump State Democratic",
+        "Washington"
+      ]
+    },
+    {
+      "id": "a8cf554203220842",
+      "title": "Iowa Down Ballot podcast: Wing Ding, RNC chair, Scott Bessent and Libertarians",
+      "link": "https://iowacapitaldispatch.com/2026/08/16/iowa-down-ballot-podcast-wing-ding-rnc-chair-scott-bessent-and-libertarians/",
+      "published": "2026-08-16",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Arizona Sen. Mark Kelly",
+        "Belin",
+        "Dave Price",
+        "Iowa Democrats",
+        "Iowa Down Ballot",
+        "Iowa Writers Collaborative Laura",
+        "Kathie Obradovich",
+        "Libertarians",
+        "Libertarians Iowa Down Ballot",
+        "RNC",
+        "Read",
+        "Republican National Committee"
+      ]
+    },
+    {
+      "id": "afdd0e9b1ea78b0b",
+      "title": "Lombardo\u2019s big sloppy crush on data centers finally attracts Ford\u2019s attention",
+      "link": "https://nevadacurrent.com/2026/08/16/lombardos-big-sloppy-crush-on-data-centers-finally-attracts-fords-attention/",
+      "published": "2026-08-16",
+      "state": "NV",
+      "outlet": "Nevada Current",
+      "feed_url": "https://nevadacurrent.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Aaron Ford",
+        "After",
+        "Current",
+        "Democrats",
+        "Ford",
+        "Jeniffer Solis Friday",
+        "Lombardo",
+        "Nevada",
+        "Public Utilities Commission",
+        "Rep",
+        "Uttered",
+        "commission"
+      ]
+    },
+    {
+      "id": "b235c5f1f278aafb",
+      "title": "The high-speed railroad never built \u2014 120 years ago",
+      "link": "https://ctmirror.org/2026/08/16/the-high-speed-railroad-never-built-120-years-ago/",
+      "published": "2026-08-16",
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "ba31aad5b300f91b",
+      "title": "CT\u2019s first state-funded methadone vans expand access to treatment",
+      "link": "https://ctmirror.org/2026/08/16/ct-methadone-vans/",
+      "published": "2026-08-16",
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "bc46407f79753a9c",
+      "title": "Bridge demolition means long detours, downtown challenges for Lansing",
+      "link": "https://iowacapitaldispatch.com/2026/08/16/bridge-demolition-means-long-detours-downtown-challenges-for-lansing/",
+      "published": "2026-08-16",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "America",
+        "Bridge",
+        "Iowa",
+        "Lansing",
+        "Lansing LANSING",
+        "Main Street",
+        "Mississippi River",
+        "The Black Hawk Bridge",
+        "Wisconsin"
+      ]
+    },
+    {
+      "id": "bc680374ce4930c8",
+      "title": "Farm Bill impasse tests Arkansas Sen. John Boozman\u2019s low-key approach",
+      "link": "https://arkansasadvocate.com/2026/08/16/farm-bill-impasse-tests-arkansas-sen-john-boozmans-low-key-approach/",
+      "published": "2026-08-16",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Agriculture",
+        "Arkansas",
+        "Arkansas Sen. John Boozman",
+        "Boozman",
+        "Conner Eldridge",
+        "Democrat",
+        "Democratic",
+        "Donald Trump. His",
+        "Farm Bill",
+        "Heitkamp",
+        "North Dakota",
+        "Republican U.S. Sen. John"
+      ]
+    },
+    {
+      "id": "c9ca30cde81061ab",
+      "title": "Libertarian wants to repeal income tax, welfare programs, immigration policy",
+      "link": "https://iowacapitaldispatch.com/2026/08/15/libertarian-wants-to-repeal-income-tax-welfare-programs-immigration-policy/",
+      "published": "2026-08-16",
+      "state": "IA",
+      "outlet": "Iowa Capital Dispatch",
+      "feed_url": "https://iowacapitaldispatch.com/feed/",
+      "topics": [
+        "climate",
+        "politics"
+      ],
+      "entities": [
+        "Congressional District",
+        "Iowa",
+        "Libertarian",
+        "Republican Joe Mitchell",
+        "Rick Stewart",
+        "Stewart"
+      ]
+    },
+    {
+      "id": "ce52ae336870d5d7",
+      "title": "Great Salt Lake not expected to hit new low in 2026; but what if it does in the future?",
+      "link": "https://utahnewsdispatch.com/2026/08/16/great-salt-lake-not-expected-to-hit-new-low-in-2026-but-what-if-it-does-in-the-future/",
+      "published": "2026-08-16",
+      "state": "UT",
+      "outlet": "Utah News Dispatch",
+      "feed_url": "https://utahnewsdispatch.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Great Salt Lake",
+        "Utah"
+      ]
+    },
+    {
+      "id": "d004f90cccc5b8a3",
+      "title": "The Sunshine Blog: Bob McDermott\u2019s Still In But Kanani Souza Is Out",
+      "link": "https://www.civilbeat.org/2026/08/the-sunshine-blog-bob-mcdermotts-still-in-but-kanani-souza-is-out/",
+      "published": "2026-08-16",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "e603d7099e4be620",
+      "title": "Treating opioid misuse with mindfulness therapy could save thousands of dollars, new study says",
+      "link": "https://floridaphoenix.com/2026/08/16/repub/treating-opioid-misuse-with-mindfulness-therapy-could-save-thousands-of-dollars-new-study-says/",
+      "published": "2026-08-16",
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "e6fc668a93216209",
+      "title": "For emergency department staff, violence at work is a dangerous and demoralizing reality",
+      "link": "https://vtdigger.org/2026/08/16/for-emergency-department-staff-violence-at-work-is-a-dangerous-and-demoralizing-reality/",
+      "published": "2026-08-16",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "EPA",
+        "Read",
+        "VTDigger",
+        "When"
+      ]
+    },
+    {
+      "id": "ed27fc3905086852",
+      "title": "The Sunday Mini: Aug. 16",
+      "link": "https://www.civilbeat.org/2026/08/the-sunday-mini-aug-16/",
+      "published": "2026-08-16",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "f12e2a545c488002",
+      "title": "\u2018There it was\u2019: Mike Baker jumps into lakes and digs through poison ivy for lost wedding rings and other precious things",
+      "link": "https://vtdigger.org/2026/08/16/there-it-was-mike-baker-jumps-into-lakes-and-digs-through-poison-ivy-for-lost-wedding-rings-and-other-precious-things/",
+      "published": "2026-08-16",
+      "state": "VT",
+      "outlet": "VTDigger",
+      "feed_url": "https://vtdigger.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "f27eef364d556e15",
+      "title": "Why polling is so prone to prediction problems in primary races",
+      "link": "https://commonwealthbeacon.org/opinion/why-polling-is-so-prone-to-prediction-problems-in-primary-races/",
+      "published": "2026-08-16",
+      "state": "MA",
+      "outlet": "Commonwealth Beacon",
+      "feed_url": "https://commonwealthbeacon.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Why"
+      ]
+    },
+    {
+      "id": "019f957e0eb99a6b",
+      "title": "Pentagon hiring boards add secrecy, delays to civilian hiring",
+      "link": "https://marylandmatters.org/2026/08/16/pentagon-hiring-boards-add-secrecy-delays-to-civilian-hiring/",
+      "published": "2026-08-17",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Defense Department",
+        "EPA",
+        "Four",
+        "Pentagon",
+        "President Donald Trump"
+      ]
+    },
+    {
+      "id": "01cfec96b5294b3c",
+      "title": "Report: 12 Tennessee rural hospitals at \u2018immediate risk\u2019 for closure",
+      "link": "https://tennesseelookout.com/briefs/report-12-tennessee-rural-hospitals-at-immediate-risk-for-closure/",
+      "published": "2026-08-17",
+      "state": "TN",
+      "outlet": "Tennessee Lookout",
+      "feed_url": "https://tennesseelookout.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "04e7287f99f27f8c",
+      "title": "PAC Spending In Primary Shows That Money Talks",
+      "link": "https://www.civilbeat.org/2026/08/pac-spending-in-primary-shows-that-money-talks/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "PAC Spending In Primary",
+        "Shows That Money Talks"
+      ]
+    },
+    {
+      "id": "09e19b27ba1d1791",
+      "title": "Why does Florida spend so much money on treatment for children with autism and special needs?",
+      "link": "https://floridaphoenix.com/2026/08/17/why-does-florida-spend-so-much-money-on-treatment-for-children-with-autism-and-special-needs/",
+      "published": "2026-08-17",
+      "state": "FL",
+      "outlet": "Florida Phoenix",
+      "feed_url": "https://floridaphoenix.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "ABA",
+        "Florida",
+        "Medicaid",
+        "Shena Grantham",
+        "Why"
+      ]
+    },
+    {
+      "id": "1010e4ef6370f21f",
+      "title": "Georgia Supreme Court to stop hearing most murder cases by 2028",
+      "link": "https://georgiarecorder.com/2026/08/17/georgia-supreme-court-to-stop-hearing-most-murder-cases-by-2028/",
+      "published": "2026-08-17",
+      "state": "GA",
+      "outlet": "Georgia Recorder",
+      "feed_url": "https://georgiarecorder.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "10357a89457d75f4",
+      "title": "Get Involved: Primary election prep, dueling Port of Wilmington meetings",
+      "link": "https://spotlightdelaware.org/2026/08/17/get-involved-primary-election-prep-dueling-port-of-wilmington-meetings/",
+      "published": "2026-08-17",
+      "state": "DE",
+      "outlet": "Spotlight Delaware",
+      "feed_url": "https://spotlightdelaware.org/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Delaware",
+        "EPA",
+        "Get Involved",
+        "Kent County",
+        "Port",
+        "Primary",
+        "Spotlight Delaware",
+        "Wilmington"
+      ]
+    },
+    {
+      "id": "10f1ea19a2a47f6b",
+      "title": "Ohio attorney general candidate calls for investigation of ties between JobsOhio and Intel",
+      "link": "https://ohiocapitaljournal.com/2026/08/17/ohio-attorney-general-candidate-calls-for-investigation-of-ties-between-jobsohio-and-intel/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "Governor",
+        "Intel",
+        "Intel One",
+        "JobsOhio",
+        "John Kulewicz",
+        "Ohio"
+      ]
+    },
+    {
+      "id": "13f2fc4e6064f493",
+      "title": "Jacksonville State University Board of Trustees dissolves faculty senate, staff council",
+      "link": "https://alabamareflector.com/2026/08/17/jacksonville-state-university-board-of-trustees-dissolves-faculty-senate-staff-council/",
+      "published": "2026-08-17",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Alabama",
+        "Board",
+        "Jacksonville State University",
+        "Jacksonville State University Board",
+        "Randall Jones",
+        "Senate",
+        "The Jacksonville State University",
+        "Trustees"
+      ]
+    },
+    {
+      "id": "15f60ff932e3749b",
+      "title": "Ohio domestic violence resources centers have faced rising requests for services",
+      "link": "https://ohiocapitaljournal.com/2026/08/17/ohio-domestic-violence-resources-have-faced-rising-requests-for-services/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "167059b0910800ea",
+      "title": "Bridge demolition between Iowa and Wisconsin means long detours, downtown challenges",
+      "link": "https://wisconsinexaminer.com/2026/08/17/repub/bridge-demolition-between-iowa-and-wisconsin-means-long-detours-downtown-challenges/",
+      "published": "2026-08-17",
+      "state": "WI",
+      "outlet": "Wisconsin Examiner",
+      "feed_url": "https://wisconsinexaminer.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "America",
+        "Bridge",
+        "Iowa",
+        "LANSING",
+        "Lansing",
+        "Main Street",
+        "Mississippi River",
+        "The Black Hawk Bridge",
+        "Wisconsin"
+      ]
+    },
+    {
+      "id": "16af5a1c5adda0e7",
+      "title": "State corrections officers altered prisoner\u2019s ID with racial caricature, lawsuit claims",
+      "link": "https://michiganadvance.com/2026/08/17/state-corrections-officers-altered-prisoners-id-with-racial-caricature-lawsuit-claims/",
+      "published": "2026-08-17",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Dylan Leenheer",
+        "Gun",
+        "Michigan",
+        "Native American",
+        "Newberry Correctional Facility",
+        "State",
+        "Upper Peninsula"
+      ]
+    },
+    {
+      "id": "18a2f23b36b9580c",
+      "title": "Parents are being held responsible for their kid\u2019s crimes under new laws",
+      "link": "https://stateline.org/2026/08/17/parents-are-being-held-responsible-for-their-kids-crimes-under-new-laws/",
+      "published": "2026-08-17",
+      "state": "US",
+      "outlet": "Stateline",
+      "feed_url": "https://stateline.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Parents",
+        "Some",
+        "When",
+        "Where"
+      ]
+    },
+    {
+      "id": "192b3dd47dcfcad8",
+      "title": "Voting rights anniversary spotlights America\u2019s enduring anti-Black contempt",
+      "link": "https://ohiocapitaljournal.com/2026/08/17/repub/voting-rights-anniversary-spotlights-americas-enduring-anti-black-contempt/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Activists",
+        "African Americans",
+        "America",
+        "Black",
+        "Civil",
+        "South",
+        "Voting",
+        "Voting Rights Act"
+      ]
+    },
+    {
+      "id": "1a1b05cdc69798cd",
+      "title": "Maryland\u2019s primary results prove it\u2019s time for ranked choice voting",
+      "link": "https://marylandmatters.org/2026/08/16/marylands-primary-results-prove-its-time-for-ranked-choice-voting/",
+      "published": "2026-08-17",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Maryland",
+        "Mike Pellittierre"
+      ]
+    },
+    {
+      "id": "1f4a29e6f23603e0",
+      "title": "A truce to end the redistricting wars",
+      "link": "https://newjerseymonitor.com/2026/08/17/a-truce-to-end-the-redistricting-wars/",
+      "published": "2026-08-17",
+      "state": "NJ",
+      "outlet": "New Jersey Monitor",
+      "feed_url": "https://newjerseymonitor.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Ashley Murray",
+        "Brad Van Arnum",
+        "Photo",
+        "Requiring",
+        "States Newsroom"
+      ]
+    },
+    {
+      "id": "1f58141fd819e627",
+      "title": "NWS forecast: Dangerous heat wave to stretch through Aug. 20 in West Tennessee",
+      "link": "https://tennesseelookout.com/briefs/nws-forecast-dangerous-heat-wave-to-stretch-through-aug-20-in-west-tennessee/",
+      "published": "2026-08-17",
+      "state": "TN",
+      "outlet": "Tennessee Lookout",
+      "feed_url": "https://tennesseelookout.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Aug",
+        "Dangerous",
+        "NWS",
+        "Thursday. Heat",
+        "Weather Service",
+        "West Tennessee The National",
+        "West Tennessee. In Memphis"
+      ]
+    },
+    {
+      "id": "27d0d3b6e7e9309e",
+      "title": "Word Flower: Aug. 17",
+      "link": "https://www.civilbeat.org/2026/08/word-flower-aug-17/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "327ad1bcee8c0135",
+      "title": "How Louisiana\u2019s new surgeon general wants to transform public health",
+      "link": "https://lailluminator.com/2026/08/17/surgeon-general-louisiana/",
+      "published": "2026-08-17",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "37c63d2492ddcaf4",
+      "title": "As Va. officials weigh data center pushback, report details industry\u2019s public service funding",
+      "link": "https://virginiamercury.com/2026/08/17/as-va-officials-weigh-data-center-pushback-report-details-industrys-public-service-funding/",
+      "published": "2026-08-17",
+      "state": "VA",
+      "outlet": "Virginia Mercury",
+      "feed_url": "https://virginiamercury.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Affordable Housing Trust Fund",
+        "As Va",
+        "Henrico County",
+        "Now",
+        "Yvettrise Hoskie"
+      ]
+    },
+    {
+      "id": "3e155790b15778cb",
+      "title": "Neal Milner: New Police Drones May Run Afoul Of Hawai\u02bbi Culture",
+      "link": "https://www.civilbeat.org/2026/08/neal-milner-new-police-drones-may-run-afoul-of-hawaii-culture/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "4a3566f84e493d2d",
+      "title": "Suspect in Virginia State University shooting arrested, found hiding in closet and more headlines",
+      "link": "https://virginiamercury.com/briefs/suspect-in-virginia-state-university-shooting-arrested-found-hiding-in-closet-and-more-headlines/",
+      "published": "2026-08-17",
+      "state": "VA",
+      "outlet": "Virginia Mercury",
+      "feed_url": "https://virginiamercury.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Flock",
+        "Henry County",
+        "Martinsville Bulletin",
+        "SNAP",
+        "Suspect",
+        "Virginia",
+        "Virginia Beach",
+        "Virginia State University",
+        "WHRO",
+        "WRIC"
+      ]
+    },
+    {
+      "id": "56018d17d1d90776",
+      "title": "Black lung cases surging again in Southwest Va., Appalachia; miners blame blocked regulations",
+      "link": "https://virginiamercury.com/2026/08/17/black-lung-cases-are-surging-again-miners-blame-blocked-regulations/",
+      "published": "2026-08-17",
+      "state": "VA",
+      "outlet": "Virginia Mercury",
+      "feed_url": "https://virginiamercury.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "American Journal",
+        "Appalachia",
+        "Appalachian",
+        "Black",
+        "Critical Care Medicine",
+        "Health",
+        "National Institute",
+        "Occupational Safety",
+        "Respiratory",
+        "Southwest Va",
+        "With"
+      ]
+    },
+    {
+      "id": "563752fc93bdc76a",
+      "title": "Some Haitians targeted for ankle monitors by ICE as they face threat of mass deportation",
+      "link": "https://ncnewsline.com/2026/08/17/some-haitians-targeted-for-ankle-monitors-by-ice-as-they-face-threat-of-mass-deportation/",
+      "published": "2026-08-17",
+      "state": "NC",
+      "outlet": "NC Newsline",
+      "feed_url": "https://ncnewsline.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Department",
+        "EPA",
+        "Even",
+        "Haitian",
+        "Homeland Security",
+        "ICE",
+        "Ohio",
+        "Some Haitians",
+        "Springfield",
+        "Temporary Protected Status",
+        "WASHINGTON"
+      ]
+    },
+    {
+      "id": "5970af10191bd247",
+      "title": "Rural, impoverished areas of Alabama lack access to attorneys",
+      "link": "https://alabamareflector.com/2026/08/17/rural-impoverished-areas-of-alabama-lack-access-to-attorneys/",
+      "published": "2026-08-17",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "5bfc46e5fa02fbd0",
+      "title": "\u2018Like a war crime.\u2019 Mentally ill Frankfort woman moves from streets to jail.",
+      "link": "https://kentuckylantern.com/2026/08/17/like-a-war-crime-mentally-ill-frankfort-woman-moves-from-streets-to-jail/",
+      "published": "2026-08-17",
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "60668636ab713bd3",
+      "title": "Connecting a primary care patient with behavioral health treatment could be a phone call away",
+      "link": "https://rhodeislandcurrent.com/2026/08/17/connecting-a-primary-care-patient-with-behavioral-health-treatment-could-be-a-phone-call-away/",
+      "published": "2026-08-17",
+      "state": "RI",
+      "outlet": "Rhode Island Current",
+      "feed_url": "https://rhodeislandcurrent.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Connecting",
+        "Every",
+        "Rhode Island",
+        "Strategic"
+      ]
+    },
+    {
+      "id": "677845c003f15c34",
+      "title": "The search for Maine\u2019s missing native bumble bees",
+      "link": "https://mainemorningstar.com/2026/08/17/the-search-for-maines-missing-native-bumble-bees/",
+      "published": "2026-08-17",
+      "state": "ME",
+      "outlet": "Maine Morning Star",
+      "feed_url": "https://mainemorningstar.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "EPA",
+        "Inland Fisheries",
+        "Maine",
+        "Maine Department",
+        "Wildlife"
+      ]
+    },
+    {
+      "id": "68cccad9c9cd727f",
+      "title": "From crisis to five years of gains: Indiana\u2019s reading success story",
+      "link": "https://indianacapitalchronicle.com/2026/08/17/from-crisis-to-five-years-of-gains-indianas-reading-success-story/",
+      "published": "2026-08-17",
+      "state": "IN",
+      "outlet": "Indiana Capital Chronicle",
+      "feed_url": "https://indianacapitalchronicle.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "6b0c9a82ee307a20",
+      "title": "A decade after settlement, medical care still falls short at Baltimore jail",
+      "link": "https://marylandmatters.org/2026/08/17/a-decade-after-settlement-medical-care-still-falls-short-at-baltimore-jail/",
+      "published": "2026-08-17",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "6bb9e0882bda4db7",
+      "title": "Trump administration demands hospitals share emergency room records",
+      "link": "https://marylandmatters.org/2026/08/16/trump-administration-demands-hospitals-share-emergency-room-records/",
+      "published": "2026-08-17",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "6d51ea93361a60c1",
+      "title": "Will Caron: A Definition Of Insanity",
+      "link": "https://www.civilbeat.org/2026/08/will-caron-a-definition-of-insanity/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "721579806286ef25",
+      "title": "Flock Safety tightens safeguards as states, cities question surveillance network",
+      "link": "https://georgiarecorder.com/2026/08/16/repub/flock-safety-tightens-safeguards-as-states-cities-question-surveillance-network/",
+      "published": "2026-08-17",
+      "state": "GA",
+      "outlet": "Georgia Recorder",
+      "feed_url": "https://georgiarecorder.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Flock Safety"
+      ]
+    },
+    {
+      "id": "736e9a64aefefda3",
+      "title": "More GOP party platforms include anti-IVF language. Is surrogacy next?",
+      "link": "https://westvirginiawatch.com/2026/08/17/repub/more-gop-party-platforms-include-anti-ivf-language-is-surrogacy-next/",
+      "published": "2026-08-17",
+      "state": "WV",
+      "outlet": "West Virginia Watch",
+      "feed_url": "https://westvirginiawatch.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Brooke Green",
+        "Democratic",
+        "Green",
+        "IVF",
+        "Idaho",
+        "More GOP"
+      ]
+    },
+    {
+      "id": "73aab16c1edde1ed",
+      "title": "Michigan\u2019s cyclosporiasis cases near 14,000 as outbreak continues",
+      "link": "https://michiganadvance.com/2026/08/17/michigans-cyclosporiasis-cases-near-14000-as-outbreak-continues/",
+      "published": "2026-08-17",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Department",
+        "Department of Health",
+        "EPA",
+        "Health",
+        "Human Services",
+        "Michigan",
+        "Thursday. The"
+      ]
+    },
+    {
+      "id": "77c0078561b4dca0",
+      "title": "Hampton leaders cool to limited Army Corps flood solutions",
+      "link": "https://virginiamercury.com/2026/08/17/hampton-leaders-cool-to-limited-army-corps-flood-solutions/",
+      "published": "2026-08-17",
+      "state": "VA",
+      "outlet": "Virginia Mercury",
+      "feed_url": "https://virginiamercury.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "79add15871aedd38",
+      "title": "In Idaho, an insurer says health care costs may rise after hospital taps Congress\u2019s billing tool",
+      "link": "https://idahocapitalsun.com/2026/08/17/in-idaho-an-insurer-says-health-care-costs-may-rise-after-hospital-taps-congresss-billing-tool/",
+      "published": "2026-08-17",
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "866f323665271ec4",
+      "title": "Philadelphia stands out for its approach for revisiting felony murder in Pa.",
+      "link": "https://penncapital-star.com/criminal-justice/philadelphia-stands-out-for-its-approach-for-revisiting-felony-murder-in-pa/",
+      "published": "2026-08-17",
+      "state": "PA",
+      "outlet": "Pennsylvania Capital-Star",
+      "feed_url": "https://penncapital-star.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Pa. In",
+        "Philadelphia"
+      ]
+    },
+    {
+      "id": "8a847f2ed4a13057",
+      "title": "Health coordinator, school board head running in GOP primary for Arkansas Senate seat",
+      "link": "https://arkansasadvocate.com/2026/08/17/health-coordinator-school-board-head-running-in-gop-primary-for-arkansas-senate-seat/",
+      "published": "2026-08-17",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Arkansas",
+        "Arkansas Senate",
+        "GOP",
+        "Harrell Wilson",
+        "Health",
+        "Hermitage",
+        "Republican",
+        "Republicans Missy Wardlaw",
+        "Rison",
+        "Sen. Ben Gilmore. The",
+        "Senate",
+        "Senate District"
+      ]
+    },
+    {
+      "id": "8c3d4f04e9d70056",
+      "title": "Regulate AI companies, not AI in schools, North Dakota state superintendent says",
+      "link": "https://northdakotamonitor.com/2026/08/17/regulate-ai-companies-not-ai-in-schools-north-dakota-state-superintendent-says/",
+      "published": "2026-08-17",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Legislature",
+        "Levi Bachmeier",
+        "North Dakota",
+        "Regulate AI"
+      ]
+    },
+    {
+      "id": "90a9d4b388996334",
+      "title": "New Hampshire is one of three states with a deadline for convicts to prove their innocence",
+      "link": "https://newhampshirebulletin.com/2026/08/17/new-hampshire-is-one-of-three-states-with-a-deadline-for-convicts-to-prove-their-innocence/",
+      "published": "2026-08-17",
+      "state": "NH",
+      "outlet": "New Hampshire Bulletin",
+      "feed_url": "https://newhampshirebulletin.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "91a35cabe9246ee0",
+      "title": "\u2018Losing My Mind\u2019: New York Prisons Are Holding People in \u2018Shit Rooms\u2019 With No Running Water",
+      "link": "https://nysfocus.com/2026/08/17/new-york-prisons-contraband-watch-rooms",
+      "published": "2026-08-17",
+      "state": "NY",
+      "outlet": "New York Focus",
+      "feed_url": "https://nysfocus.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "9fa543c5c7296201",
+      "title": "When a principled stand gets in the way of effective campaigning",
+      "link": "https://alabamareflector.com/2026/08/17/when-a-principled-stand-gets-in-the-way-of-effective-campaigning/",
+      "published": "2026-08-17",
+      "state": "AL",
+      "outlet": "Alabama Reflector",
+      "feed_url": "https://alabamareflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Alabama House",
+        "Democrat",
+        "Guntersville",
+        "House",
+        "Jeff McLaughlin",
+        "PAC",
+        "People",
+        "Representatives",
+        "When"
+      ]
+    },
+    {
+      "id": "9feb2448ba66a8c3",
+      "title": "Closing the trust gap",
+      "link": "https://wyofile.com/closing-the-trust-gap/",
+      "published": "2026-08-17",
+      "state": "WY",
+      "outlet": "WyoFile",
+      "feed_url": "https://wyofile.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "a25f017c6e609c47",
+      "title": "Whitmer headlines Kentucky Democrats\u2019 push toward 2026 midterms",
+      "link": "https://michiganadvance.com/2026/08/17/repub/whitmer-headlines-kentucky-democrats-push-toward-2026-midterms/",
+      "published": "2026-08-17",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Awkward",
+        "Democratic",
+        "Gov. Andy Beshear",
+        "Governor",
+        "Kentucky Democrats",
+        "LEXINGTON",
+        "Lt. Gov. Jacqueline Coleman",
+        "McGarvey",
+        "Rocky Adkins",
+        "There",
+        "U.S. Rep. Morgan McGarvey",
+        "Whitmer"
+      ]
+    },
+    {
+      "id": "a8770770d4202cff",
+      "title": "What trans youth need from CT leaders now",
+      "link": "https://ctmirror.org/2026/08/17/one-year-later-what-trans-youth-need-from-ct-leaders-now-sj/",
+      "published": "2026-08-17",
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "ae0c4ab6cb4ea588",
+      "title": "Democrats push nearly 250 state bills opposing federal immigration efforts",
+      "link": "https://arkansasadvocate.com/2026/08/17/repub/democrats-push-nearly-250-state-bills-opposing-federal-immigration-efforts/",
+      "published": "2026-08-17",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "Democrats",
+        "State Futures"
+      ]
+    },
+    {
+      "id": "aef47da1431f9790",
+      "title": "\u2018Utter Devastation\u2019: Lala Turns Hawai\u02bbi Upside Down, Spares Some",
+      "link": "https://www.civilbeat.org/2026/08/utter-devastation-lala-turns-hawaii-upside-down-spares-some/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "af1f19c3261fee3f",
+      "title": "As Federal Government Stirs Illegal Voting Fears, Two Cases Arise In Hawai\u02bbi",
+      "link": "https://www.civilbeat.org/2026/08/as-federal-government-stirs-illegal-voting-fears-two-cases-arise-in-hawaii/",
+      "published": "2026-08-17",
+      "state": "HI",
+      "outlet": "Honolulu Civil Beat",
+      "feed_url": "https://www.civilbeat.org/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "As Federal Government Stirs",
+        "FBI",
+        "Illegal Voting Fears",
+        "Maui County Clerk",
+        "Two",
+        "Two Cases Arise In"
+      ]
+    },
+    {
+      "id": "c1487b3426ceb259",
+      "title": "WV DEP says Fundamental Data controls site of proposed Tucker County data center, power plant",
+      "link": "https://westvirginiawatch.com/2026/08/17/wv-dep-says-fundamental-data-controls-site-of-proposed-tucker-county-data-center-power-plant/",
+      "published": "2026-08-17",
+      "state": "WV",
+      "outlet": "West Virginia Watch",
+      "feed_url": "https://westvirginiawatch.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "DEP",
+        "Department",
+        "EPA",
+        "Environmental Protection",
+        "Fundamental Data",
+        "The West Virginia Department",
+        "Tucker County",
+        "WV DEP"
+      ]
+    },
+    {
+      "id": "c31b445db4e8769d",
+      "title": "Ohio Haitians brace for what\u2019s next after Trump cancels their TPS",
+      "link": "https://ohiocapitaljournal.com/2026/08/17/repub/ohio-haitians-brace-for-whats-next-after-trump-cancels-their-tps/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [
+        "economic_development",
+        "environmental_legislation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "EPA",
+        "Haitian",
+        "Haitians",
+        "However",
+        "Many",
+        "Ohio",
+        "Ohio Haitians",
+        "Springfield",
+        "TPS Earlier",
+        "Trump"
+      ]
+    },
+    {
+      "id": "c8fdeaa9af30aeca",
+      "title": "Lincoln petition fraud investigation becomes political",
+      "link": "https://nebraskaexaminer.com/2026/08/17/lincoln-petition-fraud-investigation-becomes-political-in-nebraska/",
+      "published": "2026-08-17",
+      "state": "NE",
+      "outlet": "Nebraska Examiner",
+      "feed_url": "https://nebraskaexaminer.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Lincoln",
+        "Lincoln City Council",
+        "Nebraska",
+        "Republican"
+      ]
+    },
+    {
+      "id": "cb8d4f59658e99fb",
+      "title": "With PNW electricity demand surging, planners map out major grid upgrades",
+      "link": "https://idahocapitalsun.com/2026/08/17/repub/with-pnw-electricity-demand-surging-planners-map-out-major-grid-upgrades/",
+      "published": "2026-08-17",
+      "state": "ID",
+      "outlet": "Idaho Capital Sun",
+      "feed_url": "https://idahocapitalsun.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Pacific Northwest",
+        "The Pacific Northwest",
+        "Thursday. Implementing",
+        "With PNW"
+      ]
+    },
+    {
+      "id": "d308ea674b357c29",
+      "title": "A letter to Luke Bronin",
+      "link": "https://ctmirror.org/2026/08/17/a-letter-to-luke-bronin/",
+      "published": "2026-08-17",
+      "state": "CT",
+      "outlet": "Connecticut Mirror",
+      "feed_url": "https://ctmirror.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "d3e1f03abf41f661",
+      "title": "Scientists link the West\u2019s extreme snow drought to climate change",
+      "link": "https://wyofile.com/scientists-link-the-wests-extreme-snow-drought-to-climate-change/",
+      "published": "2026-08-17",
+      "state": "WY",
+      "outlet": "WyoFile",
+      "feed_url": "https://wyofile.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "New",
+        "Scientists",
+        "West",
+        "WyoFile"
+      ]
+    },
+    {
+      "id": "d7d2f88938b96c34",
+      "title": "Emily Moreno files suit against Ohio US Rep. Max Miller for publishing naked photo of their toddler",
+      "link": "https://ohiocapitaljournal.com/2026/08/17/emily-moreno-files-lawsuit-against-ohio-gop-u-s-rep-max-miller-for-publishing-naked-photo-of-their-toddler/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Aaron Minc",
+        "August. The",
+        "Emily Moreno",
+        "Max Miller",
+        "Miller",
+        "Ohio Republican U.S. Rep",
+        "Ohio US Rep. Max"
+      ]
+    },
+    {
+      "id": "d92de9cd05d612c1",
+      "title": "Early voting in Wyoming\u2019s primary election trails historic 2022 contest, clerks say",
+      "link": "https://wyofile.com/early-voting-in-wyomings-primary-election-trails-historic-2022-contest-clerks-say/",
+      "published": "2026-08-17",
+      "state": "WY",
+      "outlet": "WyoFile",
+      "feed_url": "https://wyofile.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Early",
+        "Some",
+        "WyoFile",
+        "Wyoming"
+      ]
+    },
+    {
+      "id": "d9beb86d40728fbc",
+      "title": "Whooping cranes are on the cusp of a comeback story. Could Trump policy change the ending?",
+      "link": "https://lailluminator.com/2026/08/17/whooping-cranes-are-on-the-cusp-of-a-comeback-story-could-trump-policy-change-the-ending/",
+      "published": "2026-08-17",
+      "state": "LA",
+      "outlet": "Louisiana Illuminator",
+      "feed_url": "https://lailluminator.com/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "ddda79958a95ffa4",
+      "title": "Issue Spotlight: Gubernatorial candidates on future of Arkansas\u2019 Medicaid expansion",
+      "link": "https://arkansasadvocate.com/2026/08/17/issue-spotlight-gubernatorial-candidates-on-future-of-arkansas-medicaid-expansion/",
+      "published": "2026-08-17",
+      "state": "AR",
+      "outlet": "Arkansas Advocate",
+      "feed_url": "https://arkansasadvocate.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Arkansans. When Medicaid",
+        "Arkansas",
+        "Governor",
+        "Gubernatorial",
+        "Issue Spotlight",
+        "Medicaid",
+        "Trump"
+      ]
+    },
+    {
+      "id": "e882145a1be3ee3d",
+      "title": "A school board vacancy could shape a rural Sussex district\u2019s referendum plans",
+      "link": "https://spotlightdelaware.org/2026/08/17/a-school-board-vacancy-could-shape-a-rural-sussex-districts-referendum-plans/",
+      "published": "2026-08-17",
+      "state": "DE",
+      "outlet": "Spotlight Delaware",
+      "feed_url": "https://spotlightdelaware.org/feed/",
+      "topics": [],
+      "entities": []
+    },
+    {
+      "id": "ed0f924ab9a4184c",
+      "title": "Heat-related illnesses spike in Colorado as climate change fuels record temperatures",
+      "link": "https://coloradonewsline.com/2026/08/17/heat-related-illnesses-spiked-colorado/",
+      "published": "2026-08-17",
+      "state": "CO",
+      "outlet": "Colorado Newsline",
+      "feed_url": "https://coloradonewsline.com/feed/",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Aug",
+        "Blocktickets Park",
+        "Colorado",
+        "Colorado Springs",
+        "Fahrenheit",
+        "Heat",
+        "More",
+        "Tacos",
+        "Tequila Festival"
+      ]
+    },
+    {
+      "id": "edc3bd8d2b9bad97",
+      "title": "No more \u2018hypothetical situations\u2019: States move to fortify elections against Trump",
+      "link": "https://kentuckylantern.com/2026/08/17/repub/no-more-hypothetical-situations-states-move-to-fortify-elections-against-trump/",
+      "published": "2026-08-17",
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "topics": [
+        "environmental_legislation",
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "EPA",
+        "Nick Brown",
+        "President Donald Trump",
+        "States",
+        "Trump State Democratic",
+        "Washington"
+      ]
+    },
+    {
+      "id": "f18a286bf94856d0",
+      "title": "Indiana working to preserve local businesses across ownership changes",
+      "link": "https://indianacapitalchronicle.com/2026/08/17/indiana-working-to-preserve-local-businesses-across-ownership-changes/",
+      "published": "2026-08-17",
+      "state": "IN",
+      "outlet": "Indiana Capital Chronicle",
+      "feed_url": "https://indianacapitalchronicle.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Indiana",
+        "Keep IN"
+      ]
+    },
+    {
+      "id": "f1a27cf00ac4da96",
+      "title": "From headlines to campaign ads: how the Memphis Safe Task Force narrative went unchallenged",
+      "link": "https://tennesseelookout.com/2026/08/17/from-headlines-to-campaign-ads-how-the-memphis-safe-task-force-narrative-went-unchallenged/",
+      "published": "2026-08-17",
+      "state": "TN",
+      "outlet": "Tennessee Lookout",
+      "feed_url": "https://tennesseelookout.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "From",
+        "In January",
+        "Memphis",
+        "Memphis Safe Task Force"
+      ]
+    },
+    {
+      "id": "f1fae267ccb5d176",
+      "title": "Tough questions for North Dakota\u2019s congressional delegation",
+      "link": "https://northdakotamonitor.com/2026/08/17/tough-questions-for-north-dakotas-congressional-delegation/",
+      "published": "2026-08-17",
+      "state": "ND",
+      "outlet": "North Dakota Monitor",
+      "feed_url": "https://northdakotamonitor.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Hoeven",
+        "House",
+        "Kevin",
+        "North Dakota",
+        "North Dakota Sens. John",
+        "Republicans",
+        "Senate",
+        "The U.S. Congress",
+        "Tough"
+      ]
+    },
+    {
+      "id": "f264cc3be449f9a6",
+      "title": "Data centers are not the answer to Kentucky\u2019s industrial and economic woes",
+      "link": "https://kentuckylantern.com/2026/08/17/data-centers-are-not-the-answer-to-kentuckys-industrial-and-economic-woes/",
+      "published": "2026-08-17",
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Data",
+        "Eastern Kentucky",
+        "Kentucky",
+        "United States",
+        "When Kentucky"
+      ]
+    },
+    {
+      "id": "f410645c9d7f0f9b",
+      "title": "DNC approves 2028 presidential nominating cycle starting in South Carolina, Nevada",
+      "link": "https://georgiarecorder.com/2026/08/16/repub/dnc-approves-2028-presidential-nominating-cycle-starting-in-south-carolina-nevada/",
+      "published": "2026-08-17",
+      "state": "GA",
+      "outlet": "Georgia Recorder",
+      "feed_url": "https://georgiarecorder.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "Committee",
+        "DNC",
+        "Martin",
+        "Nevada The Democratic National",
+        "Nevada. DNC Chair Ken",
+        "Our",
+        "South Carolina"
+      ]
+    },
+    {
+      "id": "f489a2ec61661333",
+      "title": "Pa. lawmakers propose guardrails on automatic license plate cameras as backlash grows",
+      "link": "https://penncapital-star.com/civil-rights-social-justice/pa-lawmakers-propose-guardrails-on-automatic-license-plate-cameras-as-backlash-grows/",
+      "published": "2026-08-17",
+      "state": "PA",
+      "outlet": "Pennsylvania Capital-Star",
+      "feed_url": "https://penncapital-star.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "ALPRs",
+        "Flock",
+        "Law"
+      ]
+    },
+    {
+      "id": "f5238eed2989f1e8",
+      "title": "Roger Marshall and Ty Masterson quiver in fear as Kansas faces its greatest threat ever: drag queens",
+      "link": "https://kansasreflector.com/2026/08/17/roger-marshall-and-ty-masterson-quiver-in-fear-as-kansas-faces-its-greatest-threat-ever-drag-queens/",
+      "published": "2026-08-17",
+      "state": "KS",
+      "outlet": "Kansas Reflector",
+      "feed_url": "https://kansasreflector.com/feed/",
+      "topics": [
+        "politics"
+      ],
+      "entities": [
+        "American",
+        "Both U.S. Sen. Roger",
+        "Kansas",
+        "Kansas Senate President Ty",
+        "Marshall",
+        "Masterson",
+        "Nothing",
+        "Republicans",
+        "Roger Marshall",
+        "Second Amendment",
+        "Senate",
+        "Then"
+      ]
+    },
+    {
+      "id": "faea6a069b239a18",
+      "title": "U.S. Department of Justice files new charges against Southern Poverty Law Center",
+      "link": "https://ohiocapitaljournal.com/briefs/u-s-department-of-justice-files-new-charges-against-southern-poverty-law-center/",
+      "published": "2026-08-17",
+      "state": "OH",
+      "outlet": "Ohio Capital Journal",
+      "feed_url": "https://ohiocapitaljournal.com/feed/",
+      "topics": [
+        "environmental_legislation"
+      ],
+      "entities": [
+        "April. The",
+        "EPA",
+        "Heidi Beirich",
+        "Justice",
+        "Justice Tuesday",
+        "SPLC",
+        "Southern Poverty Law Center",
+        "The U.S. Department",
+        "U.S. Department"
+      ]
+    },
+    {
+      "id": "faeef7a40066f821",
+      "title": "Moratoriums, a mugshot and tax breaks. Catch up on Kentucky data center news.",
+      "link": "https://kentuckylantern.com/2026/08/17/moratoriums-a-mugshot-and-tax-breaks-catch-up-on-kentucky-data-center-news/",
+      "published": "2026-08-17",
+      "state": "KY",
+      "outlet": "Kentucky Lantern",
+      "feed_url": "https://kentuckylantern.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Catch",
+        "Data",
+        "Editor",
+        "Kentucky",
+        "Lantern",
+        "Louisville",
+        "Moratoriums",
+        "Note"
+      ]
+    },
+    {
+      "id": "fd04f55dcce49bfa",
+      "title": "Is 2026 the year of the crossover voter in Rhode Island? What the data says.",
+      "link": "https://rhodeislandcurrent.com/2026/08/17/is-2026-the-year-of-the-crossover-voter-in-rhode-island-what-the-data-says/",
+      "published": "2026-08-17",
+      "state": "RI",
+      "outlet": "Rhode Island Current",
+      "feed_url": "https://rhodeislandcurrent.com/feed/",
+      "topics": [
+        "economic_development",
+        "politics"
+      ],
+      "entities": [
+        "Democratic",
+        "GOP",
+        "His",
+        "Lifelong Republican Joe Paglia",
+        "Narragansett",
+        "Rhode Island",
+        "What"
+      ]
+    },
+    {
+      "id": "ffe2e238483fc2ed",
+      "title": "Help for local governments on Bay-related work is spread unevenly, report finds",
+      "link": "https://marylandmatters.org/2026/08/16/help-for-local-governments-on-bay-related-work-is-spread-unevenly-report-finds/",
+      "published": "2026-08-17",
+      "state": "MD",
+      "outlet": "Maryland Matters",
+      "feed_url": "https://marylandmatters.org/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Bay",
+        "Chesapeake Bay",
+        "Help",
+        "Local"
+      ]
+    },
+    {
+      "id": "ffea0c237b1bdda1",
+      "title": "Michigan Data Centers: The Weekly Download",
+      "link": "https://michiganadvance.com/2026/08/17/michigan-data-centers-the-weekly-download-3-2-2-2-2-2-2-2-2/",
+      "published": "2026-08-17",
+      "state": "MI",
+      "outlet": "Michigan Advance",
+      "feed_url": "https://michiganadvance.com/feed/",
+      "topics": [
+        "economic_development"
+      ],
+      "entities": [
+        "Ellis Boal",
+        "Los Alamos National Laboratory",
+        "Michigan",
+        "Michigan Data Centers",
+        "Michigan State Tax Commission",
+        "Representing Kathryn Haushalter",
+        "Saline Township",
+        "The Weekly Download The",
+        "University",
+        "Ypsilanti Township",
+        "commission"
       ]
     }
   ]

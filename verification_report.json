@@ -1,9 +1,9 @@
 {
   "_comment": "STRUCTURAL checks hold regardless of data volume; DATA checks WARN until a real ingest has run. 'All PASS' with DATA WARNs means the code is sound but no real data exists yet.",
-  "generated": "2026-08-14T18:52:41+00:00",
+  "generated": "2026-08-17T11:57:44+00:00",
   "summary": {
-    "PASS": 7,
-    "WARN": 2
+    "PASS": 8,
+    "WARN": 1
   },
   "checks": [
     {
@@ -34,31 +34,31 @@
       "id": "D1",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "1742 lines, no dupes, watermark 1742 intact"
+      "msg": "1966 lines, no dupes, watermark 1966 intact"
     },
     {
       "id": "D2",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "1742 sighting ids all resolve to archive items"
+      "msg": "1966 sighting ids all resolve to archive items"
     },
     {
       "id": "D3",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "snapshot totals reproduce from archive window [2026-08-08..2026-08-14] (935 items, independent recompute)"
+      "msg": "snapshot totals reproduce from archive window [2026-08-11..2026-08-17] (937 items, independent recompute)"
     },
     {
       "id": "D4",
       "kind": "DATA",
       "status": "WARN",
-      "msg": "only 1 snapshot(s); need 3 to judge dead feeds"
+      "msg": "only 2 snapshot(s); need 3 to judge dead feeds"
     },
     {
       "id": "D5",
       "kind": "DATA",
-      "status": "WARN",
-      "msg": "13/51 registry feeds live-validated; 38 still candidate (run discover_feeds.py --health-check)"
+      "status": "PASS",
+      "msg": "51/51 registry feeds live-validated; 0 still candidate (run discover_feeds.py --health-check)"
     }
   ]
 }

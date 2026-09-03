@@ -1,6 +1,11 @@
 # WEEKLY rollup — classify the archive, append a coverage snapshot, verify.
-# This is where the (optional) API cost lives. Reads the archive only; never
-# fetches. Also runs a feed health check that PROPOSES registry changes.
+# Reads the archive only; never fetches. Also runs a feed health check that
+# PROPOSES registry changes.
+#
+# RESILIENCE: the snapshot + verification report are committed even when
+# verification FAILS. A failed check reds the build (final gate step) so it is
+# visible, but it never again silently discards a week of history — the failure
+# mode that hid a false-positive dead-feed check for weeks.
 name: rollup
 on:
   schedule:
@@ -20,16 +25,31 @@ jobs:
           python-version: "3.12"
       - name: Install deps
         run: pip install -r requirements.txt
-      - name: Classify -> snapshot -> verify
+
+      - name: Classify archive
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: ./run_rollup.sh
+        run: |
+          if [ -n "${ANTHROPIC_API_KEY:-}" ]; then python3 classify.py; else python3 classify.py --offline; fi
+
+      - name: Append weekly snapshot
+        run: python3 append_history.py
+
       - name: Feed health check (proposals only, human-gated)
         run: python3 discover_feeds.py --health-check || true
-      - name: Commit derived data + proposals
+
+      - name: Verify (writes report; does not fail the job here)
+        run: python3 verify_pipeline.py || echo "verify reported failures — see verification_report.json (build will be failed by the gate step)"
+
+      - name: Commit derived data + proposals (always)
+        if: always()
         run: |
           git config user.name "media-rollup-bot"
           git config user.email "actions@users.noreply.github.com"
           git add items_classified.json media_history.json verification_report.json feeds_patch.json || true
           git commit -m "rollup $(date -u +%F)" || echo "nothing to commit"
           git push || echo "push skipped"
+
+      - name: Gate — fail the build if verification reported any FAIL
+        run: |
+          python3 -c "import json,sys; r=json.load(open('verification_report.json')); n=r['summary'].get('FAIL',0); print('verification FAILs:', n); sys.exit(1 if n else 0)"

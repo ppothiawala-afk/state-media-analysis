@@ -145,6 +145,52 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(d1["status"], "FAIL")
         self.assertIn("TRUNCATION", d1["msg"])
 
+    def test_d4_does_not_flag_national_us_feed(self):
+        # Regression: the "US" national feed (Stateline) is registered but its
+        # items are counted into NATIONAL totals only, never a per-state cell,
+        # so its per-state total is always 0 — that must NOT trip D4's dead-feed
+        # check. This false positive failed the weekly rollup for weeks.
+        # Build a minimal, self-consistent data dir: 3 archived items (real
+        # 2-letter states) in one window, and 3 snapshots whose latest matches
+        # the archive window. No "US" state cell appears (as append_history
+        # produces), while the shipped registry DOES contain a US feed.
+        all_states = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID",
+                      "IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS",
+                      "MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK",
+                      "OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV",
+                      "WI","WY"]
+        # one archived item per real state, all in the latest window
+        arch = Path(self.tmp) / "items_archive.jsonl"
+        items = [{"id": f"a{i}", "title": s, "link": f"http://x/{i}",
+                  "published": "2026-09-03", "state": s, "outlet": s, "norm_title": s}
+                 for i, s in enumerate(all_states)]
+        arch.write_text("".join(json.dumps(it) + "\n" for it in items))
+        (Path(self.tmp) / "archive_watermark.json").write_text(
+            json.dumps({"archive_lines": len(items), "unique_ids": len(items), "updated": None}))
+
+        def snap(date, ws, we):
+            # every real state present (none silent); NO "US" cell, as append_history produces
+            return {"date": date, "window_start": ws, "window_end": we, "window_days": 7,
+                    "national": {"topic_volume": {}, "topic_share": {}, "total_items": len(all_states)},
+                    "states": {s: {"total": 1, "topic_volume": {}, "topic_share": {},
+                                   "outlet_count": 1, "per_outlet": {}, "top_entities": [],
+                                   "presence": "covered"} for s in all_states},
+                    "meta": {"contains_synthetic": False}}
+        history = {"metric": "topic_share_primary", "snapshots": [
+            snap("2026-08-20", "2026-08-14", "2026-08-20"),
+            snap("2026-08-27", "2026-08-21", "2026-08-27"),
+            snap("2026-09-03", "2026-08-28", "2026-09-03"),
+        ]}
+        (Path(self.tmp) / "media_history.json").write_text(json.dumps(history))
+        # empty-but-valid classified file so structural checks have something
+        (Path(self.tmp) / "items_classified.json").write_text(json.dumps({"items": []}))
+
+        run("verify_pipeline.py", "--data-dir", self.tmp)  # must exit 0
+        report = json.loads((Path(self.tmp) / "verification_report.json").read_text())
+        d4 = next(c for c in report["checks"] if c["id"] == "D4")
+        self.assertEqual(d4["status"], "PASS", f"D4 wrongly flagged: {d4['msg']}")
+        self.assertNotIn("US", d4["msg"])
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

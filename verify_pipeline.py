@@ -191,7 +191,13 @@ def main():
                        f"snapshot totals reproduce from archive window [{ws}..{we}] "
                        f"({len(window_items)} items, independent recompute)")
 
-    # D4 dead-feed detection
+    # D4 dead-feed detection.
+    # NOTE: "US" is the national pseudo-state (Stateline). append_history routes
+    # its items into the NATIONAL totals only, never a per-state cell, so its
+    # per-state total is 0 by design — that is not a dead feed. Exclude it (and
+    # any non-2-letter-state code) from the per-state silence check, or it trips
+    # a false positive on every run once 3 snapshots exist.
+    NATIONAL_CODES = {"US"}
     if len(snapshots) < args.dead_feed_window:
         record("D4", "DATA", "WARN",
                f"only {len(snapshots)} snapshot(s); need {args.dead_feed_window} to judge dead feeds")
@@ -199,6 +205,8 @@ def main():
         recent = snapshots[-args.dead_feed_window:]
         silent_streak = []
         for st in sorted(fed_states):
+            if st in NATIONAL_CODES:
+                continue
             totals = [s.get("states", {}).get(st, {}).get("total", 0) for s in recent]
             if all(t == 0 for t in totals):
                 silent_streak.append(st)

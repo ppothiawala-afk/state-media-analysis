@@ -1,9 +1,8 @@
 {
   "_comment": "STRUCTURAL checks hold regardless of data volume; DATA checks WARN until a real ingest has run. 'All PASS' with DATA WARNs means the code is sound but no real data exists yet.",
-  "generated": "2026-08-17T11:57:44+00:00",
+  "generated": "2026-09-03T19:12:11+00:00",
   "summary": {
-    "PASS": 8,
-    "WARN": 1
+    "PASS": 9
   },
   "checks": [
     {
@@ -34,25 +33,25 @@
       "id": "D1",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "1966 lines, no dupes, watermark 1966 intact"
+      "msg": "4930 lines, no dupes, watermark 4930 intact"
     },
     {
       "id": "D2",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "1966 sighting ids all resolve to archive items"
+      "msg": "4930 sighting ids all resolve to archive items"
     },
     {
       "id": "D3",
       "kind": "DATA",
       "status": "PASS",
-      "msg": "snapshot totals reproduce from archive window [2026-08-11..2026-08-17] (937 items, independent recompute)"
+      "msg": "snapshot totals reproduce from archive window [2026-08-28..2026-09-03] (1014 items, independent recompute)"
     },
     {
       "id": "D4",
       "kind": "DATA",
-      "status": "WARN",
-      "msg": "only 2 snapshot(s); need 3 to judge dead feeds"
+      "status": "PASS",
+      "msg": "every fed state produced items within the last 3 snapshots"
     },
     {
       "id": "D5",

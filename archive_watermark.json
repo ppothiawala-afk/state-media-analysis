@@ -1,7 +1,7 @@
 {
   "_comment": "High-water mark for the append-only archive. Only ever increases. verify_pipeline.py FAILS if items_archive.jsonl has fewer lines than this.",
-  "archive_lines": 7341,
-  "unique_ids": 7341,
-  "updated": "2026-09-18T14:33:51+00:00",
+  "archive_lines": 7488,
+  "unique_ids": 7488,
+  "updated": "2026-09-19T13:57:46+00:00",
   "regression_seen": false
 }
